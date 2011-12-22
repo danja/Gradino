@@ -1,6 +1,8 @@
 Gradino
 =======
 
+(moved to its own github repo, forgetting it was already here in a subtree - hope I haven't buggered things up)
+
 My personal [blog](http://dannyayers.com/) engine. 
 
 It's backed by RDF.
