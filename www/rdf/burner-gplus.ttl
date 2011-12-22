@@ -1,0 +1,384 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> owl:sameAs <http:/dannyayers.com/me#> .		
+<http:/dannyayers.com/me#> owl:sameAs <http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdf:type	foaf:Person .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:label	"Danny Ayers" .
+@prefix ns3:	<http://www.guardian.co.uk/media/2004/feb/23/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns3:mondaymediasection10 ,
+		<http://d.opencalais.com/er/company/ralg-tr1r/4ee13d20-b44f-3bce-98bc-49a303e72db5> ,
+		<http://www.talkdigger.com/sioc/talk.talis.com/xml/> .
+@prefix ns4:	<http://tools.opiumfield.com/twitter/pip/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns4:rdf ,
+		<http://www.biologeek.com/data/web,web-semantique/a-la-recherche-d-un-site-semantique/> .
+@prefix ns5:	<http://t-whore.livejournal.com/data/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns5:foaf ,
+		<http://www.talkdigger.com/sioc/www.techcrunch.com/2005/10/25/kaboodle-launch-bookmarking-wiki/xml/> ,
+		<http://sioc-project.org/sioc/node/227> ,
+		<http://www.talkdigger.com/sioc/del.icio.us/dagoneye/xml/> ,
+		<http://www.talkdigger.com/sioc/www.geospatialsemanticweb.com/2006/10/14/geonames-ontology-in-owl/xml/> ,
+		<http://www.talkdigger.com/sioc/norman.walsh.name/2005/12/12/vcard/xml/> .
+@prefix ns6:	<http://tools.opiumfield.com/twitter/kidehen/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns6:rdf ,
+		<http://www.talkdigger.com/sioc/squatcrunch.webclipz.net/xml/> ,
+		<http://www.ecademy.com/module.php?mod=network&op=foafrdf&uid=30910> ,
+		<http://farm5.static.flickr.com/4092/4841521974_d658fd8e57.jpg> ,
+		<http://farm5.static.flickr.com/4127/4840907751_f59bda9cbb.jpg> ,
+		<http://www.talkdigger.com/sioc/technorati.com/tag/datenbrei/xml/> .
+@prefix ns7:	<http://tools.opiumfield.com/twitter/AshleyAngell/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns7:rdf ,
+		<http://chatlogs.planetrdf.com/rdfig/2001-10-08.rdf> .
+@prefix ns8:	<http://www.talkdigger.com/sioc/all.blogmatrix.com/microformats/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns8:xml ,
+		<http://sioc-project.org/sioc/node/267> ,
+		<http://ontoworld.org/index.php/Special:ExportRDF/Category%3APerson?xmlmime=rdf> .
+@prefix ns9:	<http://tools.opiumfield.com/twitter/schavester/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns9:rdf ,
+		<http://www.openlinksw.com/dataspace/kidehen@openlinksw.com/weblog/kidehen@openlinksw.com%27s%2BBLOG%2B%5B127%5D/1144/sioc.rdf> ,
+		<http://norman.walsh.name/foaf.rdf> .
+@prefix ns10:	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493#> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns10:slideshare8456007 ,
+		ns10:slideshare8405310 ,
+		ns10:slideshare8502617 ,
+		ns10:slideshare8460168 ,
+		<http://fgiasson.com/blog/index.php/2007/03/28/making-the-bridge-between-the-web-and-the-semantic-web/?sioc_type=post&sioc_id=793> ,
+		ns10:slideshare8262561 ,
+		ns10:slideshare8252884 ,
+		ns10:slideshare8387759 ,
+		<http://farm7.static.flickr.com/6088/6070650222_c5a1d732b5.jpg> ,
+		ns10:slideshare8313070 ,
+		ns10:slideshare8174404 ,
+		ns10:slideshare8159539 ,
+		ns10:slideshare8242785 ,
+		ns10:slideshare8242235 ,
+		ns10:slideshare7955155 ,
+		ns10:slideshare7858042 ,
+		ns10:slideshare8157837 ,
+		ns10:slideshare8097669 ,
+		ns10:slideshare7421953 .
+@prefix ns11:	<http://e-jax.livejournal.com/data/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns11:foaf ,
+		ns10:slideshare7421928 ,
+		<http://www.talkdigger.com/sioc/radio.weblogs.com/xml/> ,
+		ns10:slideshare7783657 ,
+		ns10:slideshare7697302 ,
+		ns10:slideshare7156820 ,
+		ns10:slideshare6762774 ,
+		ns10:slideshare7397106 ,
+		ns10:slideshare7304344 ,
+		<http://bblfish.net/work/atom-owl/2004-08-12/Atom.owl> ,
+		ns10:slideshare5278593 ,
+		<http://www.wasab.dk/morten/2006/07/sparql-timeline/index.rdf> ,
+		<http://www.talkdigger.com/sioc/www.flightcentre.com.au/xml/> ,
+		ns10:slideshare4815534 ,
+		<http://www.geospatialsemanticweb.com/index.php?sioc_type=post&sioc_id=167> ,
+		ns10:slideshare5823568 .
+@prefix ns12:	<http://www.wasab.dk/morten/blog/archives/2004/07/06/they-rule-as-rdf/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns12:rdf ,
+		ns10:slideshare5643980 ,
+		ns10:slideshare4587391 ,
+		ns10:slideshare3959711 ,
+		ns10:slideshare4812280 ,
+		<http://www.hackdiary.com/misc/augmented-blogroll.rdf> ,
+		<http://semanticweb.org/index.php?title=Special:ExportRDF/Richard_Cyganiak&xmlmime=rdf> ,
+		ns10:slideshare4696043 ,
+		ns10:slideshare2464828 .
+@prefix ns13:	<http://www.guardian.co.uk/football/2009/apr/30/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns13:the-fiver ,
+		ns10:slideshare2424177 ,
+		ns10:slideshare3595766 ,
+		<http://bblfish.net/work/atom-owl/2006-06-06/AtomOwl.rdf> ,
+		ns10:slideshare2662750 ,
+		ns10:slideshare1469819 ,
+		ns10:slideshare415882 ,
+		ns10:slideshare1973502 ,
+		ns10:slideshare1589776 ,
+		ns10:slideshare378596 ,
+		ns10:kenya ,
+		ns10:central-africa ,
+		ns10:adjusted-world-price ,
+		ns10:economic-development ,
+		ns10:ted ,
+		ns10:danny-glover ,
+		ns10:sex-education ,
+		<http://www.wasab.dk/morten/2004/05/rdf2r3x-example-1.rdf> ,
+		ns10:patient-capital ,
+		<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493#reconcile_%2Fm%2F02rqds2> ,
+		<http://myopenlink.net/dataspace/kidehen@openlinksw.com/weblog/kidehen@openlinksw.com%27s%2BBLOG%2B%5Bkidehen@openlinksw.com-blog-0%5D/693/sioc.rdf> ,
+		<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493#reconcile_%2Fm%2F099b4d> ,
+		ns10:intellectual-ventures ,
+		<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493#reconcile_%2Fm%2F02rqdpb> ,
+		<http://www.wasab.dk/morten/2004/05/rdf2r3x-example-3.rdf> ,
+		<http://www.wasab.dk/morten/2004/05/rdf2r3x-example-2.rdf> ,
+		<http://trust.mindswap.org/trustFiles/394.owl> ,
+		<http://dannyayers.com/2003/09/feeds.rdf> ,
+		<http://www.semanlink.net/tag/technical_girls_and_guys.rdf> ,
+		ns10:alchemy_entity_3 ,
+		ns10:alchemy_entity_4 ,
+		ns10:alchemy_entity_1 ,
+		ns10:alchemy_entity_2 ,
+		<http://farm6.static.flickr.com/5244/5345572184_b5af80668d.jpg> ,
+		ns10:alchemy_entity_7 ,
+		ns10:alchemy_entity_8 ,
+		ns10:alchemy_entity_5 ,
+		ns10:alchemy_entity_6 ,
+		ns10:alchemy_entity_11 ,
+		ns10:alchemy_entity_12 ,
+		<http://www.mindswap.org/2003/meta/meta.rdf> ,
+		<http://www.openlinksw.com/dataspace/kidehen@openlinksw.com/weblog/kidehen@openlinksw.com%27s%2BBLOG%2B%5B127%5D/850/sioc.rdf> ,
+		ns10:alchemy_entity_9 ,
+		ns10:alchemy_entity_10 ,
+		ns10:alchemy_entity_15 ,
+		ns10:alchemy_entity_16 ,
+		<http://www.talkdigger.com/sioc/simon.incutio.com/xml/> ,
+		ns10:alchemy_entity_13 ,
+		ns10:alchemy_entity_14 ,
+		ns10:alchemy_entity_19 ,
+		ns10:alchemy_entity_20 ,
+		ns10:alchemy_entity_17 ,
+		ns10:alchemy_entity_18 ,
+		ns10:alchemy_entity_23 ,
+		<http://www.kanzaki.com/memo/2004/04/25-1?mode=rdf> ,
+		ns10:alchemy_entity_24 .
+@prefix ns14:	<http://tools.opiumfield.com/twitter/nickreynolds/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns14:rdf ,
+		ns10:alchemy_entity_21 ,
+		ns10:alchemy_entity_22 .
+@prefix ns15:	<http://users.livejournal.com/_honey_machine_/data/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns15:foaf ,
+		ns10:alchemy_sentiment_d730012d5e9995db522e2f74ebf4e684673f2b3c2 .
+@prefix ns16:	<http://tools.opiumfield.com/twitter/dglazkov/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns16:rdf .
+@prefix ns17:	<http://www.wasab.dk/morten/blog/archives/category/blogging/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns17:rdf .
+@prefix ns18:	<http://uriburner.com/about/id/https/plus.google.com/112609322932428633493#> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns18:Dataset .
+@prefix ns19:	<http://www.wasab.dk/morten/blog/archives/category/databases/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns19:rdf ,
+		<http://ontoworld.org/index.php?title=Special:ExportRDF/Category:Person&xmlmime=rdf> ,
+		<http://ontoworld.org/index.php/Special:ExportRDF/Danny_Ayers?xmlmime=rdf> ,
+		<http://picasaweb.google.com/russell.seth> ,
+		<http://ontoworld.org/index.php/Special:ExportRDF/SWAP2006?xmlmime=rdf> .
+@prefix ns20:	<http://www.wasab.dk/morten/blog/archives/category/blogging/wordpress/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns20:rdf .
+@prefix ns21:	<http://www.wasab.dk/morten/blog/archives/category/semweb/r-d-f/owl/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns21:rdf ,
+		<http://www.talkdigger.com/sioc/blog.grazr.com/index.php/2006/09/20/thank-you-for-feedback/xml/> ,
+		<http://d.opencalais.com/er/company/ralg-tr1r/48ccfe38-7c8c-3a18-8328-8327cf83b011> ,
+		ns10:slideshare8791839 ,
+		ns10:slideshare8789791 ,
+		ns10:slideshare8789727 ,
+		ns10:slideshare8791833 ,
+		<http://www.mindswap.org/2003/submit-rdf/952.rdf> ,
+		ns10:slideshare8791807 .
+@prefix ns22:	<http://www.guardian.co.uk/music/2007/aug/19/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns22:popandrock ,
+		ns10:slideshare8591711 ,
+		ns10:slideshare8544122 ,
+		ns10:slideshare8614297 ,
+		ns10:slideshare8592629 ,
+		<http://sioc-project.org/sioc/node/328> .
+@prefix ns23:	<http://tools.opiumfield.com/twitter/mortenf/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns23:rdf ,
+		<http://www.guardian.co.uk/music/2007/may/05/electronicmusic.clubs> .
+@prefix ns24:	<http://www.wasab.dk/morten/blog/archives/category/xml/rdfxml/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns24:rdf ,
+		<http://www.talkdigger.com/sioc/blog.unto.net/xml/> .
+@prefix ns25:	<http://d.opencalais.com/er/company/ralg-tr1r/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns25:ed54f603-be07-3c39-a55a-64514fdd4668 ,
+		<http://d.opencalais.com/er/company/ralg-tr1r/9bb26018-f501-329e-b57d-5e1ec16f1bd0> ,
+		<http://ontoworld.org/index.php/Special:ExportRDF/Dan_Brickley?xmlmime=rdf> ,
+		ns25:ce181d44-1915-3387-83da-0dc4ec01c6da .
+@prefix ns26:	<http://www.guardian.co.uk/sport/2010/dec/16/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns26:ashes-australia-england-live-third-test .
+@prefix ns27:	<http://www.wasab.dk/morten/blog/archives/category/xml/xsl/xslt/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns27:rdf ,
+		<http://www.openlinksw.com/dataspace/kidehen@openlinksw.com/weblog/kidehen@openlinksw.com%27s%2BBLOG%2B%5B127%5D/1140/sioc.rdf> ,
+		<http://circle.ch/blog/foaf.rdf> .
+@prefix ns28:	<http://www.wasab.dk/morten/blog/archives/category/semweb/r-s-s/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns28:rdf ,
+		<http://www.talkdigger.com/sioc/torrez.us/code/wp-app/app.phps/xml/> .
+@prefix ns29:	<http://tools.opiumfield.com/twitter/mwoodman/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns29:rdf ,
+		<http://www.talkdigger.com/sioc/semsol.com/xml/> ,
+		<http://ontoworld.org/index.php/Special:ExportRDF/Giovanni_Tummarello?xmlmime=rdf> ,
+		<http://dannyayers.com/.rss> ,
+		<http://farm4.static.flickr.com/3085/5867462881_10efbaa8b6.jpg> .
+@prefix ns30:	<http://www.wasab.dk/morten/blog/archives/category/xml/html/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns30:rdf ,
+		<http://community.linkeddata.org/dataspace/person/kidehen2/foaf.rdf> ,
+		<http://farm5.static.flickr.com/4133/5109444105_07f4868a23.jpg> ,
+		<http://farm5.static.flickr.com/4029/4643215049_9843087505.jpg> .
+@prefix ns31:	<http://www.wasab.dk/morten/blog/archives/2004/05/21/foaf-output-from-wordpress/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns31:rdf ,
+		<http://farm6.static.flickr.com/5070/5601018557_03fd01df3f.jpg> ,
+		<http://ontoworld.org/index.php/Special:ExportRDF/Richard_Cyganiak?xmlmime=rdf> ,
+		<http://farm6.static.flickr.com/5206/5309620796_288d9bf156.jpg> .
+@prefix ns32:	<http://usefulinc.com/doap/news/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns32:rss .
+@prefix ns33:	<http://www.wasab.dk/morten/blog/archives/category/xml/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns33:rdf .
+@prefix ns34:	<http://www.wasab.dk/morten/blog/archives/category/semweb/redland/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns34:rdf ,
+		<http://www.holygoat.co.uk/foaf.rdf> ,
+		<http://bblfish.net/work/atom-owl/2004-08-12/Atom.old2.owl> ,
+		<http://twitter.com/soslab/statuses/106554523430039553> ,
+		<http://www.guardian.co.uk/travel/2006/mar/18/onlocationfilminspiredtravel.australia.guardiansaturdaytravelsection> ,
+		<http://www.guardian.co.uk/technology/2004/mar/18/newmedia.it> ,
+		<http://norman.walsh.name/knows/who/index.rdf> .
+@prefix ns35:	<http://www.talkdigger.com/sioc/dannyayers.com/2006/06/15/atom-owl-update-sioc/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns35:xml .
+@prefix ns36:	<http://www.guardian.co.uk/broadcastsummit/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns36:speakers .
+@prefix ns37:	<http://www.guardian.co.uk/stage/2005/nov/19/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns37:comedy ,
+		<http://www.kanzaki.com/memo/2004/04/21-1?mode=rdf> .
+@prefix ns38:	<http://tools.opiumfield.com/twitter/Ina/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns38:rdf ,
+		<http://www.talkdigger.com/sioc/weblog.burningbird.net/archives/xml/> ,
+		<http://semanticweb.org/index.php?title=Special:ExportRDF/User:Max_V%C3%B6lkel&xmlmime=rdf> .
+@prefix ns39:	<http://tools.opiumfield.com/twitter/mikepk/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns39:rdf ,
+		<http://chatlogs.planetrdf.com/rdfig/2001-03-30.rdf> .
+@prefix ns40:	<http://www.wasab.dk/morten/blog/archives/category/semweb/foaf/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns40:rdf ,
+		<http://bblfish.net/work/atom-owl/2004-08-12/Atom.old.rdf> ,
+		<http://journal.dajobe.org/journal/2003/07/semblogs/bloggers.rdf> ,
+		<http://d.opencalais.com/er/company/ralg-tr1r/60306eaf-8196-37ca-b27f-ee0cfaeaac57> ,
+		<http://ontoworld.org/index.php?title=Special:ExportRDF/ISWC2007%2BASWC2007&xmlmime=rdf> ,
+		<http://www.w3.org/2001/sw/WebOnt/lc-threads.rdf> .
+@prefix ns41:	<http://www.guardian.co.uk/media/2007/may/11/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns41:mediadiary .
+@prefix ns42:	<http://www.wasab.dk/morten/blog/archives/category/semweb/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns42:rdf ,
+		<http://farm5.static.flickr.com/4013/4534459243_ebc711db99.jpg> ,
+		<http://www.lespetitescases.net/sioc/node/984> .
+@prefix ns43:	<http://feeds.feedburner.com/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns43:Siatec .
+@prefix ns44:	<http://tools.opiumfield.com/twitter/deogesic/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns44:rdf .
+@prefix ns45:	<http://www.wasab.dk/morten/blog/archives/category/semweb/r-d-f/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns45:rdf .
+@prefix ns46:	<http://www.talkdigger.com/sioc/fgiasson.com/blog/index.php/2005/08/07/how_to_win_friends_and_influence_people/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	rdfs:seeAlso	ns46:xml ;
+	foaf:name	"Danny Ayers" .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	dc:description	"The one from Tideswell, UK now living in Mozzanella, Italy.<br>" ;
+	foaf:depiction	<https://lh5.googleusercontent.com/-QLkrycvh5yo/AAAAAAAAAAI/AAAAAAAAAEM/z3oGsPLXP9g/s50-c/photo.jpg> ,
+		<https://lh5.googleusercontent.com/-QLkrycvh5yo/AAAAAAAAAAI/AAAAAAAAAEM/z3oGsPLXP9g/s24-c/photo.jpg> ,
+		<https://lh5.googleusercontent.com/-QLkrycvh5yo/AAAAAAAAAAI/AAAAAAAAAEM/z3oGsPLXP9g/photo.jpg> .
+@prefix sioc:	<http://rdfs.org/sioc/ns#> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	sioc:follows	ns10:following_110167229350912880970 ,
+		ns10:following_110396385129640501163 ,
+		ns10:following_103241328170893357708 ,
+		ns10:following_101587830209526430714 ,
+		ns10:following_107868442114029506760 ,
+		ns10:following_113701541741306361978 ,
+		ns10:following_102897222569577118558 ,
+		ns10:following_106416716945076707395 ,
+		ns10:following_107137314459081255793 ,
+		ns10:following_111886865967199209050 ,
+		ns10:following_101574668145091305300 ,
+		ns10:following_108850826175982387553 ,
+		ns10:following_103123167999599440830 ,
+		ns10:following_105700068726684247894 ,
+		ns10:following_110114902730268262477 ,
+		ns10:following_103849369190756793227 ,
+		ns10:following_113536603631803825682 ,
+		ns10:following_108622248309371176179 ;
+	sioc:has_subscriber	ns10:follower_103849369190756793227 ,
+		ns10:follower_108622248309371176179 ,
+		ns10:follower_117281241159034900483 ,
+		ns10:follower_116496744221413571918 ,
+		ns10:follower_113536603631803825682 ,
+		ns10:follower_104274151122250598912 ,
+		ns10:follower_112448205698344121992 ,
+		ns10:follower_103035368214666982008 ,
+		ns10:follower_107868442114029506760 ,
+		ns10:follower_111886865967199209050 ,
+		ns10:follower_105700068726684247894 ,
+		ns10:follower_104862505866487111175 ,
+		ns10:follower_101587830209526430714 ,
+		ns10:follower_104991515997545913551 ,
+		ns10:follower_110114902730268262477 ,
+		ns10:follower_105538589505438656920 ,
+		ns10:follower_113414575693949302488 ,
+		ns10:follower_103123167999599440830 ,
+		ns10:follower_115833799947346136909 ,
+		ns10:follower_107567995094921970894 ;
+	sioc:subscriber_of	ns10:following_105700068726684247894 ,
+		ns10:following_110114902730268262477 ,
+		ns10:following_103123167999599440830 ,
+		ns10:following_108622248309371176179 ,
+		ns10:following_103849369190756793227 ,
+		ns10:following_113536603631803825682 ,
+		ns10:following_106416716945076707395 ,
+		ns10:following_101574668145091305300 ,
+		ns10:following_108850826175982387553 ,
+		ns10:following_107137314459081255793 ,
+		ns10:following_111886865967199209050 ,
+		ns10:following_102897222569577118558 ,
+		ns10:following_110396385129640501163 ,
+		ns10:following_103241328170893357708 ,
+		ns10:following_110167229350912880970 ,
+		ns10:following_113701541741306361978 ,
+		ns10:following_101587830209526430714 ,
+		ns10:following_107868442114029506760 ;
+	sioc:link	<https://plus.google.com/112609322932428633493> .
+@prefix cv:	<http://purl.org/captsolo/resume-rdf/0.2/cv#> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	cv:employedIn	ns10:Independent ,
+		ns10:Talis ,
+		ns10:Wiley ,
+		<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493#Lady%20Manners%20School%2C%20Bakewell> ,
+		<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493#University%20of%20Derby> ,
+		ns10:Wrox .
+@prefix wdrs:	<http://www.w3.org/2007/05/powder-s#> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	wdrs:describedby	<http://uriburner.com/about/id/https/plus.google.com/112609322932428633493> .
+@prefix ns51:	<http://twitter.com/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	foaf:onlineAccount	ns51:danja ,
+		<http://danny.ayers.name/> .
+@prefix ns52:	<http://www.youtube.com/user/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	foaf:onlineAccount	ns52:djayers ,
+		<https://plus.google.com/112609322932428633493> ,
+		<http://www.facebook.com/danny.ayers> ,
+		<http://www.flickr.com/people/danja/> ,
+		<http://www.linkedin.com/profile/view?id=1707> ,
+		<http://dannyayers.myopenid.com/> .
+@prefix ns53:	<http://youtube.com/user/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	foaf:onlineAccount	ns53:djayers .
+@prefix ns54:	<http://dannyayers.com/> .
+<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493>	foaf:onlineAccount	ns54:about ,
+		<http://dannyayers.com> ,
+		<https://www.googleapis.com/buzz/v1/people/112609322932428633493/@self?alt=atom> ,
+		<http://spikeandwave.com/> ,
+		<http://dannyayers.com/.rss> .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+<http://uriburner.com/about/id/https/plus.google.com/112609322932428633493>	dcterms:subject	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> ;
+	foaf:primaryTopic	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> ;
+	sioc:container_of	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_115833799947346136909	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_107567995094921970894	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_103035368214666982008	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_107868442114029506760	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_104274151122250598912	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_112448205698344121992	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_116496744221413571918	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_113536603631803825682	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_103849369190756793227	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_108622248309371176179	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_117281241159034900483	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_113414575693949302488	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_103123167999599440830	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_101587830209526430714	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_104991515997545913551	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_110114902730268262477	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_105538589505438656920	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_105700068726684247894	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_104862505866487111175	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:follower_111886865967199209050	sioc:follows	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+ns10:alchemy_entity_3	skos:isSubjectOf	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .
+ns10:alchemy_entity_15	skos:isSubjectOf	<http://uriburner.com/about/id/entity/https/plus.google.com/112609322932428633493> .

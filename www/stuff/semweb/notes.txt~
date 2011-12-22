@@ -1,0 +1,23 @@
+
+
+RDF Schemas are purely descriptive, they don’t enforce anything (unlike XML Schema).
+
+rdfs:domain and rdfs:range allow the inference of another additional triple, but don’t restrict the value of the subject or object of statements. In itself there’s nothing semantically wrong with:
+
+pets:barkVolume rdfs:domain pets:Dog .
+<#Basil> pets:barkVolume “10″ .
+<#Basil> rdf:type pets:Cat .
+
+though through an RDFS interpretation of the first two statements you can *also* infer that:
+
+<#Basil> rdf:type pets:Dog .
+
+i.e. given the above, Basil is both a cat and a dog.
+
+(via http://www.w3.org/TR/rdf-mt/#RDFSINTERP)
+
+If however you also stated:
+
+pets:Dog owl:disjointWith pets:Cat .
+
+that would make the three statements above inconsistent because no cat is a dog and vice versa (under an RDFS+OWL interpretation).

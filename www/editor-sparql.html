@@ -1,0 +1,324 @@
+<!-- Public Domain : do what thou wilt -->
+<!-- Danny Ayers 2006-09-27 -->
+<!-- http://dannyayers.com" -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SPARQL Editor</title>
+<link rel="stylesheet" type="text/css" href="/css/editor-sparql.css" />
+<style type="text/css">
+table{
+border:2
+}
+.button {
+width:150px;
+}
+</style>
+<script type="text/javascript">
+//<![CDATA[
+
+var editArea;
+
+function init(){
+   editArea = document.getElementById('editArea');
+}
+
+function insertText(editField, insertText) {
+// IE
+   if (document.selection) {
+      editField.focus();
+      selected = document.selection.createRange();
+      selected.text = insertText;
+      return;
+   } 
+ // MOZ
+   var length =  editField.value.length;
+   var start = editField.selectionStart;
+   var end = editField.selectionEnd;
+
+   if ((start != 0) && (end != length)) { 
+      var before = editField.value.substring(0, start);
+      var after = editField.value.substring(end, length);
+      editField.value = before + insertText + after;
+   } else {
+      editField.value += insertText;
+   }
+}
+
+function insert(text){
+   insertText(editArea, text + "\n");
+}
+
+function insertAtTop(editField, insertText) {
+// IE - to do
+   if (document.selection) {
+insertText(editField, insertText);
+}
+
+ // MOZ
+      editField.value = insertText+editField.value;
+}
+
+function insertAtStart(insertText) {
+   insertAtTop(editArea, insertText + "\n");
+}
+
+// might not work with IE
+function inset(editField, insetString) {
+   var start = editField.selectionStart;
+   var end = editField.selectionEnd;
+
+    for(var c=start;c<end;c++){
+   var length =  editField.value.length;
+      var before = editField.value.substring(0, c);
+      var after = editField.value.substring(c, length);
+       if(editField.value.substring(c-1, c) == "\n") {
+          editField.value = before + insetString + after;
+          end = end+insetString.length;
+       }
+    }
+}
+
+function commentOut(editField) {
+   inset(editField, "#");
+}
+
+function comment(){
+   commentOut(editArea);
+}
+
+function indentArea(editField){
+   inset(editField, "    ");
+}
+
+function indent(){
+   indentArea(editArea);
+}
+
+// might not work with IE
+function makeOptional(editField) {
+
+   var length =  editField.value.length;
+
+   var start = editField.selectionStart;
+   var end = editField.selectionEnd;
+
+   var before = editField.value.substring(0, start);
+   var after = editField.value.substring(end, length);
+
+   var selection = editField.value.substring(start, end);
+
+    editField.value = before + "\nOPTIONAL\n{\n" + selection + "\n}\n"+after;
+}
+
+
+// quick and dirty - wipes all # in selected region
+function unCommentRegion(editField) {
+   var length =  editField.value.length;
+   var start = editField.selectionStart;
+   var end = editField.selectionEnd;
+
+    for(var c=start;c<end;c++){
+      var before = editField.value.substring(0, c-1);
+      var after = editField.value.substring(c, length);
+       if(editField.value.substring(c-1, c) == "#") {
+          editField.value = before + after;
+       }
+    }
+}
+
+function unComment(){
+   unCommentRegion(editArea);
+}
+
+function clearArea(editField){
+   editField.value = "";
+}
+
+function clearAll(){
+   clearArea(editArea);
+}
+
+function optional(){
+   makeOptional(editArea);
+}
+
+// Styling on mouse events - needs fixing
+  function mouseOver(ctrl){
+//	ctrl.style.borderColor = '#000000';
+//	ctrl.style.backgroundColor = '#BBBBBB';	
+  }
+  
+  function mouseOut(ctrl){
+//	ctrl.style.borderColor = '#ccc';  
+//	ctrl.style.backgroundColor = '#CCCCCC';
+  }
+  
+  function mouseDown(ctrl){
+//	ctrl.style.backgroundColor = '#8492B5';
+  }
+  
+  function mouseUp(ctrl){
+//  	ctrl.style.backgroundColor = '#B5BED6';
+  }
+
+// ]]> 
+</script>
+</head>
+<body onload="init()">
+    <h1>Raw Endpoint</h1>
+    <div class="moreindent">
+  
+<form id="theForm" action="/sparql">
+    <table>	
+    <tr>
+    <td>	  
+    	<input type="submit" value="Run SPARQL Query" />
+    </td>
+	<td>		  
+	<!--  insertTemplate -->
+<select name="queryType"
+     onchange="insert(this.options[this.selectedIndex].value)">
+		    <option value="">-- Template --</option>
+<option value="SELECT DISTINCT ?s ?p ?o
+ WHERE { 
+?s ?p ?o .
+FILTER regex(?o, 'hyena', 'i') 
+}">Select</option>
+<option value="CONSTRUCT 
+{
+   ?s ?p ?o . 
+}
+WHERE 
+{ 
+   ?s ?p ?o .
+}">Construct</option>
+<option value="ASK
+
+WHERE 
+{ 
+   ?s ?p ?o .
+}">Ask</option>
+<option value="To be decided...">Describe</option>
+
+		  </select>
+		</td>
+		<td>
+		<select name="insertPrefix"
+     onchange="insertAtStart(this.options[this.selectedIndex].value)">
+		    <option value="">-- Prefixes --</option>
+<option value="PREFIX cc: &lt;http://web.resource.org/cc/&gt;&#xA0;&#xA0;">CC</option>
+<option value="PREFIX dataview: &lt;http://www.w3.org/2003/g/data-view#&gt;&#xA0;&#xA0;">DATAVIEW</option>
+<option value="PREFIX dc: &lt;http://purl.org/dc/elements/1.1/&gt;&#xA0;&#xA0;">DC</option>
+<option value="PREFIX dct: &lt;http://purl.org/dc/terms/&gt;&#xA0;&#xA0;">DCT</option>
+<option value="PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;&#xA0;&#xA0;">FOAF</option>
+<option value="PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;&#xA0;&#xA0;">OWL</option>
+<option value="PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;&#xA0;&#xA0;">RDF</option>
+<option value="PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;&#xA0;&#xA0;&#xA0;&#xA0;">RDFS</option>
+<option value="PREFIX rss: &lt;http://purl.org/rss/1.0/&gt;&#xA0;&#xA0;">RSS</option>
+<option value="PREFIX sioc: &lt;http://rdfs.org/sioc/ns#&gt;&#xA0;&#xA0;">SIOC</option>
+<option value="PREFIX sioct: &lt;http://rdfs.org/sioc/types#&gt;&#xA0;&#xA0;">SIOCT</option>
+<option value="PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;&#xA0;&#xA0;">SKOS</option>
+<option value="PREFIX vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt;&#xA0;&#xA0;">VS</option>
+<option value="PREFIX wot: &lt;http://xmlns.com/wot/0.1/&gt;&#xA0;&#xA0;">WOT</option>
+<option value="PREFIX xhtml: &lt;http://www.w3.org/1999/xhtml&gt;&#xA0;&#xA0;">XHTML</option>
+<option value="PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;&#xA0;&#xA0;">XSD</option>
+</select>
+</td>
+    </tr>	
+</table>
+
+
+<table>
+	<tr>
+	  <td>	  
+<textarea id="editArea" name="query" cols="60" rows="25">
+
+</textarea>	   
+	  </td>
+<td style="width:120">
+  <input type="button" class="button"
+         value="Comment Region"  onclick="comment()" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="Uncomment Region"  onclick="unComment()" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="Make Optional"  onclick="optional()" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="Indent Region"  onclick="indent()" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+	
+  <input type="button" class="button"
+         value="BASE"  onclick="insert('BASE &lt;http://example.org/base&gt;')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="FROM"  onclick="insert('FROM &lt;http://example.org/from&gt;')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="FROM NAMED"  onclick="insert('FROM NAMED &lt;http://example.org/named&gt;')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="UNION"  onclick="insert('UNION')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="GRAPH"  onclick="insert('GRAPH')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="ORDER BY"  onclick="insert('ORDER BY')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="ORDER BY ASC()"  onclick="insert('ORDER BY ASC(?x)')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="ORDER BY DESC()"  onclick="insert('ORDER BY DESC(?x)')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="LIMIT"  onclick="insert('LIMIT 10')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="OFFSET"  onclick="insert('OFFSET 10')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+
+  <input type="button" class="button"
+         value="Simple Filter"  onclick="insert('FILTER ( ?x &lt; 3 ) .')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />	    
+  <input type="button" class="button"
+         value="Regex Filter"  onclick="insert('FILTER regex( str(?name), &#34;Jane&#34;, &#34;i&#34; ) .')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="Bound Filter"  onclick="insert('FILTER ( bound(?x) ) .')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="Date Filter"  onclick="insert('FILTER ( ?date &gt; &#34;2005-01-01T00:00:00Z&#34;^^xsd:dateTime ) .')" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+  <input type="button" class="button"
+         value="Clear All"  onclick="clearAll()" 
+         onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" 
+         onmousedown="mouseDown(this)" onmouseup="mouseUp(this)" />
+</td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
+

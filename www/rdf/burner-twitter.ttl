@@ -1,0 +1,247 @@
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix ns1:	<http://uriburner.com/about/id/http/twitter.com/> .
+@prefix ns2:	<http://uriburner.com/about/id/entity/http/twitter.com/> .
+ns1:danja	foaf:primaryTopic	ns2:danja .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+ns2:danja owl:sameAs <http:/dannyayers.com/me#> .		
+<http:/dannyayers.com/me#> owl:sameAs ns2:danja .
+
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix bibo:	<http://purl.org/ontology/bibo/> .
+ns2:danja	rdf:type	bibo:Document .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns6:	<http://uriburner.com/about/id/entity/http/twitter.com/danja#> .
+
+ns2:danja	rdfs:seeAlso	ns6:sindice_explicit_content ,
+		<https://twitter.com/> ,
+		ns6:Image5 ,
+		ns6:alchemy_entity_9 ,
+		ns6:Image6 .
+@prefix ns7:	<http://dannyayers.com/2007/06/14/> .
+ns2:danja	rdfs:seeAlso	ns7:re-re-wholesale-tiffany ,
+		ns6:alchemy_entity_10 ,
+		ns6:alchemy_entity_7 ,
+		<http://vinylmuseum.blogspot.com/> ,
+		ns6:cooperative-farming ,
+		ns6:cooperative ,
+		ns6:alchemy_entity_1 ,
+		ns6:alchemy_entity_8 ,
+		ns6:alchemy_sentiment_db66708765edfaf72e7fd4718090d867fed9f4eb8 ,
+		ns6:alchemy_entity_2 ,
+		ns6:nicholas-d-kristof ,
+		ns6:Image19 ,
+		ns6:alchemy_entity_5 ,
+		ns6:alchemy_entity_6 ,
+		ns6:alchemy_entity_3 ,
+		ns6:alchemy_entity_4 ,
+		<http://www.dannyayers.com/> ,
+		<http://www.openlinksw.com/weblog/kidehen@openlinksw.com/127/gems/rdf_tag_arch.xml?:tag=web2.0&:bid=127> .
+@prefix ns8:	<http://twitter.com/> .
+ns2:danja	rdfs:seeAlso	ns8:p00ka ,
+		<http://www.openlinksw.com/weblog/public/search.vspx?blogid=127&q=data%20web&type=text&output=rdf> ,
+		<http://www.openlinksw.com/weblog/public/search.vspx?blogid=127&q=data%20web%0D%0A&type=text&output=rdf> ,
+		<http://www.openlinksw.com/weblog/kidehen@openlinksw.com/127/gems/rdf_tag_arch.xml?:tag=webservices&:bid=127> ,
+		<http://www.openlinksw.com/weblog/kidehen@openlinksw.com/127/gems/rdf_tag_arch.xml?:tag=semanticweb&:bid=127> ,
+		<http://www.openlinksw.com/weblog/public/search.vspx?blogid=127&q=data%20web%0D%0A&type=text&output=html> ,
+		ns6:danny-glover ,
+		ns6:intellectual-ventures ,
+		<http://www.openlinksw.com/weblog/kidehen@openlinksw.com/127/gems/rdf_tag_arch.xml?:tag=web20&:bid=127> .
+@prefix ns9:	<http://uriburner.com/about/id/http/twitter.com/danja#> .
+ns2:danja	rdfs:seeAlso	ns9:Dataset ,
+		ns8:danja .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+ns2:danja	dc:title	"Danny Ayers (@danja) op Twitter" ;
+	dc:description	"Meld je aan op Twitter om Danny Ayers (@danja) te volgen. Semantic Web enthusiast; noisemaker; Net Whisperer" ;
+	foaf:based_near	<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_38takrk43rH15wLCQzFLuc_46.949955_1.992186@1306269698> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_5FVo1FDmx5JYpF6HG3J21V_46.949940_1.990949@1306269708> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_0p2huKnpvu6bEMTw7z5qkw_46.949940_1.990949@1306269711> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_5t3qzrOngJ2Dx6kVFvoRwT_46.949940_1.990949@1306269744> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_0jU1JkMYmJOrSjKeTyECKy_46.949940_1.990949@1306269759> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_507uzXgG0gCzozFDLKYPyc_46.963306_1.998909@1306269702> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_2N2ee9LUfnxZmRsmtlXA2f_46.963306_1.998909@1306269759> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_34rIO5tU9fLGLhzMaosv4c_46.963493_2.006440@1306269760> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_1oVGyiq1SpiitjGRdTjWZJ_46.961292_1.989814@1306269718> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_5ivxb39wlf2WF0S4qYdiJj_46.960514_1.988688@1306268658> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_7bu6H2WO4cJiUWa9eMGBcT_46.959110_1.998108@1306269702> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_3S8gfOJobZM4IUZlY4WNtE_46.958935_1.994090@1306269749> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_6hjQptkPH4xqP7tWjsLeid_46.957581_2.007122@1306269762> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_0KCCyfh9AMH81lakhYs4YG_46.957153_1.997495@1306269729> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_6TklIAOR2CuZ3EU1uUSj4B_46.955082_1.993595@1306269726> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_1FybELRFZUlyJCi8nQOpmV_46.955082_1.993595@1306269731> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_1YeD5ZVVLurRR0BBCcAA5t_46.955082_1.993595@1306269763> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_5vPEBerG13ViKqMgmonjEm_46.954967_2.004658@1306269773> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_2N4koDEBqXrs6r1u380yIm_46.951004_2.002353@1306269700> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_7SJeUn0cfL87KhypnFOhlx_46.951004_2.002353@1306269741> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_3c1kAqeRi5QgKxlUrfu7A6_46.950611_2.001601@1306269738> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_4c1e70sJwpBgC4qSUPzZNE_46.994888_2.018600@1306269739> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_4cbydlj9mjwfIGDpeWfay5_47.006348_2.023842@1306269752> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_10vEk8jOeDWMUciCikMUzS_46.982719_1.970208@1306269717> ,
+		<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_6RORGS9XezciWU8szrVDVw_46.982719_1.970208@1306269781> .
+@prefix sioc:	<http://rdfs.org/sioc/ns#> .
+ns2:danja	sioc:links_to	ns8:kaiengert ,
+		ns8:digiphile .
+@prefix ns12:	<http://twitter.com/about/> .
+ns2:danja	sioc:links_to	ns12:contact ,
+		ns8:darkgreener ,
+		ns8:patently ,
+		<http://m.twitter.com/> ,
+		ns8:briankelly ,
+		ns8:rmckeel ,
+		ns8:chrisleach78 .
+@prefix ns13:	<http://twitter.com/danja/> .
+ns2:danja	sioc:links_to	ns13:favorites ,
+		<http://twitter.com/statuses/user_timeline/12111.rss> ,
+		<http://twitter.com/favorites/12111.rss> ,
+		<http://twitter.com/danja/status/107575002584449025> ,
+		<http://twitter.com/search?q=%23rdfaffordances> ,
+		<http://twitter.com/danja/status/107573840233771010> ,
+		ns8:bitprophet ,
+		<http://twitter.com/mamund/status/107478476008857602> ,
+		<http://twitter.com/search?q=%23webactions> ,
+		<http://twitter.com/danja/status/107782957225361408> .
+@prefix ns14:	<http://t.co/> .
+ns2:danja	sioc:links_to	ns14:vP6q1gF ,
+		<http://twitter.com/search?q=%23semwebintents> ,
+		<http://twitter.com/search?q=%23blinkers> ,
+		<http://twitter.com/danja/status/107784749241733120> ,
+		ns14:oQJjpIN ,
+		<http://twitter.com/search?q=%23webintents> ,
+		<http://t.co/8G25NA0> ,
+		<http://twitter.com/danja/status/108200748847874048> ,
+		ns8:amateursuman ,
+		<http://twitter.com/amateursuman/status/108194103640076288> ,
+		ns8:mcmahoneth ,
+		<http://twitter.com/140bytes> ,
+		ns8:MarcusduSautoy ,
+		ns8:publicdomainrev ,
+		ns8:business ,
+		<http://www.tweetdeck.com> ,
+		ns8:griffithpamela ,
+		ns13:following ,
+		ns13:followers ,
+		ns8:dmose .
+@prefix ns15:	<http://twitter.com/danja/lists/> .
+ns2:danja	sioc:links_to	ns15:memberships ,
+		<http://dannyayers.com> ,
+		ns8:martinfowler ,
+		ns8:ianbicking .
+@prefix ns16:	<http://twitter.com/account/> .
+ns2:danja	sioc:links_to	ns16:complete ,
+		ns8:seevl ,
+		ns14:g8WKS6n ,
+		<http://twitter.com/cmdrtaco/status/106714296733532160> ,
+		ns8:login ,
+		<http://twitter.com/danja?max_id=108200748847874048&page=2&twttr=true> ,
+		ns14:Eh0bJpG ,
+		<http://twitter.com/danja/status/107014657906180096> ,
+		ns14:jyHFGkG ,
+		<http://twitter.com/tommyh/status/106793277029752832> ,
+		ns14:fUU6k0Y ,
+		ns8:mamund ,
+		ns16:resend_password ,
+		<http://twitter.com/briankelly/status/107025569010552832> ,
+		ns14:Sd0NrO4 ,
+		<http://twitter.com/danja/status/107015638677061632> ,
+		ns8:JessExMachina ,
+		<http://twitter.com/danja/status/107155510997958656> ,
+		ns8:mhausenblas ,
+		ns14:v3qA9yb ,
+		<http://twitter.com/danja/status/107106686237556736> ,
+		<http://twitter.com/search?q=%23lncneu> ,
+		<http://twitter.com/danja/status/107170898242572288> ,
+		<http://twitter.com/search?q=%23kidsprogramming> ,
+		<http://twitter.com/chrisleach78/status/107157274212057088> ,
+		ns14:iKrlXSj ,
+		ns14:soAM8fN .
+@prefix ns17:	<http://twitter.com/danja#> .
+ns2:danja	sioc:links_to	ns17:signin ,
+		<http://twitter.com/danja/status/107426494011277312> ,
+		<http://twitterfeed.com> ,
+		<http://twitter.com/danja/status/107414814384603136> ,
+		<http://twitter.com/signup?follow=danja> ,
+		ns8:derigalway ,
+		ns14:DYBjxHQ ,
+		<http://twitter.com/account/profile_image/danja?hreflang=en> ,
+		ns17:content ,
+		ns17:footer ,
+		ns8:elatable ,
+		ns8:rick_maj ,
+		ns8:xsophmayx ,
+		ns8:tos ,
+		ns8:MadamMiaow ,
+		ns8:privacy ,
+		ns8:VikramDodd ,
+		ns8:derekwyatt ,
+		ns8:opendomesday ,
+		ns8:bitworking ,
+		ns8:Kalabird ,
+		<http://blog.twitter.com> ,
+		<http://support.twitter.com> ,
+		<http://status.twitter.com> ,
+		<http://twitter.com/search?q=%23semweb> ,
+		ns8:danja ,
+		ns8:snopes ,
+		ns12:resources ,
+		ns8:skruk ,
+		ns8:carlmaxim ,
+		<http://www.nibirutech.com> ,
+		<http://twitter.com/danja/status/106330811384606721> ,
+		ns8:ConanOBrien ,
+		<http://twitter.com/danja/status/106498042848477184> ,
+		ns14:FkGu4Ox ,
+		ns8:ldodds ,
+		<http://twitter.com/danja/status/106424744672378880> ,
+		ns14:TILtpLF ,
+		<http://twitter.com/search?q=%23stevejobs> ,
+		<http://twitter.com/search?q=%23LinkedData> ,
+		ns8:cmdrtaco ,
+		<http://twitter.com/search?q=%23RDF> ,
+		ns8:gilest ,
+		<http://twitter.com/search?q=%23linkeddata> ,
+		<http://dev.twitter.com/> ,
+		ns8:ProgrammerWorld ,
+		ns8:lidrc ,
+		<http://twitter.com/search?q=%23dbpedia> ,
+		ns8:BradMcCarty ,
+		ns8:jpmccu ,
+		ns8:bbccode ,
+		ns8: ,
+		ns8:tommyh .
+@prefix ns18:	<http://twitter.com/help/> .
+ns2:danja	sioc:links_to	ns18:jobs ,
+		ns8:ISWC2011 ,
+		ns8:about .
+@prefix xhv:	<http://www.w3.org/1999/xhtml/vocab#> .
+ns2:danja	xhv:alternate	<http://twitter.com/statuses/user_timeline/12111.rss> ,
+		<http://twitter.com/favorites/12111.rss> .
+@prefix awol:	<http://bblfish.net/work/atom-owl/2006-06-06/#> .
+ns2:danja	awol:content	ns6:content .
+@prefix wdrs:	<http://www.w3.org/2007/05/powder-s#> .
+ns2:danja	wdrs:describedby	ns1:danja .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+ns6:alchemy_entity_5	skos:isSubjectOf	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_4c1e70sJwpBgC4qSUPzZNE_46.994888_2.018600@1306269739>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_4cbydlj9mjwfIGDpeWfay5_47.006348_2.023842@1306269752>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_10vEk8jOeDWMUciCikMUzS_46.982719_1.970208@1306269717>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_6RORGS9XezciWU8szrVDVw_46.982719_1.970208@1306269781>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_507uzXgG0gCzozFDLKYPyc_46.963306_1.998909@1306269702>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_2N2ee9LUfnxZmRsmtlXA2f_46.963306_1.998909@1306269759>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_34rIO5tU9fLGLhzMaosv4c_46.963493_2.006440@1306269760>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_1oVGyiq1SpiitjGRdTjWZJ_46.961292_1.989814@1306269718>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_5ivxb39wlf2WF0S4qYdiJj_46.960514_1.988688@1306268658>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_7bu6H2WO4cJiUWa9eMGBcT_46.959110_1.998108@1306269702>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_3S8gfOJobZM4IUZlY4WNtE_46.958935_1.994090@1306269749>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_6hjQptkPH4xqP7tWjsLeid_46.957581_2.007122@1306269762>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_0KCCyfh9AMH81lakhYs4YG_46.957153_1.997495@1306269729>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_6TklIAOR2CuZ3EU1uUSj4B_46.955082_1.993595@1306269726>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_1FybELRFZUlyJCi8nQOpmV_46.955082_1.993595@1306269731>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_1YeD5ZVVLurRR0BBCcAA5t_46.955082_1.993595@1306269763>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_5vPEBerG13ViKqMgmonjEm_46.954967_2.004658@1306269773>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_2N4koDEBqXrs6r1u380yIm_46.951004_2.002353@1306269700>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_7SJeUn0cfL87KhypnFOhlx_46.951004_2.002353@1306269741>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_3c1kAqeRi5QgKxlUrfu7A6_46.950611_2.001601@1306269738>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_38takrk43rH15wLCQzFLuc_46.949955_1.992186@1306269698>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_5FVo1FDmx5JYpF6HG3J21V_46.949940_1.990949@1306269708>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_0p2huKnpvu6bEMTw7z5qkw_46.949940_1.990949@1306269711>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_5t3qzrOngJ2Dx6kVFvoRwT_46.949940_1.990949@1306269744>	foaf:based_near	ns2:danja .
+<http://uriburner.com/about/id/entity/http/twitter.com/danja#simplegeo_SG_0jU1JkMYmJOrSjKeTyECKy_46.949940_1.990949@1306269759>	foaf:based_near	ns2:danja .

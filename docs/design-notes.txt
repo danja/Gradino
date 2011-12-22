@@ -1,0 +1,23 @@
+Gradino - a simple blog engine
+==============================
+
+An exercise to help me learn Scala.
+
+URI design
+----------
+
+http://dannyayers.com/2009/07/27/1
+http://dannyayers.com/2009/07/27/2
+http://dannyayers.com/2009/07/27/3
+ ...
+ 
+Conneg
+------
+support
+http://dannyayers.com/index.html 
+http://dannyayers.com/index.rdf
+http://dannyayers.com/index.atom 
+
+http://dannyayers.com/2009/07/27/1.html 
+http://dannyayers.com/2009/07/27/1.rdf 
+http://dannyayers.com/2009/07/27/1.atom 

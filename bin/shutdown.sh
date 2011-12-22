@@ -1,0 +1,1 @@
+ curl -d "user=danja&password=******" http://dannyayers.com/shutdown

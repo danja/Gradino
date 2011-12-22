@@ -1,0 +1,13 @@
+wiring.jpg, tinocaster-pre-finish.jpg, tini.jpg, thickness.jpg, 
+thickness-compared.jpg, template-gluing.jpg, staves-planer.jpg, stave-raw.jpg, 
+stave-gouge.jpg, pickup-routing.jpg, pickup-routing-action.jpg, nut-rough.jpg, 
+neck-trial.jpg, neck-trial-strings.jpg, neck-socket-rough.jpg, 
+neck-pocket.jpg, neck-pocket-trial.jpg, neck-pocket-templating.jpg, 
+neck-pocket-rear-raw.jpg, neck-pocket-fitted-rear.jpg, neck-fitted-raw.jpg, 
+long-drill.jpg, list.txt, layout.jpg, head.jpg, grain.jpg, gluing.jpg, 
+gluing-layers.jpg, glued.jpg, body-template.jpg, body-raw.jpg, 
+bastard-switch.jpg, bastard-switch-whole.jpg, bandsawed.jpg, assembled.jpg, 
+assembled-rear.jpg, assembled-pickups.jpg, assembled-neck-pocket.jpg, 
+assembled-front.jpg, assembled-edge.jpg, assembled-doneish.jpg, 
+assembled-controls.jpg, assembled-angle.jpg, assembled-action.jpg, 
+assembled-1-compared.jpg, assembled-1-compared-edge.jpg

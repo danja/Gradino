@@ -1,0 +1,4 @@
+
+"It is not great fun learning to develop with the semantic web today."
+Daithi O Crualaoich
+http://www.guardian.co.uk/open-platform/blog/linked-data-open-platform

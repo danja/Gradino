@@ -1,0 +1,182 @@
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+@prefix ns1:	<http://uriburner.com/about/id/http/www.linkedin.com/in/> .
+@prefix ns2:	<http://uriburner.com/about/id/entity/http/www.linkedin.com/in/> .
+ns1:danja	dcterms:subject	ns2:danja .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+ns1:danja	foaf:topic	ns2:danja ;
+	foaf:primaryTopic	ns2:danja .
+
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+ns2:danja owl:sameAs <http:/dannyayers.com/me#> .		
+<http:/dannyayers.com/me#> owl:sameAs ns2:danja .
+
+@prefix sioc:	<http://rdfs.org/sioc/ns#> .
+ns1:danja	sioc:container_of	ns2:danja .
+@prefix c:	<http://www.w3.org/2002/12/cal/icaltzd#> .
+@prefix ns6:	<http://uriburner.com/about/id/entity/http/www.linkedin.com/in/danja#> .
+ns6:TalisInformationLtd2007	c:url	ns2:danja .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+ns2:danja	rdf:type	foaf:Person .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns2:danja	rdfs:seeAlso	<http://www.openlinksw.com/weblog/kidehen@openlinksw.com/127/gems/rdf_tag_arch.xml?:tag=rdf&:bid=127> ,
+		ns6:slideshare4812280 ,
+		ns6:slideshare4696043 ,
+		<http://www.semanlink.net/tag/technical_girls_and_guys.rdf> ,
+		ns6:slideshare5278593 ,
+		ns6:alchemy_entity_1 ,
+		ns6:slideshare4815534 ,
+		ns6:Image21 ,
+		ns6:slideshare5823568 ,
+		ns6:Image22 ,
+		ns6:slideshare5643980 ,
+		ns6:Image4 ,
+		ns6:slideshare7156820 ,
+		ns6:Image20 ,
+		ns6:slideshare6762774 ,
+		ns6:slideshare1973502 ,
+		ns6:Image3 ,
+		ns6:slideshare1589776 ,
+		<http://dannyayres.ulitzer.com/> ,
+		ns6:slideshare2464828 ,
+		<http://dannyayers.com/topics/general/juvenilia?from=21&till=30> ,
+		ns6:slideshare2424177 ,
+		ns6:alchemy_sentiment_d48b9f98f4f6f00fd85a2f121dde8a2c98f830426 ,
+		ns6:slideshare3595766 .
+@prefix ns9:	<http://www.linkedin.com/in/> .
+ns2:danja	rdfs:seeAlso	ns9:DannyAyers ,
+		ns6:slideshare2662750 ,
+		ns6:alchemy_entity_4 ,
+		ns6:slideshare4587391 ,
+		ns6:slideshare3959711 ,
+		ns6:alchemy_entity_2 ,
+		ns6:alchemy_entity_3 ,
+		<http://www.openlinksw.com/weblog/kidehen@openlinksw.com/127/gems/rdf_tag_arch.xml?:tag=semanticweb&:bid=127> ,
+		ns9:danja ,
+		<http://fgiasson.com/blog/index.php/2007/03/28/making-the-bridge-between-the-web-and-the-semantic-web/> ,
+		<http://www.openlinksw.com/blog/vdb/blog/?date=2008-10-24#1460> ,
+		<http://www.openlinksw.com/weblog/public/search.vspx?blogid=127&q=data%20web&type=text&output=rdf> ,
+		<http://www.semanlink.net/tag/danny_ayers.rdf;jsessionid=AE3E7870D0E33E721AF60AE59A8C7D86> .
+@prefix ns10:	<http://dannyayers.com/2007/06/20/> .
+ns2:danja	rdfs:seeAlso	ns10:re-re-foaf-from-linkedin ,
+		ns6:sindice_explicit_content ,
+		<http://www.openlinksw.com/weblog/kidehen@openlinksw.com/127/gems/rdf_tag_arch.xml?:tag=.net&:bid=127> .
+@prefix ns11:	<http://uriburner.com/about/id/http/www.linkedin.com/in/danja#> .
+ns2:danja	rdfs:seeAlso	ns11:Dataset ,
+		ns6:slideshare8157837 ,
+		ns6:slideshare8097669 ,
+		ns6:slideshare8174404 ,
+		ns6:slideshare8159539 ,
+		ns6:slideshare8242785 ,
+		ns6:slideshare8242235 ,
+		ns6:slideshare8262561 ,
+		ns6:slideshare8252884 ,
+		ns6:slideshare7397106 ,
+		ns6:slideshare7304344 ,
+		ns6:slideshare7421953 ,
+		ns6:slideshare7421928 ,
+		ns6:slideshare7783657 ,
+		ns6:slideshare7697302 ,
+		ns6:slideshare7955155 ,
+		ns6:slideshare7858042 ,
+		ns6:slideshare8614297 ,
+		ns6:slideshare8592629 ,
+		ns6:slideshare8789791 ,
+		ns6:slideshare8789727 ,
+		ns6:slideshare8791833 ,
+		ns6:slideshare8791807 ,
+		ns6:slideshare8791839 ,
+		ns6:slideshare8387759 ,
+		ns6:slideshare8313070 ,
+		ns6:slideshare8456007 ,
+		ns6:slideshare8405310 ,
+		ns6:slideshare8502617 ,
+		ns6:slideshare8460168 ,
+		ns6:slideshare8591711 ,
+		ns6:slideshare8544122 ,
+		<http://www.openlinksw.com/weblog/kidehen@openlinksw.com/127/gems/rdf_tag_arch.xml?:tag=xml&:bid=127> ,
+		ns9:dannyayers ,
+		<http://www.talkdigger.com/sioc/blog.unto.net/xml/> ,
+		<http://www.semanlink.net/tag/danny_ayers.rdf> ,
+		<http://www.dannyayers.com/> ,
+		<http://www.openlinksw.com/weblog/oerling/?date=2008-10-24#1459> ,
+		ns6:intellectual-ventures ,
+		<http://virtuoso.openlinksw.com/blog/vdb/blog/?date=2008-10-24#1460> ,
+		ns6:slideshare378596 ,
+		ns6:danny-glover ,
+		<http://www.talkdigger.com/sioc/semsol.com/xml/> ,
+		ns6:slideshare1469819 ,
+		ns6:slideshare415882 .
+@prefix ns12:	<http://www.semanlink.net/tag/> .
+ns2:danja	rdfs:seeAlso	ns12:danny_ayers .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+ns2:danja	dc:title	"Danny Ayers  | LinkedIn" ;
+	foaf:name	"Danny Ayers" ;
+	dc:description	"View Danny Ayers's professional profile on LinkedIn.  LinkedIn is the world's largest business network, helping professionals like Danny Ayers discover inside connections to recommended job candidates, industry experts, and business partners." ;
+	sioc:links_to	<http://www.linkedin.com/in/danja#> ,
+		<http://www.linkedin.com/redirect?url=http%3A%2F%2Fdannyayers%2Ecom&urlhash=odnv> .
+@prefix ns14:	<https://www.linkedin.com/uas/> .
+ns2:danja	sioc:links_to	ns14:login ,
+		<http://www.linkedin.com/redirect?url=http%3A%2F%2Fdannyayers%2Ecom%2Ffeed&urlhash=7GbU> ,
+		<http://www.linkedin.com/redirect?url=http%3A%2F%2Fdanny%2Eayers%2Ename&urlhash=Lhue> .
+@prefix ns15:	<http://www.linkedin.com/in/danja#> .
+ns2:danja	sioc:links_to	ns15:name .
+@prefix ns16:	<http://it.linkedin.com/pub/danny-ayers/0/0/> .
+ns2:danja	sioc:links_to	ns16:ba3 ,
+		<https://www.linkedin.com/reg/join-pprofile?_ed=0_ey0CD_WZ84mEBE8-Fg7jIZTpYQcz1DVsvT8i9KVdwYcRgCyB1HNqwmO7F_adeYjZIAv4xZA6X4_ATKhykXv95m1TYcJ9zlPPGn4AJAvbpLx&goback=%2Enppvan_%2Fdanja&trk=ppro_viewmore> ,
+		<http://www.linkedin.com/directory/people/#.html> ,
+		<http://www.linkedin.com/static?key=country_listing> ,
+		ns9:dannyayers ,
+		<https://www.linkedin.com/uas/login?trk=hb_signin> ,
+		<http://www.linkedin.com/static?key=user_agreement&trk=hb_ft_userag> ,
+		<http://www.linkedin.com/static?key=privacy_policy&trk=hb_ft_priv> ,
+		<http://www.linkedin.com/static?key=copyright_policy&trk=hb_ft_copy> ,
+		<https://www.linkedin.com/secure/register?trk=hb_join> ,
+		<http://www.linkedin.com/static?key=user_agreement&trk=ftr_useragre> ,
+		<http://www.linkedin.com/directory/people/n.html> ,
+		<http://www.linkedin.com/home?trk=hb_logo> ,
+		<http://www.linkedin.com/directory/people/o.html> ,
+		<http://www.linkedin.com/directory/people/p.html> ,
+		<http://www.linkedin.com/directory/people/q.html> ,
+		<http://www.linkedin.com/directory/people/r.html> ,
+		<http://www.linkedin.com/directory/people/s.html> ,
+		<http://www.linkedin.com/directory/people/t.html> ,
+		<http://www.linkedin.com/directory/people/u.html> ,
+		<http://www.linkedin.com/directory/people/f.html> ,
+		<http://www.linkedin.com/directory/people/g.html> ,
+		<http://www.linkedin.com/directory/people/h.html> ,
+		<http://www.linkedin.com/directory/people/i.html> ,
+		<http://www.linkedin.com/directory/people/j.html> ,
+		<http://www.linkedin.com/directory/people/k.html> ,
+		<http://www.linkedin.com/directory/people/l.html> ,
+		<http://www.linkedin.com/directory/people/m.html> ,
+		<http://www.linkedin.com/directory/people/v.html> ,
+		<http://www.linkedin.com/directory/people/w.html> ,
+		<http://www.linkedin.com/directory/people/x.html> ,
+		<http://www.linkedin.com/directory/people/y.html> ,
+		<http://www.linkedin.com/directory/people/z.html> .
+@prefix ns17:	<http://www.quantcast.com/> .
+ns2:danja	sioc:links_to	ns17:p-b3sGjMtCFrexE ,
+		<http://www.linkedin.com/directory/people/a.html> ,
+		<http://www.linkedin.com/pub/dir/?first=Danny&last=Ayers> ,
+		<http://www.linkedin.com/directory/people/b.html> ,
+		<http://www.linkedin.com/directory/people/c.html> ,
+		ns9:danayers ,
+		<http://www.linkedin.com/directory/people/d.html> ,
+		<http://www.linkedin.com/pub/daniel-ayers/9/731/4a3> ,
+		<http://www.linkedin.com/directory/people/e.html> ,
+		<http://au.linkedin.com/pub/daniel-ayers/1/a04/581> .
+@prefix ns18:	<http://uk.linkedin.com/in/> .
+ns2:danja	sioc:links_to	ns18:yodaniel .
+@prefix xhv:	<http://www.w3.org/1999/xhtml/vocab#> .
+ns2:danja	xhv:icon	<http://static01.linkedin.com/scds/common/u/img/favicon_v3.ico> ;
+	xhv:stylesheet	<http://uriburner.com/about/id/entity/http/static02.linkedin.com/scds/concat/common/css?h=dgs0afl3xvzdyhkq6ife8c7us-4sb32plzezwi0ixcsqubf04hj> ,
+		<http://uriburner.com/about/id/entity/http/static02.linkedin.com/scds/concat/common/css?h=4eyxag7kjss8v43tfu9t304vr-1tp1vrb3nrmzjtoqa10en3icu-7ig0a9hhpzx606voh6x68av6z-clpwya6pz79uqxv7ykmgqa4ie-cuikobmujdsj6e1pdqs75or3i-25bes3amn41srwkfnlcxh7a9i-crve3onsclswtc6z1062wdl5g-a84giyfta8vw9nl387i4322k9> .
+@prefix awol:	<http://bblfish.net/work/atom-owl/2006-06-06/#> .
+ns2:danja	awol:content	ns6:content .
+@prefix wdrs:	<http://www.w3.org/2007/05/powder-s#> .
+ns2:danja	wdrs:describedby	ns1:danja .
+<http://uriburner.com/about/id/entity/http/www.linkedin.com/in/danja#OpenIDCommunity%21%3A%292007>	c:url	ns2:danja .
+ns6:TalisMay2007	c:url	ns2:danja .
+ns6:W3C2005	c:url	ns2:danja .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+ns6:alchemy_entity_2	skos:isSubjectOf	ns2:danja .

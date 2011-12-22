@@ -1,0 +1,73 @@
+# del.icio.us (Netscape Bookmark) dumps to Turtle
+#
+# Uses BeautifulSoup
+# 
+# acts on a file called delicious.html in current dir
+#
+# get dump from here https://secure.delicious.com/settings/bookmarks/export (after login)
+# 
+# @danja 2010-12-16
+# @wikier 2010-12-17
+#
+# bug reports/patches - danny.ayers@gmail.com
+#
+# key bit of input:
+#
+# <DT><A HREF="http://www.youtube.com/watch?v=GGCHdW5ZFEo&feature=related" ADD_DATE="1292367872" PRIVATE="0" TAGS="jake,rothman,theremin">YouTube - Jake Rothman part1</A>
+# <DD>hee hee - not seen him in years
+
+from BeautifulSoup import BeautifulSoup
+import re
+import time  
+import sys
+
+args = sys.argv[1:]
+if (len(args)<1):
+    sys.exit("file is required\nusage: python souper.py [file]")
+
+path = args[0]
+
+page = None
+try:
+	page = open(path, 'r').read() 
+except IOError:
+	sys.exit("'%s' is not a valid file, please check the path" % path)
+
+soup = BeautifulSoup(page)
+
+dts = soup.dl.findAll('dt')
+
+print '@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .'
+print '@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .'
+print '@prefix dc: <http://purl.org/dc/elements/1.1/> .'
+print '@prefix rss: <http://purl.org/rss/1.0/> .'
+print '@prefix tag: <http://www.holygoat.co.uk/owl/redwood/0.1/tags/> .'
+
+for dt in dts:
+	title = dt.a.contents[0]
+	comment = None
+	tags = None
+	if dt.nextSibling and dt.nextSibling.name and dt.nextSibling.name == 'dd':
+		comment = dt.nextSibling.contents[0] 
+	for name, value in dt.a.attrs:
+		if name == 'href':
+			uri = value
+		if name == 'add_date':
+			raw_date = value
+		if name == 'tags':
+			tags = value.split(',')
+	date = time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime(eval(raw_date)))
+	
+	try: # hopefully this will be adequate for the majority
+		r = '<'+uri+'>'
+		print r+' a rss:item .'
+		print r+' dc:title "'+title+'" .'
+		if comment:
+			print r+' rdfs:comment "'+comment[:-1]+'" .' # linebreak removed
+			for tag in tags:
+				if tag != '':
+					print r+' tag:taggedWithTag [ tag:tagName "'+tag+'"] .'
+			print r+' dc:date "'+date+'" .'
+	except UnicodeEncodeError:
+		pass
+

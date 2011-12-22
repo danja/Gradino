@@ -1,0 +1,28 @@
+        RewriteEngine on
+        RewriteBase /
+        RewriteRule ^/$ http://localhost:8080$1 [P,L,QSA]
+
+        # If request is for physical directory then let it pass
+        RewriteCond %{REQUEST_FILENAME}  -d
+        RewriteRule  ^(.*)$  -  [L]
+
+        # If request is for physical file then let it pass
+        RewriteCond %{REQUEST_FILENAME}  -f
+        RewriteRule  ^(.*)$  -  [L]
+
+# RewriteCond %{HTTP_USER_AGENT} ^msnbot
+# RewriteRule ^(.*)$ /robots.txt [R=301,L]
+
+        Redirect 301 /feed/rdf http://dannyayers.com/feed
+        Redirect 301 /feed/atom http://dannyayers.com/feed
+        Redirect 301 /feed/rss http://dannyayers.com/feed
+
+        Redirect 301 /me.rdf http://dannyayers.com/foaf.rdf
+
+        Redirect 301 /misc/about/biog.htm http://dannyayers.com/index.html
+
+RewriteRule ^\+$ http://plus.google.com/112609322932428633493 [R=permanent,L]
+
+        # Send everything else to port 8080
+        RewriteRule ^(.*)$ http://localhost:8080/$1 [P,L,QSA]
+

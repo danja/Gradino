@@ -1,0 +1,97 @@
+<project name="Gradino" default="run" basedir="../">
+<!-- 1. Define common properties. -->
+<!-- ignore this line -->
+<property name="src.dir" value="src"/>
+<property name="build.dir" value="classes"/>
+<property name="lib.dir" value="../lib"/>
+
+<property name="scala-compiler.jar" value="/usr/share/scala/lib/scala-compiler.jar"/>
+<property name="scala-library.jar" value="/usr/share/scala/lib/scala-library.jar"/>
+
+<!-- 2. Define Scala CLASSPATH. -->
+
+<path id="scala.classpath">
+  <pathelement location="${scala-compiler.jar}"/>
+  <pathelement location="${scala-library.jar}"/>
+    <fileset dir="${lib.dir}">
+    <include name="**/*.jar" />
+  </fileset>
+</path>
+
+<!-- 3. Define project CLASSPATH. -->
+
+<path id="project.classpath">
+  <path refid="scala.classpath"/>
+
+  <pathelement location="${build.dir}"/>
+  
+
+	 <fileset dir="${lib.dir}">
+	    <include name="**/*.jar" />
+	  </fileset>
+</path>
+
+<!-- 4. Define scala compiler command. -->
+
+<taskdef resource="scala/tools/ant/antlib.xml">
+  <classpath refid="scala.classpath"/>
+</taskdef>
+
+<!-- 5. Compiles sources by using "scalac" command. -->
+
+<target name="clean">
+	  <delete dir="${build.dir}"/>
+</target>
+
+<target name="compile" depends="clean">
+  <mkdir dir="${build.dir}"/>
+
+  <scalac srcdir="${src.dir}" destdir="${build.dir}" classpathref="project.classpath" force="changed" deprecation="yes">
+    <include name="**/*.scala"/>
+  </scalac>
+</target>
+	
+	<target name="compilejava" depends="clean">
+	  <mkdir dir="${build.dir}"/>
+
+	  <javac srcdir="${src.dir}" destdir="${build.dir}" classpathref="project.classpath">
+	    <include name="**/*.java"/>
+	  </javac>
+	</target>
+
+<!-- 6. Runs scala executable. -->
+
+	<echo message="${scala.classpath}" />
+	<echo message="${project.classpath}" />	
+		
+<target name="run">
+  <java classname="com.HelloTest" fork="true">
+    <classpath>
+    	  <pathelement location="${build.dir}"/>
+    	<path refid="scala.classpath"/>
+    	<path refid="project.classpath"/>
+    </classpath>
+    <!-- jvmarg value="-Xmx512m" / -->
+    <!-- jvmarg value="-Xmx384m" / --><!-- max was 384, 128 just about works -->
+    <jvmarg value="-Xms256m" /><!-- start -->
+    <!-- jvmarg value="-Xmn384m" / --><!-- 128 just about works younger generation ,Eden ??? -->
+    <jvmarg value="-Xss2048k" /><!-- 1024 works thread stack was 2048 -->
+  </java>
+</target>
+	
+<target name="all" depends="compile, compilejava, run">
+</target>
+	
+<!-- Graceful shutdown via HTTP call -->
+	
+<target name="shutdown">
+	  <java classname="scala.tools.nsc.MainGenericRunner" fork="true">
+	    <classpath>
+	      <path refid="project.classpath"/>
+	    </classpath>
+	   <arg line="com.dannyayers.client.Shutdown"/>
+	  </java>
+	</target>
+
+</project>
+

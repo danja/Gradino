@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>AJAX Login System Demo</title>
+<script src="js/sha1.js" type="text/javascript">
+// javascript md5 encoder originated from <http://pajhome.org.uk/crypt/md5/>
+// used under license as outlined at <http://pajhome.org.uk/site/legal.html>
+// Copyright (c) 1998 - 2002, Paul Johnston & Contributors
+// All rights reserved.
+</script>
+<script src="js/xml_http_request.js" type="text/javascript">
+// xml http request script modified slightly from that found at
+// <http://www.webpasties.com/xmlHttpRequest/index.html>, which is
+// Copyright 2005 Bill Bercik.
+</script>
+<script src="js/login_controller.js" type="text/javascript"></script>
+<script src="js/login_presentation.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/login.css" type="text/css" />
+</head>
+
+<body>
+
+
+<div id="post_comment">
+<form action="post" onSubmit="return false">
+<div id="login" class="login">
+<label for="username">Username: </label>
+<input type="text" name="username" id="username" size=20>
+<label for="password">Password: </label>
+<input type="password" name="password" id="password" size=20>
+<p id="message">Enter your username and password to log in.</p>
+</div>
+<label for="comments">Comments:</label>
+<textarea rows="6" cols="80" id="comments"></textarea>
+</form>
+</div>
+
+</body>
+</html>
