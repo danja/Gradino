@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org" />
+    <meta http-equiv="content-type"
+    content="text/html; charset=us-ascii" />
+    <!-- meta charset="utf-8" / -->
+    <title>The Vinocaster : Introduction</title>
+    <meta name="description"
+    content="Various things from Danny Ayers" />
+    <meta name="author" content="Danny Ayers" />
+    <link rel="stylesheet" href="../../css/lightbox.css" type="text/css"
+    media="screen" />
+    <link rel="stylesheet" href="../../css/font.css" type="text/css"
+    media="screen" />
+    <link rel="stylesheet" href="../../css/stuff.css" type="text/css"
+    media="Screen" />
+    <link rel="stylesheet" href="../../css/tabs.css" type="text/css"
+    media="Screen" />
+    <!-- link rel="stylesheet" href="/css/handheld.css" type="text/css" media="handheld" / -->
+    <script type="text/javascript" src="../../js/prototype.js"></script>
+    <script type="text/javascript"
+    src="../../js/scriptaculous.js?load=effects,builder"></script>
+    <script type="text/javascript" src="../../js/lightbox.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <!-- link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" -->
+    <!-- link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" -->
+  </head>
+  <body id="tab1">
+    <ul id="topnav">
+      <li class="xtab1">
+        <a href="/" title="Danny Ayers' Blog">Raw Blog</a>
+      </li>
+      <li class="xtab2">
+        <a href="http://hyperdata.org/danja/"
+        title="my updates on various social sites">Planet Danja</a>
+      </li>
+      <li class="xtab3">
+        <a href="http://hyperdata.org/planet/"
+        title="stuff I'm watching">Planet Raw</a>
+      </li>
+      <li class="xtab4">
+        <a href="http://hyperdata.org/"
+        title="Linked Data related material">hyperdata.org</a>
+      </li>
+      <li class="xtab5">
+        <a href="http://hyperdata.org/wiki/"
+        title="on my personal wiki">Stuff</a>
+      </li>
+      <li class="xtab6">
+        <a href="http://hyperdata.org/xmlns/"
+        title="various namespaces/ontologies">Vocabs</a>
+      </li>
+      <li class="xtab7">
+        <a href="http://dannyayers.com/about.html"
+        title="About">About</a>
+      </li>
+    </ul>
+    <br />
+    <br />
+    <ul id="tabnav">
+      <li class="tab1">
+        <a href="." title="Contents">Contents</a>
+      </li>
+      <li class="tab2">
+        <a href="gallery" title="Photos of craftwork">Gallery</a>
+      </li>
+      <li class="tab3">
+        <a href="http://hyperdata.org/danja/"
+        title="my updates on various social sites">Carving</a>
+      </li>
+      <li class="tab4">
+        <a href="http://dannyayers.com/about.html" title="About">About
+        Stuff</a>
+      </li>
+    </ul>
+    <div id="header">
+      <h1 id="page-title">Stuff</h1>
+      <p id="description">archived activities of 
+      <a href="http://danny.ayers.name">Danny Ayers</a></p>
+    </div>
+    <div class="container">
+      <div class="sidebar-left">
+        <ul class="gallery">
+          <li>
+          <br />Sketch
+          <br />
+          <a href="images/preferred/sketch.jpg" rel="lightbox"
+          title="A rough sketch that saved me from a big mistake">
+            <img alt="rough sketch" src="images/thumbs/sketch.jpg"
+            width="100" height="78" />
+          </a></li>
+         
+        </ul>
+      </div>
+      <div class="container">
+        <div class="sidebar-right">
+          <h3>Links - nearby</h3>
+          <ul>
+            <li>
+              <a href="#">Link</a>
+            </li>
+            <li>
+              <a href="#">Link</a>
+            </li>
+            <li>
+              <a href="#">Link</a>
+            </li>
+            <li>
+              <a href="#">Link</a>
+            </li>
+          </ul>
+          <h3>Links - elsewhere</h3>
+          <ul>
+            <li>
+              <a href="#">Link</a>
+            </li>
+            <li>
+              <a href="#">Link</a>
+            </li>
+            <li>
+              <a href="#">Link</a>
+            </li>
+            <li>
+              <a href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+        <div class="content">
+<h1>The Vinocaster</h1>
+
+<p><img alt="Vinocaster, April 2011" src="images2/original/vinocaster_2011-04-01.jpg"
+width="410" height="1000" align="right" /></p>
+
+<p>These pages describe how I built an electric guitar, the body of which was
+made from wood salvaged from an old Italian wine vat (<em>tino</em>). I bought
+the neck &amp; hardware, I don't really have the skills or equipment for those
+bits...yet. </p>
+
+<p>The guitar is working and being used, though I've not finished tweaking (any significant changes and I'll update here). I've also started putting together an effects unit customised to this instrument, <a
+href="../vinotone/index.html">Vinotone</a>.</p>
+
+<p>[PS. 2010-02-27 : I've since redone the finish with linseed oil and beeswax,
+<a
+href="http://www.flickr.com/search/?q=vinocaster&amp;w=51035815526%40N01">some
+recent photos on Flickr</a>]</p>
+
+<p>
+Construction was in two phases. In the first phase I got the instrument
+together and essentially working, but without final shaping and surface
+finishing. In the second phase, with the benefit of a few months playing the
+guitar, I did the final shaping of the body along with minor modifications and
+the surface finishing.<br />
+
+<h2>Contents</h2>
+<ul>
+  <li>Introduction (this page)
+    <ul>
+       <li><a href="#background">Background</a></li>
+    </ul>
+  </li>
+  <li><a href="building.html">Building the Vinocaster</a> 
+  </li>
+  <li><a href="finishing.html">Finishing the Vinocaster</a>
+  </li>
+</ul>
+
+<h3 id="background">Background</h3>
+
+<p>I got my first electric guitar as a teenager, though didn't really learn how to play
+it beyond 3 chords. Over the
+following years I got through another two or three, but then didn't have one
+for at least a decade, until last year. Then we bought a cheap Squier Strat
+from the shop in Lucca, along with a bass for Caroline and a couple of 
+combo amps. For the price the Squier was remarkably good, but I wasn't really
+satisfied with the sound. I swapped out the pickups and spent quite a bit of
+time playing with wiring combinations. This made a huge difference, but there
+was still a weak link - the body. The Squier has a much thinner body than a
+regular Strat. I don't know what kind of wood they're made from but I'm
+fairly sure it's built up from smaller blocks. The net effect is that it
+seems to act on the overall response like a flannel.</p>
+
+<p>A few <s>months</s> years ago I inherited a source of interesting wood, so decided to
+start another guitar more or less from scratch. I have very little
+woodworking experience (a bit of carving) so decided to leave the hardest
+part to the expert machines - I bought a replacement Strat neck from StewMac.
+I bought the hardware too, I'm not remotely equipped for metal machining and
+haven't the patience for pickup winding. What's left is body construction and
+assembly. Here are some photos of the process I went through, some are a bit
+blurry I'm afraid - the cheap HP camera has focus issues. </p>
+
+
+
+<h2>Contents</h2>
+<ul>
+  <li><a href="building.html">Building the Vinocaster</a> </li>
+  <li><a href="finishing.html">Finishing the Vinocaster</a></li>
+  <li><p><a href="parts.html">Parts list, books &amp; suppliers</a>
+    <strong>@@todo</strong></p>
+  </li>
+  <li><p>Video : <a href="http://www.youtube.com/watch?v=6eGcsGPgUTw">the
+    Vinocaster in action</a></p>
+  </li>
+  <li><p>Sample Audio <strong>@@todo</strong> <em>link to mp3 here</em></p>
+  </li>
+  <li><p><a href="lessons.html">Lessons learnt</a> <strong>@@todo</strong></p>
+  </li>
+  <li><p><a href="about.html">About these Pages</a> <strong>@@todo</strong></p>
+  </li>
+  <li>Related Links <strong>@@todo</strong></li>
+</ul>
+
+<p></p>
+
+<p style="text-align: right">All material unless otherwise stated © Danny
+Ayers 2007 <a rel="license"
+href="http://creativecommons.org/licenses/by/3.0/"><img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by/3.0/88x31.png" /> </a> <br />
+This work is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution
+3.0 License</a> </p>
+          
+          <div id="footer">
+            <p><a href="http://danny.ayers.name">Danny Ayers</a> 2011</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

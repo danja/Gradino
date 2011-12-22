@@ -1,0 +1,1292 @@
+
+<li>
+   <br />Staves-Planer
+   <br />
+   <a href="images/preferred/staves-planer.jpg" rel="lightbox" title="Staves-Planer">
+      <img alt="Staves-Planer"" src="images/thumbs/staves-planer.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Assembled-Rear
+   <br />
+   <a href="images/preferred/assembled-rear.jpg" rel="lightbox" title="Assembled-Rear">
+      <img alt="Assembled-Rear"" src="images/thumbs/assembled-rear.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Neck-Trial
+   <br />
+   <a href="images/preferred/neck-trial.jpg" rel="lightbox" title="Neck-Trial">
+      <img alt="Neck-Trial"" src="images/thumbs/neck-trial.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Neck-Socket-Rough
+   <br />
+   <a href="images/preferred/neck-socket-rough.jpg" rel="lightbox" title="Neck-Socket-Rough">
+      <img alt="Neck-Socket-Rough"" src="images/thumbs/neck-socket-rough.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Assembled
+   <br />
+   <a href="images/preferred/assembled.jpg" rel="lightbox" title="Assembled">
+      <img alt="Assembled"" src="images/thumbs/assembled.jpg" 
+           width="100" height="275" />
+   </a>
+</li>
+
+<li>
+   <br />Bastard-Switch
+   <br />
+   <a href="images/preferred/bastard-switch.jpg" rel="lightbox" title="Bastard-Switch">
+      <img alt="Bastard-Switch"" src="images/thumbs/bastard-switch.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Nut-Prework
+   <br />
+   <a href="images/preferred/nut-prework.jpg" rel="lightbox" title="Nut-Prework">
+      <img alt="Nut-Prework"" src="images/thumbs/nut-prework.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Pre-Finish
+   <br />
+   <a href="images/preferred/pre-finish.jpg" rel="lightbox" title="Pre-Finish">
+      <img alt="Pre-Finish"" src="images/thumbs/pre-finish.jpg" 
+           width="100" height="259" />
+   </a>
+</li>
+
+<li>
+   <br />Nut-Rough
+   <br />
+   <a href="images/preferred/nut-rough.jpg" rel="lightbox" title="Nut-Rough">
+      <img alt="Nut-Rough"" src="images/thumbs/nut-rough.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Neck-Pocket-Fitted-Rear
+   <br />
+   <a href="images/preferred/neck-pocket-fitted-rear.jpg" rel="lightbox" title="Neck-Pocket-Fitted-Rear">
+      <img alt="Neck-Pocket-Fitted-Rear"" src="images/thumbs/neck-pocket-fitted-rear.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Vinocaster-Pre-Finish
+   <br />
+   <a href="images/preferred/vinocaster-pre-finish.jpg" rel="lightbox" title="Vinocaster-Pre-Finish">
+      <img alt="Vinocaster-Pre-Finish"" src="images/thumbs/vinocaster-pre-finish.jpg" 
+           width="100" height="275" />
+   </a>
+</li>
+
+<li>
+   <br />Fender-Lace-Wiring
+   <br />
+   <a href="images/preferred/fender-lace-wiring.jpg" rel="lightbox" title="Fender-Lace-Wiring">
+      <img alt="Fender-Lace-Wiring"" src="images/thumbs/fender-lace-wiring.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Back-Sanded
+   <br />
+   <a href="images/preferred/back-sanded.jpg" rel="lightbox" title="Back-Sanded">
+      <img alt="Back-Sanded"" src="images/thumbs/back-sanded.jpg" 
+           width="100" height="112" />
+   </a>
+</li>
+
+<li>
+   <br />Assembled-Doneish
+   <br />
+   <a href="images/preferred/assembled-doneish.jpg" rel="lightbox" title="Assembled-Doneish">
+      <img alt="Assembled-Doneish"" src="images/thumbs/assembled-doneish.jpg" 
+           width="100" height="242" />
+   </a>
+</li>
+
+<li>
+   <br />Assembled-Action
+   <br />
+   <a href="images/preferred/assembled-action.jpg" rel="lightbox" title="Assembled-Action">
+      <img alt="Assembled-Action"" src="images/thumbs/assembled-action.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Front-Sanded
+   <br />
+   <a href="images/preferred/front-sanded.jpg" rel="lightbox" title="Front-Sanded">
+      <img alt="Front-Sanded"" src="images/thumbs/front-sanded.jpg" 
+           width="100" height="119" />
+   </a>
+</li>
+
+<li>
+   <br />Cavity-Rework
+   <br />
+   <a href="images/preferred/cavity-rework.jpg" rel="lightbox" title="Cavity-Rework">
+      <img alt="Cavity-Rework"" src="images/thumbs/cavity-rework.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Vinocaster-Current
+   <br />
+   <a href="images/preferred/vinocaster-current.jpg" rel="lightbox" title="Vinocaster-Current">
+      <img alt="Vinocaster-Current"" src="images/thumbs/vinocaster-current.jpg" 
+           width="100" height="242" />
+   </a>
+</li>
+
+<li>
+   <br />Back-Rough
+   <br />
+   <a href="images/preferred/back-rough.jpg" rel="lightbox" title="Back-Rough">
+      <img alt="Back-Rough"" src="images/thumbs/back-rough.jpg" 
+           width="100" height="109" />
+   </a>
+</li>
+
+<li>
+   <br />Pickups
+   <br />
+   <a href="images/preferred/pickups.jpg" rel="lightbox" title="Pickups">
+      <img alt="Pickups"" src="images/thumbs/pickups.jpg" 
+           width="100" height="179" />
+   </a>
+</li>
+
+<li>
+   <br />Responses
+   <br />
+   <a href="images/preferred/responses.png" rel="lightbox" title="Responses">
+      <img alt="Responses"" src="images/thumbs/responses.png" 
+           width="100" height="77" />
+   </a>
+</li>
+
+<li>
+   <br />Tini
+   <br />
+   <a href="images/preferred/tini.jpg" rel="lightbox" title="Tini">
+      <img alt="Tini"" src="images/thumbs/tini.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Vino-Resp-Bridge
+   <br />
+   <a href="images/preferred/vino-resp-bridge.png" rel="lightbox" title="Vino-Resp-Bridge">
+      <img alt="Vino-Resp-Bridge"" src="images/thumbs/vino-resp-bridge.png" 
+           width="100" height="49" />
+   </a>
+</li>
+
+<li>
+   <br />Newbody-Raw
+   <br />
+   <a href="images/preferred/newbody-raw.jpg" rel="lightbox" title="Newbody-Raw">
+      <img alt="Newbody-Raw"" src="images/thumbs/newbody-raw.jpg" 
+           width="100" height="84" />
+   </a>
+</li>
+
+<li>
+   <br />Head
+   <br />
+   <a href="images/preferred/head.jpg" rel="lightbox" title="Head">
+      <img alt="Head"" src="images/thumbs/head.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Assembled-Pickups
+   <br />
+   <a href="images/preferred/assembled-pickups.jpg" rel="lightbox" title="Assembled-Pickups">
+      <img alt="Assembled-Pickups"" src="images/thumbs/assembled-pickups.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Stave-Raw
+   <br />
+   <a href="images/preferred/stave-raw.jpg" rel="lightbox" title="Stave-Raw">
+      <img alt="Stave-Raw"" src="images/thumbs/stave-raw.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Pickups-Prework
+   <br />
+   <a href="images/preferred/pickups-prework.jpg" rel="lightbox" title="Pickups-Prework">
+      <img alt="Pickups-Prework"" src="images/thumbs/pickups-prework.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Controls-Pre
+   <br />
+   <a href="images/preferred/controls-pre.jpg" rel="lightbox" title="Controls-Pre">
+      <img alt="Controls-Pre"" src="images/thumbs/controls-pre.jpg" 
+           width="100" height="95" />
+   </a>
+</li>
+
+<li>
+   <br />Stave-Gouge
+   <br />
+   <a href="images/preferred/stave-gouge.jpg" rel="lightbox" title="Stave-Gouge">
+      <img alt="Stave-Gouge"" src="images/thumbs/stave-gouge.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Bandsawed
+   <br />
+   <a href="images/preferred/bandsawed.jpg" rel="lightbox" title="Bandsawed">
+      <img alt="Bandsawed"" src="images/thumbs/bandsawed.jpg" 
+           width="100" height="90" />
+   </a>
+</li>
+
+<li>
+   <br />Layout
+   <br />
+   <a href="images/preferred/layout.jpg" rel="lightbox" title="Layout">
+      <img alt="Layout"" src="images/thumbs/layout.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Sparql-Saw-Box
+   <br />
+   <a href="images/preferred/sparql-saw-box.jpg" rel="lightbox" title="Sparql-Saw-Box">
+      <img alt="Sparql-Saw-Box"" src="images/thumbs/sparql-saw-box.jpg" 
+           width="100" height="74" />
+   </a>
+</li>
+
+<li>
+   <br />Vino-Vs-Strat
+   <br />
+   <a href="images/preferred/vino-vs-strat.png" rel="lightbox" title="Vino-Vs-Strat">
+      <img alt="Vino-Vs-Strat"" src="images/thumbs/vino-vs-strat.png" 
+           width="100" height="49" />
+   </a>
+</li>
+
+<li>
+   <br />Shaping
+   <br />
+   <a href="images/preferred/shaping.jpg" rel="lightbox" title="Shaping">
+      <img alt="Shaping"" src="images/thumbs/shaping.jpg" 
+           width="100" height="60" />
+   </a>
+</li>
+
+<li>
+   <br />Assembled-1-Compared
+   <br />
+   <a href="images/preferred/assembled-1-compared.jpg" rel="lightbox" title="Assembled-1-Compared">
+      <img alt="Assembled-1-Compared"" src="images/thumbs/assembled-1-compared.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Gretsch-Resp
+   <br />
+   <a href="images/preferred/gretsch-resp.png" rel="lightbox" title="Gretsch-Resp">
+      <img alt="Gretsch-Resp"" src="images/thumbs/gretsch-resp.png" 
+           width="100" height="51" />
+   </a>
+</li>
+
+<li>
+   <br />Squier
+   <br />
+   <a href="images/preferred/squier.jpg" rel="lightbox" title="Squier">
+      <img alt="Squier"" src="images/thumbs/squier.jpg" 
+           width="100" height="276" />
+   </a>
+</li>
+
+<li>
+   <br />Assembled-Angle
+   <br />
+   <a href="images/preferred/assembled-angle.jpg" rel="lightbox" title="Assembled-Angle">
+      <img alt="Assembled-Angle"" src="images/thumbs/assembled-angle.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Pickup-Routing-Action
+   <br />
+   <a href="images/preferred/pickup-routing-action.jpg" rel="lightbox" title="Pickup-Routing-Action">
+      <img alt="Pickup-Routing-Action"" src="images/thumbs/pickup-routing-action.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Glued
+   <br />
+   <a href="images/preferred/glued.jpg" rel="lightbox" title="Glued">
+      <img alt="Glued"" src="images/thumbs/glued.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Assembley-Test-1
+   <br />
+   <a href="images/preferred/assembley-test-1.jpg" rel="lightbox" title="Assembley-Test-1">
+      <img alt="Assembley-Test-1"" src="images/thumbs/assembley-test-1.jpg" 
+           width="100" height="175" />
+   </a>
+</li>
+
+<li>
+   <br />Cutting-Copper
+   <br />
+   <a href="images/preferred/cutting-copper.jpg" rel="lightbox" title="Cutting-Copper">
+      <img alt="Cutting-Copper"" src="images/thumbs/cutting-copper.jpg" 
+           width="100" height="68" />
+   </a>
+</li>
+
+<li>
+   <br />Body-Template
+   <br />
+   <a href="images/preferred/body-template.jpg" rel="lightbox" title="Body-Template">
+      <img alt="Body-Template"" src="images/thumbs/body-template.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Switch
+   <br />
+   <a href="images/preferred/switch.jpg" rel="lightbox" title="Switch">
+      <img alt="Switch"" src="images/thumbs/switch.jpg" 
+           width="100" height="99" />
+   </a>
+</li>
+
+<li>
+   <br />Vinio-Middle-Resp
+   <br />
+   <a href="images/preferred/vinio-middle-resp.png" rel="lightbox" title="Vinio-Middle-Resp">
+      <img alt="Vinio-Middle-Resp"" src="images/thumbs/vinio-middle-resp.png" 
+           width="100" height="51" />
+   </a>
+</li>
+
+<li>
+   <br />Assembled-Controls
+   <br />
+   <a href="images/preferred/assembled-controls.jpg" rel="lightbox" title="Assembled-Controls">
+      <img alt="Assembled-Controls"" src="images/thumbs/assembled-controls.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Neck-Pocket-Templating
+   <br />
+   <a href="images/preferred/neck-pocket-templating.jpg" rel="lightbox" title="Neck-Pocket-Templating">
+      <img alt="Neck-Pocket-Templating"" src="images/thumbs/neck-pocket-templating.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Neck-Trial-Strings
+   <br />
+   <a href="images/preferred/neck-trial-strings.jpg" rel="lightbox" title="Neck-Trial-Strings">
+      <img alt="Neck-Trial-Strings"" src="images/thumbs/neck-trial-strings.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Plates-Glued
+   <br />
+   <a href="images/preferred/plates-glued.jpg" rel="lightbox" title="Plates-Glued">
+      <img alt="Plates-Glued"" src="images/thumbs/plates-glued.jpg" 
+           width="100" height="79" />
+   </a>
+</li>
+
+<li>
+   <br />Bench-Mess
+   <br />
+   <a href="images/preferred/bench-mess.jpg" rel="lightbox" title="Bench-Mess">
+      <img alt="Bench-Mess"" src="images/thumbs/bench-mess.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Plates-Gluing
+   <br />
+   <a href="images/preferred/plates-gluing.jpg" rel="lightbox" title="Plates-Gluing">
+      <img alt="Plates-Gluing"" src="images/thumbs/plates-gluing.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Assembled-1-Compared-Edge
+   <br />
+   <a href="images/preferred/assembled-1-compared-edge.jpg" rel="lightbox" title="Assembled-1-Compared-Edge">
+      <img alt="Assembled-1-Compared-Edge"" src="images/thumbs/assembled-1-compared-edge.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Strat-Resp
+   <br />
+   <a href="images/preferred/strat-resp.png" rel="lightbox" title="Strat-Resp">
+      <img alt="Strat-Resp"" src="images/thumbs/strat-resp.png" 
+           width="100" height="51" />
+   </a>
+</li>
+
+<li>
+   <br />Thickness-Compared
+   <br />
+   <a href="images/preferred/thickness-compared.jpg" rel="lightbox" title="Thickness-Compared">
+      <img alt="Thickness-Compared"" src="images/thumbs/thickness-compared.jpg" 
+           width="100" height="114" />
+   </a>
+</li>
+
+<li>
+   <br />Thickness
+   <br />
+   <a href="images/preferred/thickness.jpg" rel="lightbox" title="Thickness">
+      <img alt="Thickness"" src="images/thumbs/thickness.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Pickup-Routing
+   <br />
+   <a href="images/preferred/pickup-routing.jpg" rel="lightbox" title="Pickup-Routing">
+      <img alt="Pickup-Routing"" src="images/thumbs/pickup-routing.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Body-Raw
+   <br />
+   <a href="images/preferred/body-raw.jpg" rel="lightbox" title="Body-Raw">
+      <img alt="Body-Raw"" src="images/thumbs/body-raw.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Template-Gluing
+   <br />
+   <a href="images/preferred/template-gluing.jpg" rel="lightbox" title="Template-Gluing">
+      <img alt="Template-Gluing"" src="images/thumbs/template-gluing.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Control-Plate
+   <br />
+   <a href="images/preferred/control-plate.jpg" rel="lightbox" title="Control-Plate">
+      <img alt="Control-Plate"" src="images/thumbs/control-plate.jpg" 
+           width="100" height="91" />
+   </a>
+</li>
+
+<li>
+   <br />Neck-Pocket-Trial
+   <br />
+   <a href="images/preferred/neck-pocket-trial.jpg" rel="lightbox" title="Neck-Pocket-Trial">
+      <img alt="Neck-Pocket-Trial"" src="images/thumbs/neck-pocket-trial.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Wiring
+   <br />
+   <a href="images/preferred/wiring.jpg" rel="lightbox" title="Wiring">
+      <img alt="Wiring"" src="images/thumbs/wiring.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Grain
+   <br />
+   <a href="images/preferred/grain.jpg" rel="lightbox" title="Grain">
+      <img alt="Grain"" src="images/thumbs/grain.jpg" 
+           width="100" height="24" />
+   </a>
+</li>
+
+<li>
+   <br />Strings-Crossed
+   <br />
+   <a href="images/preferred/strings-crossed.jpg" rel="lightbox" title="Strings-Crossed">
+      <img alt="Strings-Crossed"" src="images/thumbs/strings-crossed.jpg" 
+           width="100" height="191" />
+   </a>
+</li>
+
+<li>
+   <br />Gluing
+   <br />
+   <a href="images/preferred/gluing.jpg" rel="lightbox" title="Gluing">
+      <img alt="Gluing"" src="images/thumbs/gluing.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Gluing-Layers
+   <br />
+   <a href="images/preferred/gluing-layers.jpg" rel="lightbox" title="Gluing-Layers">
+      <img alt="Gluing-Layers"" src="images/thumbs/gluing-layers.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Initial-Assembly
+   <br />
+   <a href="images/preferred/initial-assembly.jpg" rel="lightbox" title="Initial-Assembly">
+      <img alt="Initial-Assembly"" src="images/thumbs/initial-assembly.jpg" 
+           width="100" height="268" />
+   </a>
+</li>
+
+<li>
+   <br />Cutting-Copper-2
+   <br />
+   <a href="images/preferred/cutting-copper-2.jpg" rel="lightbox" title="Cutting-Copper-2">
+      <img alt="Cutting-Copper-2"" src="images/thumbs/cutting-copper-2.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Assembled-Front
+   <br />
+   <a href="images/preferred/assembled-front.jpg" rel="lightbox" title="Assembled-Front">
+      <img alt="Assembled-Front"" src="images/thumbs/assembled-front.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Long-Drill
+   <br />
+   <a href="images/preferred/long-drill.jpg" rel="lightbox" title="Long-Drill">
+      <img alt="Long-Drill"" src="images/thumbs/long-drill.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Body-Raw-2
+   <br />
+   <a href="images/preferred/body-raw-2.jpg" rel="lightbox" title="Body-Raw-2">
+      <img alt="Body-Raw-2"" src="images/thumbs/body-raw-2.jpg" 
+           width="100" height="84" />
+   </a>
+</li>
+
+<li>
+   <br />Bastard-Switch-Whole
+   <br />
+   <a href="images/preferred/bastard-switch-whole.jpg" rel="lightbox" title="Bastard-Switch-Whole">
+      <img alt="Bastard-Switch-Whole"" src="images/thumbs/bastard-switch-whole.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Vinocaster-Finished
+   <br />
+   <a href="images/preferred/vinocaster-finished.jpg" rel="lightbox" title="Vinocaster-Finished">
+      <img alt="Vinocaster-Finished"" src="images/thumbs/vinocaster-finished.jpg" 
+           width="100" height="274" />
+   </a>
+</li>
+
+<li>
+   <br />Back-Oily
+   <br />
+   <a href="images/preferred/back-oily.jpg" rel="lightbox" title="Back-Oily">
+      <img alt="Back-Oily"" src="images/thumbs/back-oily.jpg" 
+           width="100" height="131" />
+   </a>
+</li>
+
+<li>
+   <br />Vinocaster-Finished-Big
+   <br />
+   <a href="images/preferred/vinocaster-finished-big.jpg" rel="lightbox" title="Vinocaster-Finished-Big">
+      <img alt="Vinocaster-Finished-Big"" src="images/thumbs/vinocaster-finished-big.jpg" 
+           width="100" height="275" />
+   </a>
+</li>
+
+<li>
+   <br />Neck-Fitted-Raw
+   <br />
+   <a href="images/preferred/neck-fitted-raw.jpg" rel="lightbox" title="Neck-Fitted-Raw">
+      <img alt="Neck-Fitted-Raw"" src="images/thumbs/neck-fitted-raw.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Lp-Resp
+   <br />
+   <a href="images/preferred/lp-resp.png" rel="lightbox" title="Lp-Resp">
+      <img alt="Lp-Resp"" src="images/thumbs/lp-resp.png" 
+           width="100" height="52" />
+   </a>
+</li>
+
+<li>
+   <br />Assembled-Neck-Pocket
+   <br />
+   <a href="images/preferred/assembled-neck-pocket.jpg" rel="lightbox" title="Assembled-Neck-Pocket">
+      <img alt="Assembled-Neck-Pocket"" src="images/thumbs/assembled-neck-pocket.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Vino-Nck-Resp
+   <br />
+   <a href="images/preferred/vino-nck-resp.png" rel="lightbox" title="Vino-Nck-Resp">
+      <img alt="Vino-Nck-Resp"" src="images/thumbs/vino-nck-resp.png" 
+           width="100" height="50" />
+   </a>
+</li>
+
+<li>
+   <br />Assembled-Edge
+   <br />
+   <a href="images/preferred/assembled-edge.jpg" rel="lightbox" title="Assembled-Edge">
+      <img alt="Assembled-Edge"" src="images/thumbs/assembled-edge.jpg" 
+           width="100" height="134" />
+   </a>
+</li>
+
+<li>
+   <br />Neck-Pocket-Rear-Raw
+   <br />
+   <a href="images/preferred/neck-pocket-rear-raw.jpg" rel="lightbox" title="Neck-Pocket-Rear-Raw">
+      <img alt="Neck-Pocket-Rear-Raw"" src="images/thumbs/neck-pocket-rear-raw.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Dissembled
+   <br />
+   <a href="images/preferred/dissembled.jpg" rel="lightbox" title="Dissembled">
+      <img alt="Dissembled"" src="images/thumbs/dissembled.jpg" 
+           width="100" height="140" />
+   </a>
+</li>
+
+<li>
+   <br />New-Hardware
+   <br />
+   <a href="images/preferred/new-hardware.jpg" rel="lightbox" title="New-Hardware">
+      <img alt="New-Hardware"" src="images/thumbs/new-hardware.jpg" 
+           width="100" height="96" />
+   </a>
+</li>
+
+<li>
+   <br />Curve-Pre
+   <br />
+   <a href="images/preferred/curve-pre.jpg" rel="lightbox" title="Curve-Pre">
+      <img alt="Curve-Pre"" src="images/thumbs/curve-pre.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+<li>
+   <br />Vinocaster_2011-04-01
+   <br />
+   <a href="images/preferred/vinocaster_2011-04-01.jpg" rel="lightbox" title="Vinocaster_2011-04-01">
+      <img alt="Vinocaster_2011-04-01"" src="images/thumbs/vinocaster_2011-04-01.jpg" 
+           width="100" height="244" />
+   </a>
+</li>
+
+<li>
+   <br />Neck-Pocket
+   <br />
+   <a href="images/preferred/neck-pocket.jpg" rel="lightbox" title="Neck-Pocket">
+      <img alt="Neck-Pocket"" src="images/thumbs/neck-pocket.jpg" 
+           width="100" height="75" />
+   </a>
+</li>
+
+
+<p>
+   <a href="images/preferred/staves-planer.jpg" rel="lightbox" title="Staves-Planer">
+      <img alt="Staves-Planer" src="images/thumbs/staves-planer.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/assembled-rear.jpg" rel="lightbox" title="Assembled-Rear">
+      <img alt="Assembled-Rear" src="images/thumbs/assembled-rear.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/neck-trial.jpg" rel="lightbox" title="Neck-Trial">
+      <img alt="Neck-Trial" src="images/thumbs/neck-trial.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/neck-socket-rough.jpg" rel="lightbox" title="Neck-Socket-Rough">
+      <img alt="Neck-Socket-Rough" src="images/thumbs/neck-socket-rough.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/assembled.jpg" rel="lightbox" title="Assembled">
+      <img alt="Assembled" src="images/thumbs/assembled.jpg" 
+           width="100" height="275" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/bastard-switch.jpg" rel="lightbox" title="Bastard-Switch">
+      <img alt="Bastard-Switch" src="images/thumbs/bastard-switch.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/nut-prework.jpg" rel="lightbox" title="Nut-Prework">
+      <img alt="Nut-Prework" src="images/thumbs/nut-prework.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/pre-finish.jpg" rel="lightbox" title="Pre-Finish">
+      <img alt="Pre-Finish" src="images/thumbs/pre-finish.jpg" 
+           width="100" height="259" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/nut-rough.jpg" rel="lightbox" title="Nut-Rough">
+      <img alt="Nut-Rough" src="images/thumbs/nut-rough.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/neck-pocket-fitted-rear.jpg" rel="lightbox" title="Neck-Pocket-Fitted-Rear">
+      <img alt="Neck-Pocket-Fitted-Rear" src="images/thumbs/neck-pocket-fitted-rear.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/vinocaster-pre-finish.jpg" rel="lightbox" title="Vinocaster-Pre-Finish">
+      <img alt="Vinocaster-Pre-Finish" src="images/thumbs/vinocaster-pre-finish.jpg" 
+           width="100" height="275" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/fender-lace-wiring.jpg" rel="lightbox" title="Fender-Lace-Wiring">
+      <img alt="Fender-Lace-Wiring" src="images/thumbs/fender-lace-wiring.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/back-sanded.jpg" rel="lightbox" title="Back-Sanded">
+      <img alt="Back-Sanded" src="images/thumbs/back-sanded.jpg" 
+           width="100" height="112" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/assembled-doneish.jpg" rel="lightbox" title="Assembled-Doneish">
+      <img alt="Assembled-Doneish" src="images/thumbs/assembled-doneish.jpg" 
+           width="100" height="242" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/assembled-action.jpg" rel="lightbox" title="Assembled-Action">
+      <img alt="Assembled-Action" src="images/thumbs/assembled-action.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/front-sanded.jpg" rel="lightbox" title="Front-Sanded">
+      <img alt="Front-Sanded" src="images/thumbs/front-sanded.jpg" 
+           width="100" height="119" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/cavity-rework.jpg" rel="lightbox" title="Cavity-Rework">
+      <img alt="Cavity-Rework" src="images/thumbs/cavity-rework.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/vinocaster-current.jpg" rel="lightbox" title="Vinocaster-Current">
+      <img alt="Vinocaster-Current" src="images/thumbs/vinocaster-current.jpg" 
+           width="100" height="242" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/back-rough.jpg" rel="lightbox" title="Back-Rough">
+      <img alt="Back-Rough" src="images/thumbs/back-rough.jpg" 
+           width="100" height="109" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/pickups.jpg" rel="lightbox" title="Pickups">
+      <img alt="Pickups" src="images/thumbs/pickups.jpg" 
+           width="100" height="179" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/responses.png" rel="lightbox" title="Responses">
+      <img alt="Responses" src="images/thumbs/responses.png" 
+           width="100" height="77" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/tini.jpg" rel="lightbox" title="Tini">
+      <img alt="Tini" src="images/thumbs/tini.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/vino-resp-bridge.png" rel="lightbox" title="Vino-Resp-Bridge">
+      <img alt="Vino-Resp-Bridge" src="images/thumbs/vino-resp-bridge.png" 
+           width="100" height="49" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/newbody-raw.jpg" rel="lightbox" title="Newbody-Raw">
+      <img alt="Newbody-Raw" src="images/thumbs/newbody-raw.jpg" 
+           width="100" height="84" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/head.jpg" rel="lightbox" title="Head">
+      <img alt="Head" src="images/thumbs/head.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/assembled-pickups.jpg" rel="lightbox" title="Assembled-Pickups">
+      <img alt="Assembled-Pickups" src="images/thumbs/assembled-pickups.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/stave-raw.jpg" rel="lightbox" title="Stave-Raw">
+      <img alt="Stave-Raw" src="images/thumbs/stave-raw.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/pickups-prework.jpg" rel="lightbox" title="Pickups-Prework">
+      <img alt="Pickups-Prework" src="images/thumbs/pickups-prework.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/controls-pre.jpg" rel="lightbox" title="Controls-Pre">
+      <img alt="Controls-Pre" src="images/thumbs/controls-pre.jpg" 
+           width="100" height="95" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/stave-gouge.jpg" rel="lightbox" title="Stave-Gouge">
+      <img alt="Stave-Gouge" src="images/thumbs/stave-gouge.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/bandsawed.jpg" rel="lightbox" title="Bandsawed">
+      <img alt="Bandsawed" src="images/thumbs/bandsawed.jpg" 
+           width="100" height="90" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/layout.jpg" rel="lightbox" title="Layout">
+      <img alt="Layout" src="images/thumbs/layout.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/sparql-saw-box.jpg" rel="lightbox" title="Sparql-Saw-Box">
+      <img alt="Sparql-Saw-Box" src="images/thumbs/sparql-saw-box.jpg" 
+           width="100" height="74" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/vino-vs-strat.png" rel="lightbox" title="Vino-Vs-Strat">
+      <img alt="Vino-Vs-Strat" src="images/thumbs/vino-vs-strat.png" 
+           width="100" height="49" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/shaping.jpg" rel="lightbox" title="Shaping">
+      <img alt="Shaping" src="images/thumbs/shaping.jpg" 
+           width="100" height="60" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/assembled-1-compared.jpg" rel="lightbox" title="Assembled-1-Compared">
+      <img alt="Assembled-1-Compared" src="images/thumbs/assembled-1-compared.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/gretsch-resp.png" rel="lightbox" title="Gretsch-Resp">
+      <img alt="Gretsch-Resp" src="images/thumbs/gretsch-resp.png" 
+           width="100" height="51" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/squier.jpg" rel="lightbox" title="Squier">
+      <img alt="Squier" src="images/thumbs/squier.jpg" 
+           width="100" height="276" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/assembled-angle.jpg" rel="lightbox" title="Assembled-Angle">
+      <img alt="Assembled-Angle" src="images/thumbs/assembled-angle.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/pickup-routing-action.jpg" rel="lightbox" title="Pickup-Routing-Action">
+      <img alt="Pickup-Routing-Action" src="images/thumbs/pickup-routing-action.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/glued.jpg" rel="lightbox" title="Glued">
+      <img alt="Glued" src="images/thumbs/glued.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/assembley-test-1.jpg" rel="lightbox" title="Assembley-Test-1">
+      <img alt="Assembley-Test-1" src="images/thumbs/assembley-test-1.jpg" 
+           width="100" height="175" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/cutting-copper.jpg" rel="lightbox" title="Cutting-Copper">
+      <img alt="Cutting-Copper" src="images/thumbs/cutting-copper.jpg" 
+           width="100" height="68" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/body-template.jpg" rel="lightbox" title="Body-Template">
+      <img alt="Body-Template" src="images/thumbs/body-template.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/switch.jpg" rel="lightbox" title="Switch">
+      <img alt="Switch" src="images/thumbs/switch.jpg" 
+           width="100" height="99" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/vinio-middle-resp.png" rel="lightbox" title="Vinio-Middle-Resp">
+      <img alt="Vinio-Middle-Resp" src="images/thumbs/vinio-middle-resp.png" 
+           width="100" height="51" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/assembled-controls.jpg" rel="lightbox" title="Assembled-Controls">
+      <img alt="Assembled-Controls" src="images/thumbs/assembled-controls.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/neck-pocket-templating.jpg" rel="lightbox" title="Neck-Pocket-Templating">
+      <img alt="Neck-Pocket-Templating" src="images/thumbs/neck-pocket-templating.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/neck-trial-strings.jpg" rel="lightbox" title="Neck-Trial-Strings">
+      <img alt="Neck-Trial-Strings" src="images/thumbs/neck-trial-strings.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/plates-glued.jpg" rel="lightbox" title="Plates-Glued">
+      <img alt="Plates-Glued" src="images/thumbs/plates-glued.jpg" 
+           width="100" height="79" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/bench-mess.jpg" rel="lightbox" title="Bench-Mess">
+      <img alt="Bench-Mess" src="images/thumbs/bench-mess.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/plates-gluing.jpg" rel="lightbox" title="Plates-Gluing">
+      <img alt="Plates-Gluing" src="images/thumbs/plates-gluing.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/assembled-1-compared-edge.jpg" rel="lightbox" title="Assembled-1-Compared-Edge">
+      <img alt="Assembled-1-Compared-Edge" src="images/thumbs/assembled-1-compared-edge.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/strat-resp.png" rel="lightbox" title="Strat-Resp">
+      <img alt="Strat-Resp" src="images/thumbs/strat-resp.png" 
+           width="100" height="51" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/thickness-compared.jpg" rel="lightbox" title="Thickness-Compared">
+      <img alt="Thickness-Compared" src="images/thumbs/thickness-compared.jpg" 
+           width="100" height="114" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/thickness.jpg" rel="lightbox" title="Thickness">
+      <img alt="Thickness" src="images/thumbs/thickness.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/pickup-routing.jpg" rel="lightbox" title="Pickup-Routing">
+      <img alt="Pickup-Routing" src="images/thumbs/pickup-routing.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/body-raw.jpg" rel="lightbox" title="Body-Raw">
+      <img alt="Body-Raw" src="images/thumbs/body-raw.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/template-gluing.jpg" rel="lightbox" title="Template-Gluing">
+      <img alt="Template-Gluing" src="images/thumbs/template-gluing.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/control-plate.jpg" rel="lightbox" title="Control-Plate">
+      <img alt="Control-Plate" src="images/thumbs/control-plate.jpg" 
+           width="100" height="91" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/neck-pocket-trial.jpg" rel="lightbox" title="Neck-Pocket-Trial">
+      <img alt="Neck-Pocket-Trial" src="images/thumbs/neck-pocket-trial.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/wiring.jpg" rel="lightbox" title="Wiring">
+      <img alt="Wiring" src="images/thumbs/wiring.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/grain.jpg" rel="lightbox" title="Grain">
+      <img alt="Grain" src="images/thumbs/grain.jpg" 
+           width="100" height="24" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/strings-crossed.jpg" rel="lightbox" title="Strings-Crossed">
+      <img alt="Strings-Crossed" src="images/thumbs/strings-crossed.jpg" 
+           width="100" height="191" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/gluing.jpg" rel="lightbox" title="Gluing">
+      <img alt="Gluing" src="images/thumbs/gluing.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/gluing-layers.jpg" rel="lightbox" title="Gluing-Layers">
+      <img alt="Gluing-Layers" src="images/thumbs/gluing-layers.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/initial-assembly.jpg" rel="lightbox" title="Initial-Assembly">
+      <img alt="Initial-Assembly" src="images/thumbs/initial-assembly.jpg" 
+           width="100" height="268" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/cutting-copper-2.jpg" rel="lightbox" title="Cutting-Copper-2">
+      <img alt="Cutting-Copper-2" src="images/thumbs/cutting-copper-2.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/assembled-front.jpg" rel="lightbox" title="Assembled-Front">
+      <img alt="Assembled-Front" src="images/thumbs/assembled-front.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/long-drill.jpg" rel="lightbox" title="Long-Drill">
+      <img alt="Long-Drill" src="images/thumbs/long-drill.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/body-raw-2.jpg" rel="lightbox" title="Body-Raw-2">
+      <img alt="Body-Raw-2" src="images/thumbs/body-raw-2.jpg" 
+           width="100" height="84" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/bastard-switch-whole.jpg" rel="lightbox" title="Bastard-Switch-Whole">
+      <img alt="Bastard-Switch-Whole" src="images/thumbs/bastard-switch-whole.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/vinocaster-finished.jpg" rel="lightbox" title="Vinocaster-Finished">
+      <img alt="Vinocaster-Finished" src="images/thumbs/vinocaster-finished.jpg" 
+           width="100" height="274" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/back-oily.jpg" rel="lightbox" title="Back-Oily">
+      <img alt="Back-Oily" src="images/thumbs/back-oily.jpg" 
+           width="100" height="131" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/vinocaster-finished-big.jpg" rel="lightbox" title="Vinocaster-Finished-Big">
+      <img alt="Vinocaster-Finished-Big" src="images/thumbs/vinocaster-finished-big.jpg" 
+           width="100" height="275" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/neck-fitted-raw.jpg" rel="lightbox" title="Neck-Fitted-Raw">
+      <img alt="Neck-Fitted-Raw" src="images/thumbs/neck-fitted-raw.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/lp-resp.png" rel="lightbox" title="Lp-Resp">
+      <img alt="Lp-Resp" src="images/thumbs/lp-resp.png" 
+           width="100" height="52" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/assembled-neck-pocket.jpg" rel="lightbox" title="Assembled-Neck-Pocket">
+      <img alt="Assembled-Neck-Pocket" src="images/thumbs/assembled-neck-pocket.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/vino-nck-resp.png" rel="lightbox" title="Vino-Nck-Resp">
+      <img alt="Vino-Nck-Resp" src="images/thumbs/vino-nck-resp.png" 
+           width="100" height="50" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/assembled-edge.jpg" rel="lightbox" title="Assembled-Edge">
+      <img alt="Assembled-Edge" src="images/thumbs/assembled-edge.jpg" 
+           width="100" height="134" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/neck-pocket-rear-raw.jpg" rel="lightbox" title="Neck-Pocket-Rear-Raw">
+      <img alt="Neck-Pocket-Rear-Raw" src="images/thumbs/neck-pocket-rear-raw.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/dissembled.jpg" rel="lightbox" title="Dissembled">
+      <img alt="Dissembled" src="images/thumbs/dissembled.jpg" 
+           width="100" height="140" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/new-hardware.jpg" rel="lightbox" title="New-Hardware">
+      <img alt="New-Hardware" src="images/thumbs/new-hardware.jpg" 
+           width="100" height="96" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/curve-pre.jpg" rel="lightbox" title="Curve-Pre">
+      <img alt="Curve-Pre" src="images/thumbs/curve-pre.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/vinocaster_2011-04-01.jpg" rel="lightbox" title="Vinocaster_2011-04-01">
+      <img alt="Vinocaster_2011-04-01" src="images/thumbs/vinocaster_2011-04-01.jpg" 
+           width="100" height="244" />
+   </a>
+</p>
+<p>
+   <a href="images/preferred/neck-pocket.jpg" rel="lightbox" title="Neck-Pocket">
+      <img alt="Neck-Pocket" src="images/thumbs/neck-pocket.jpg" 
+           width="100" height="75" />
+   </a>
+</p>
