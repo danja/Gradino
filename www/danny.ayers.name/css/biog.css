@@ -1,0 +1,75 @@
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: Geneva, 'Times New Roman', serif;
+	color: #000;
+	background-color: #fff; /* 333 */
+/*	text-align: center; */
+	/* part 1 of 2 centering hack */
+	}
+
+a { 
+text-decoration: none;
+ }
+
+.card {
+       /* color: #fff;*/
+	font-family: verdana, arial, helvetica, sans-serif;
+	width: 500px; 
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto; 	
+	/* opera does not like 'margin:20px auto' */
+	background: #9cc;
+	border: 2px solid #ccc;
+	text-align:left; 
+	/* part 2 of 2 centering hack */
+	width: 400px; /* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 370px;
+	}
+
+.card img { 
+            padding: 10px;
+            display: block;
+border: 0px
+ }
+.address { 
+           padding: 10px;
+           text-align:right; 
+           display: block;
+ }
+
+.chicklets img { 
+           padding: 10px;
+           text-align:center; 
+        /*   display: block;*/
+             margin:auto
+ }
+
+.contact { 
+           padding: 10px;
+           text-align:center; 
+           display: block;
+ }
+
+.main { 
+        margin: auto;
+        display: block;
+        padding: 20px;
+
+ }
+
+.oneline { 
+margin: auto;
+display: block;
+
+width: 600px
+ }
+
+html>body .card {
+	width: 370px; /* ie5win fudge ends */
+	}

@@ -1,0 +1,91 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+
+<!-- profile meta -->
+      
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+
+<!-- basic stuff -->
+
+<foaf:Person rdf:ID="me">
+<foaf:name>Danny Ayers</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Danny</foaf:givenname>
+<foaf:family_name>Ayers</foaf:family_name>
+<foaf:nick>danja</foaf:nick>
+<foaf:mbox_sha1sum>669fe353dbef63d12ba11f69ace8acbec1ac8b17</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="http://dannyayers.com"/>
+
+<!-- some accounts -->
+
+<foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage rdf:resource="http://twitter.com"/>
+        <foaf:accountName>danja</foaf:accountName>
+     </foaf:OnlineAccount>
+</foaf:holdsAccount>
+
+<foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage rdf:resource="http://flickr.com"/>
+        <foaf:accountName>danja</foaf:accountName>
+     </foaf:OnlineAccount>
+</foaf:holdsAccount>
+
+<foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage rdf:resource="http://www.facebook.com"/>
+        <foaf:accountName>danny.ayers</foaf:accountName>
+     </foaf:OnlineAccount>
+</foaf:holdsAccount>
+
+<foaf:holdsAccount>
+	<foaf:OnlineAccount>
+		<foaf:accountServiceHomepage rdf:resource="http://del.icio.us"/>
+		<foaf:accountProfilePage rdf:resource="http://del.icio.us/danja"/>
+		<foaf:accountName>danja</foaf:accountName>
+	</foaf:OnlineAccount>
+</foaf:holdsAccount>
+
+
+<!-- some people -->
+
+<foaf:knows>
+	<foaf:Person rdf:about="http://www.wyehead.co.uk/foaf.rdf#me">
+		<foaf:name>Alison Broady</foaf:name>
+		<foaf:mbox_sha1sum>f327a98436e34ff5a36c1eeb1957a22fb180d8b7</foaf:mbox_sha1sum>
+		<foaf:homepage rdf:resource="http://www.wyehead.co.uk"/>
+		<rdfs:seeAlso rdf:resource="http://www.wyehead.co.uk/foaf.rdf"/>
+	</foaf:Person>
+</foaf:knows>
+
+<foaf:knows>
+	<foaf:Person rdf:about="http://www.w3.org/People/Berners-Lee/card#i">
+		<foaf:name>Tim Berners-Lee</foaf:name>
+       <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Tim_Berners-Lee"/>
+       <foaf:homepage rdf:resource="http://www.w3.org/People/Berners-Lee/"/>
+       <foaf:mbox rdf:resource="mailto:timbl@w3.org"/>
+      	<rdfs:seeAlso rdf:resource="http://www.w3.org/People/Berners-Lee/card"/>
+     </foaf:Person>
+</foaf:knows>
+
+<foaf:knows>
+  	<foaf:Person rdf:about="http://danbri.org/foaf.rdf#danbri">
+    	<foaf:name>Dan Brickley</foaf:name>
+    	<foaf:nick>danbri</foaf:nick>
+    	<foaf:mbox rdf:resource="mailto:danbri@danbri.org"/>
+    	<foaf:mbox_sha1sum>6e80d02de4cb3376605a34976e31188bb16180d0</foaf:mbox_sha1sum>
+		<rdfs:seeAlso rdf:resource="http://danbri.org/foaf.rdf"/>
+	</foaf:Person>
+</foaf:knows>
+
+</foaf:Person>
+</rdf:RDF>

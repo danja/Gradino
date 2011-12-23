@@ -1,0 +1,113 @@
+body {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	background-color: #fff; /* 333 */
+	font-size: 80%;
+	line-height: 120%;
+
+	}
+h1
+{
+font-size: 190%;
+}
+
+h3
+{
+padding-top: 15px;
+font-size: 150%;
+color: #006666;
+font-weight: bold;
+}
+a { 
+text-decoration: none;
+border-bottom: dotted #006666 1px;
+color: #000000;
+ }
+ 
+ a:visited {
+ color: #000000;
+ }
+ 
+ a:hover
+ {
+ color: #990000;
+ border-bottom: solid #990000 1px;
+ }
+ .heading {
+ font-weight: bold;
+ list-style: none;
+ margin-left: 0px;
+ padding-left: 0px;
+ }
+ .heading li
+ {
+ font-size: 130%;
+ font-style: italic;
+ }
+
+#wrapper
+{
+position: relative;
+left:50%;
+	width: 890px;
+	margin-left: -445px;
+	border: 1px #9cc solid;
+	
+}
+.cardouter
+{
+border-left: 1px solid #9cc;
+border-bottom: 1px solid #9cc;
+float: right;
+width: 	240px;
+margin: 0px 0px 20px 20px;
+}
+.card {
+       /* color: #fff;*/
+	font-family: arial, helvetica, sans-serif;
+	width: 212px; 
+	margin: 4px;
+	background: #9cc;
+	text-align:left; 
+	padding:10px;
+	/* part 2 of 2 centering hack */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	}
+
+.card img { 
+            display: block;
+border: 1px;
+padding: 4px;
+margin: 2px;
+background-color: #ffffff;
+ }
+.address { 
+        padding: 10px;
+           text-align:right; 
+           display: block;
+ }
+
+.chicklets{ 
+           text-align:center; 
+		   display: block;
+                       
+ }
+
+.contact { 
+         padding: 5px;
+           text-align:center; 
+           display: block;
+ }
+
+.main { position: relative;
+       	padding: 10px;
+
+       
+ }
+
+.oneline { 
+
+ }
+
