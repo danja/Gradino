@@ -1,143 +1,335 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head profile="http://www.w3.org/2003/g/data-view">
-
-  <!-- GRDDLing, bit of redundancy -->
-<title>Danny Ayers Resume / CV</title>
-  <link rel="openid.server" href="http://www.myopenid.com/server" />
-  <link rel="openid.delegate" href="http://dannyayers.myopenid.com/" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://dannyayers.myopenid.com/">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!-- link type="text/css" rel="stylesheet" href="css/abbiog.css" / -->
-  <meta name="Author" content="Danny Ayers" />
-  <meta name="keywords" content="Danny Ayers, Daniel Ayers, biographical, resume, bio, biography, Java, XML, rdf, Artificial Intelligence, semantic web, linked data" />
-  <meta name="description" content="Danny Ayers resume and minimal biography." />
-  <meta name="DC.Description" content="Danny Ayers resume and minimal biography." />
+  <meta name="Author" content="Danny Ayers">
+  <meta name="keywords"
+  content="Danny Ayers, Daniel Ayers, biographical, resume, bio, biography, Java, XML, rdf, Artificial Intelligence, semantic web, linked data">
+  <meta name="description" content="Danny Ayers resume and minimal biography.">
+  <meta name="DC.Description"
+  content="Danny Ayers resume and minimal biography.">
   <!-- pointers to related resources (with a bit of redundancy -->
-  <link rel="meta" type="application/rdf+xml" title="FOAF" href="http://danny.ayers.name/index.rdf" />
-  <link rel="me" title="Raw Blog" type="text/html" href="http://dannyayers.com/" />
-  <link rel="me" title="RSS Feed" type="application/rdf+xml" href="http://dannyayers.com/index.rdf" />
+  <link rel="meta" type="application/rdf+xml" title="FOAF"
+  href="http://danny.ayers.name/index.rdf">
+  <link rel="me" title="Raw Blog" type="text/html"
+  href="http://dannyayers.com/">
+  <link rel="me" title="RSS Feed" type="application/rdf+xml"
+  href="http://dannyayers.com/index.rdf">
+  <!-- meta charset="utf-8" / -->
+  <title>Danny Ayers</title>
+  <meta name="description" content="Various things from Danny Ayers">
+  <meta name="author" content="Danny Ayers">
+  <link rel="stylesheet" href="../stuff/css/lightbox.css" type="text/css"
+  media="screen">
+  <link rel="stylesheet" href="../stuff/css/font.css" type="text/css"
+  media="screen">
+  <link rel="stylesheet" href="../stuff/css/stuff.css" type="text/css"
+  media="Screen">
+  <link rel="stylesheet" href="../stuff/css/tabs.css" type="text/css"
+  media="Screen">
+  <!-- link rel="stylesheet" href="/css/handheld.css" type="text/css" media="handheld" / -->
+  <script type="text/javascript" src="../../js/prototype.js">
+ </script>
+  <script type="text/javascript"
+  src="../../js/scriptaculous.js?load=effects,builder">
+ </script>
+  <script type="text/javascript" src="../../js/lightbox.js">
+ </script>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <!-- link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" -->
+  <!-- link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" -->
 </head>
-<body>
-<div style="text-align: center;">
-<a href="http://dannyayers.com/" title="Raw, Danny Ayers' blog"><em></em></a></div>
-<span><a rel="author" href="https://plus.google.com/112609322932428633493">Danny Ayers</a> on G+</span>
-<div id="wrapper">
- <div class="cardouter">
-<div class="card">
-<img src="images/marmidan.jpg" alt="Photo of Danny in a marble quarry" height="256" width="199" /> 
- 
-<div class="address">
-Ayers, Daniel<br />
-Mozzanella, 7<br />
-Castiglione di Garfagnana,<br/>
-55033 Lucca<br/>
-Italy</div>
- 
-<p>
-<a href="http://geourl.org/near/?p=http://dannyayers.com" title="real-world neighbours"><img src="danny_files/geourl.png" alt="geo" title="Geo Location" height="14" width="52" /></a><a href="/index.rdf"><img src="danny_files/foafTiny.html" alt="FOAF" /></a> <a href="http://dannyayers.com/feed/rdf"><img alt="rss" src="danny_files/rss-icon.html" title="RSS Feed" /></a></p>
- 
-<div class="contact">
-<a href="mailto:danny.ayers@gmail.com">danny.ayers@gmail.com</a> <br/>
-AIM/Yahoo!: <strong>danny_ayers</strong> <br/>
-IRC nick: <strong>danja</strong> (#swig, #foaf etc) <br/>
-<br/>
-<a href="http://dannyayers.com/">http://dannyayers.com</a></div>
-<!--end of card--></div>
- <!--end of cardwrapper--> </div>
 
- <div class="main">
- <h1>Danny Ayers</h1>
-<p>...also known as Daniel John Ayers</p>
-<div class="oneline">
-<h3>In Brief:</h3> 
-<p>I'm a <a href="http://www.w3.org/2001/sw/" >Semantic
-Web</a> developer and <a href="#published">technical author</a> specializing in cutting-edge technologies. I have a <a href="http://dannyayers.com/" >weblog</a> and am fond of <a href="http://dannyayers.com/archives/cat_nice_looking_creatures.html" >animals</a>. 
-</p><ul>
-  <li>the best way to contact me is by email: <a href="mailto:danny.ayers@gmail.com">danny.ayers@gmail.com</a></li>
+<body id="tab1">
+<ul id="topnav">
+  <li class="xtab1"><a href="/" title="Danny Ayers' Blog">Raw Blog</a> </li>
+  <li class="xtab2"><a href="http://hyperdata.org/danja/"
+    title="my updates on various social sites">Planet Danja</a> </li>
+  <li class="xtab3"><a href="http://hyperdata.org/planet/"
+    title="stuff I'm watching">Planet Raw</a> </li>
+  <li class="xtab4"><a href="http://hyperdata.org/"
+    title="Linked Data related material">hyperdata.org</a> </li>
+  <li class="xtab5"><a href="http://hyperdata.org/wiki/"
+    title="on my personal wiki">Stuff</a> </li>
+  <li class="xtab6"><a href="http://hyperdata.org/xmlns/"
+    title="various namespaces/ontologies">Vocabs</a> </li>
+  <li class="xtab7"><a href="http://dannyayers.com/about.html"
+    title="About">About</a> </li>
 </ul>
- 
+<br>
+<br>
 
-<!--end of oneline--></div>
- 
+<ul id="tabnav">
+  <li class="tab1"><a href="index.html" title="Contents">Contents</a> </li>
+  <li class="tab2"><a href="gallery" title="Photos of craftwork">Gallery</a>
+  </li>
+  <li class="tab3"><a href="http://hyperdata.org/danja/"
+    title="my updates on various social sites">Carving</a> </li>
+  <li class="tab4"><a href="http://dannyayers.com/about.html"
+    title="About">About Stuff</a> </li>
+</ul>
+
+<div id="header">
+<h1 id="page-title">Danny Ayers</h1>
+
+<p id="description"><a href="http://danny.ayers.name/">my homepage</a></p>
+</div>
+
+<div class="container">
+
+<div class="sidebar-left">
+<ul class="gallery">
+  <li><br>
+    Sketch <br>
+    <a href="images/preferred/sketch.jpg" rel="lightbox"
+    title="A rough sketch that saved me from a big mistake"><img
+    alt="rough sketch" src="images/thumbs/sketch.jpg" width="100" height="78">
+    </a></li>
+</ul>
+</div>
+
+<div class="container">
+
+<div class="sidebar-right">
+<!-- buttons that do stuff -->
+<           g:plusone></                                         g:plusone><a
+href="http://twitter.com/share" class="twitter-share-button">Tweet</a> <       
+     section itemscope itemtype="http://schema.org/Person"><img class="me"
+width="48" height="48" src="http://dannyayers.com/icons/danny.jpg"
+alt="Danny Ayers"> 
+
+<h4>Contact</h4>
+<ul>
+  <li><span>Danny Ayers</span></li>
+  <li>(<span>danja</span>)</li>
+  <li><a href="mailto:danny.ayers@gmail.com">email</a></li>
+  <li><a href="http://danny.ayers.name/index.rdf"><img
+    src="http://dannyayers.com/icons/foaf.gif" alt="FOAF Profile" width="26"
+    height="14"> FOAF Profile</a></li>
+</ul>
+
+<h4>Nearby</h4>
+<ul>
+  <li><a href="/about.html">About</a></li>
+  <li><a href="/feed"><img src="http://dannyayers.com/icons/rss.png" alt="Feed"
+    width="24" height="24"> Feed</a></li>
+  <li><a href="http://hyperdata.org/">planet danja</a> (me aggregated)</li>
+  <li><a href="http://danny.ayers.name/">danny.ayers.name</a> (resume etc)</li>
+  <li><a href="/">Raw</a> (blog)</li>
+  <li><a href="http://hyperdata.org/">Hyperdata</a> (tech/projects)</li>
+  <li><a href="http://hyperdata.org/xmlns/">Vocabs</a></li>
+  <li><a href="http://spikeandwave.com/">Spike and Wave</a> (music)</li>
+</ul>
+
+<h4>Elsewhere</h4>
+<ul>
+  <li><a href="https://plus.google.com/112609322932428633493?rel=author"
+    rel="author"><img src="http://dannyayers.com/icons/plus.png"
+    alt="Google Plus" width="24" height="24"> Google Plus</a></li>
+  <li><a href="http://twitter.com/danja"><img
+    src="http://dannyayers.com/icons/twitter.png" alt="Twitter" width="24"
+    height="24"> Twitter</a></li>
+  <li><a href="http://www.facebook.com/danny.ayers"><img
+    src="http://dannyayers.com/icons/fb.png" alt="Facebook" width="24"
+    height="24"> Facebook</a></li>
+  <li><a href="http://www.linkedin.com/in/danja"><img
+    src="http://dannyayers.com/icons/li.png" alt="LinkedIn" width="24"
+    height="24"> LinkedIn</a></li>
+  <li><a href="http://flickr.com/danja"><img
+    src="http://dannyayers.com/icons/flickr.png" alt="Flickr" width="24"
+    height="24"> Flickr</a> (photos)</li>
+  <li><a href="http://www.youtube.com/user/djayers"><img
+    src="http://dannyayers.com/icons/youtube.png" alt="YouTube" width="24"
+    height="24"> YouTube</a> (videos)</li>
+  <li><a href="http://www.slideshare.net/danja/"><img
+    src="http://dannyayers.com/icons/ss.png" alt="slideshare" width="24"
+    height="24"> slideshare</a> (presentations)</li>
+  <li><a href="http://del.icio.us/danja"><img
+    src="http://dannyayers.com/icons/delicious.png" alt="del.icio.us"
+    width="24" height="24"> del.icio.us</a> (links)</li>
+  <li><a href="http://www.goodreads.com/user/show/551528-danny-ayers"><img
+    src="http://dannyayers.com/icons/gr.png" alt="GoodReads" width="24"
+    height="24"> GoodReads</a> (books)</li>
+  <li><a href="https://github.com/danja">github</a> (code)</li>
+  <li><a href="http://knowledgeforge.net/person/danja/">KnowledgeForge</a>
+    (code)</li>
+  <li><a href="http://www.w3.org/wiki/DannyAyers">W3C Wiki</a> (bits)</li>
+</ul>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+  <input type="hidden" name="cmd" value="_s-xclick"><input type="hidden"
+  name="hosted_button_id" value="HX3P7DNMUR7CW"><input type="image"
+  name="submit"
+  src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif"
+  alt="PayPal - The safer, easier way to pay online!" /><img alt="" border="0"
+  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
+  height="1"></form>
+</                                           section>
+<p><a href="/editor-sparql.html">Search</a> (figure it out - and please only do
+lightweight queries for now, big ones will kill the server)</p>
+
+<p>Powered by <a href="http://hyperdata.org/wiki/wiki/Gradino">Gradino</a> </p>
+<span><a rel="author"
+href="https://plus.google.com/112609322932428633493?rel=author">Danny Ayers</a>
+on G+</span> </div>
+
+<div class="content">
+
+<div style="text-align: center;">
+<a href="http://dannyayers.com/"
+title="Raw, Danny Ayers' blog"><em></em></a></div>
+<span><a rel="author"
+href="https://plus.google.com/112609322932428633493">Danny Ayers</a> on
+G+</span> 
+
+<div id="wrapper">
+
+<div class="cardouter">
+
+<div class="card">
+<img src="images/marmidan.jpg" alt="Photo of Danny in a marble quarry"
+height="256" width="199" align="left"> 
+
+<div class="address">
+Ayers, Daniel<br>
+Mozzanella, 7<br>
+Castiglione di Garfagnana,<br>
+55033 Lucca<br>
+Italy</div>
+
+<p><a href="http://geourl.org/near/?p=http://dannyayers.com"
+title="real-world neighbours"><img src="danny_files/geourl.png" alt="geo"
+title="Geo Location" height="14" width="52"></a><a href="/index.rdf"><img
+src="danny_files/foafTiny.html" alt="FOAF"></a> <a
+href="http://dannyayers.com/feed/rdf"><img alt="rss"
+src="danny_files/rss-icon.html" title="RSS Feed"></a></p>
+
+<div class="contact">
+<a href="mailto:danny.ayers@gmail.com">danny.ayers@gmail.com</a> <br>
+AIM/Yahoo!: <strong>danny_ayers</strong> <br>
+IRC nick: <strong>danja</strong> (#swig, #foaf etc) <br>
+<br>
+<a href="http://dannyayers.com/">http://dannyayers.com</a></div>
+<!--end of card-->
+</div>
+<!--end of cardwrapper-->
+</div>
+
+<div class="main">
+
+<div class="oneline">
+<h3>In Brief:</h3>
+
+<p>I do Web Research &amp; Development. I'm originally from Tideswell in the UK
+but now life in Mozzanella, Italy. I have a <a
+href="http://dannyayers.com/">weblog</a> and am fond of <a
+href="http://dannyayers.com/archives/cat_nice_looking_creatures.html">animals</a>.
+I'm single and it's not complicated... </p>
+<ul>
+  <li>the best way to contact me is by <strong>email</strong>: <a
+    href="mailto:danny.ayers@gmail.com">danny.ayers@gmail.com</a></li>
+</ul>
+<!--end of oneline-->
+</div>
+
 <h3>Current Activities</h3>
- 
-
 <ul class="heading">
   <li>Programming, R&amp;D, Semantic Web Outreach</li>
 </ul>
- 
-<p>I currently work part-time for <a href="http://talis.com/" >Talis</a>, around applications and evangelism of their hosted Semantic Web Platform.</p>
- 
-<p>R&amp;D activities include experimenting with an agile approach to
-Semantic Web application development using an agent-oriented paradigm. </p>
+
+<p>I currently work part-time for <a href="http://talis.com/">Talis</a>, around
+applications and evangelism of their hosted Semantic Web Platform.</p>
+
+<p>R&amp;D activities include experimenting with an agile approach to Semantic
+Web application development using an agent-oriented paradigm. </p>
 <ul class="heading">
   <li>Technical Writing</li>
 </ul>
- 
-<p>For several years I worked as a freelance writer, co-authoring 10
-technical books mostly on Web technologies. Nowadays I generally only
-write short pieces, including an irregular column ("Webscience") for IEEE
-Internet Computing. </p>
- 
+
+<p>For several years I worked as a freelance writer, co-authoring 10 technical
+books mostly on Web technologies. Nowadays I generally only write short pieces,
+including an irregular column ("Webscience") for IEEE Internet Computing. </p>
 <ul class="heading">
   <li>Community Work, Conferences</li>
 </ul>
- 
+
 <p>@@TODO</p>
- 
-<p>occasional speaking, standards work, programme committees etc : SWIG, SWEO, GRDDL, </p>
- 
+
+<p>occasional speaking, standards work, programme committees etc : SWIG, SWEO,
+GRDDL, </p>
+
 <p>EC reviewer</p>
- 
 <ul class="heading">
   <li>Weblogs</li>
 </ul>
- 
-<p>I've had a <a href="http://dannyayers.com/" >personal blog</a> for many years. I tend to post a lot on Semantic Web-related matters. </p>
- 
+
+<p>I've had a <a href="http://dannyayers.com/">personal blog</a> for many
+years. I tend to post a lot on Semantic Web-related matters. </p>
+
 <p>@@TODO add Talis stuff</p>
- 
-<p>I'm a very occasional contributor to <a href="http://lambda.weblogs.com/">Lambda the Ultimate</a> <em>the</em>
+
+<p>I'm a very occasional contributor to <a
+href="http://lambda.weblogs.com/">Lambda the Ultimate</a> <em>the</em>
 programming languages weblog (usually when a new RDF serialization appears).</p>
- 
+
 <h3>Personal Stuff</h3>
- 
-<p>I live in rural northern Italy. I moved here around 2001 with my
-wife Caroline, sadly she died suddenly in July 2008. I'm originally
-from the <a href="http://www.cressbrook.co.uk/" >Peak District</a> in northern England, (Caroline was from <a href="http://www.cressbrook.co.uk/bakewell.htm" >Bakewell</a>, me from <a href="http://www.tideswellonline.com/html/about.htm" >Tidza</a> ). We lived in <a href="http://www.lonelyplanet.com/destinations/indian_subcontinent/sri_lanka/" >Sri Lanka</a> for a while before settling here. I've got two dogs and three cats.</p>
- 
-<p>You'll have gathered I'm a developer, tech author and consultant, on forward-looking Web technologies. I <em>enjoy</em> this stuff.</p>
- 
-<p>I also enjoy making music - I was a founder member of <a href="http://www.earthlydelights.co.uk/discog.html" >Nocturnal Emissions</a>,
-way back, but didn't do anything for many years. I'm hoping to release
-a CD of work by myself and Caroline sometime soon. I very much like
-carving wood, and since being near the Carrera marble quarries (as in
-the photo left) I've started trying stone. I'll have another crack at
-oil painting when time permits, it seems you need practice to get
-beyond blobby trees. I'm not remotely athletic but did try skiing once,
-a lot of fun despite the bruises. I've spent a lot of time plodding up
-hills on foot, being dragged by the dogs.</p>
+
+<p>I live in rural northern Italy. I moved here around 2001 with my wife
+Caroline, sadly she died suddenly in July 2008. I'm originally from the <a
+href="http://www.cressbrook.co.uk/">Peak District</a> in northern England,
+(Caroline was from <a
+href="http://www.cressbrook.co.uk/bakewell.htm">Bakewell</a>, me from <a
+href="http://www.tideswellonline.com/html/about.htm">Tidza</a> ). We lived in
+<a
+href="http://www.lonelyplanet.com/destinations/indian_subcontinent/sri_lanka/">Sri
+Lanka</a> for a while before settling here. I've got two dogs and three
+cats.</p>
+
+<p>You'll have gathered I'm a developer, tech author and consultant, on
+forward-looking Web technologies. I <em>enjoy</em> this stuff.</p>
+
+<p>I also enjoy making music - I was a founder member of <a
+href="http://www.earthlydelights.co.uk/discog.html">Nocturnal Emissions</a>,
+way back, but didn't do anything for many years. I'm hoping to release a CD of
+work by myself and Caroline sometime soon. I very much like carving wood, and
+since being near the Carrera marble quarries (as in the photo left) I've
+started trying stone. I'll have another crack at oil painting when time
+permits, it seems you need practice to get beyond blobby trees. I'm not
+remotely athletic but did try skiing once, a lot of fun despite the bruises.
+I've spent a lot of time plodding up hills on foot, being dragged by the
+dogs.</p>
 <ul class="heading">
   <li>Some History</li>
 </ul>
- 
-<p style="text-align: center;"><a href="/pet.htm" >My first computer was one of these:</a></p>
- 
-<p style="text-align: center;"><a href="/pet.htm"><img src="danny_files/commodore_pet2001_tiny.html" title="My first computer, a PET 2001" alt="little old computer" height="53" width="60"/></a></p>
- 
+
+<p style="text-align: center;"><a href="/pet.htm">My first computer was one of
+these:</a></p>
+
+<p style="text-align: center;"><a href="/pet.htm"><img
+src="danny_files/commodore_pet2001_tiny.html"
+title="My first computer, a PET 2001" alt="little old computer" height="53"
+width="60"></a></p>
+
 <p>I've been interested in knowledge representation and machine learning for
 many years and have worked for several years on network technologies. I'm
 delighted to see these fields are now converging before my very eyes, in the
-form of the Web, soon to be formerly known as the <a href="http://www.w3.org/2001/sw/">Semantic Web</a>. I got interested in these
-particular technologies while trying to build a smarter search engine, quite <a href="http://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind9906&amp;L=rdf-dev&amp;P=R21&amp;I=-1">a
+form of the Web, soon to be formerly known as the <a
+href="http://www.w3.org/2001/sw/">Semantic Web</a>. I got interested in these
+particular technologies while trying to build a smarter search engine, quite <a
+href="http://www.jiscmail.ac.uk/cgi-bin/webadmin?A2=ind9906&amp;L=rdf-dev&amp;P=R21&amp;I=-1">a
 while ago</a> now.</p>
- 
+
 <p>I'm active on the Web. The earliest material of mine still live I believe is
 <a href="http://www.telephone.demon.co.uk/">this</a> from around 1996. Most
-things pass through the <a href="http://dannyayers.com/">blog</a> these days (my
-earliest bloglike post is probably this <a href="http://dannyayers.com/isacat/lanka/pp0.htm">postcard</a> from around
+things pass through the <a href="http://dannyayers.com/">blog</a> these days
+(my earliest bloglike post is probably this <a
+href="http://dannyayers.com/isacat/lanka/pp0.htm">postcard</a> from around
 1999/2000).</p>
- 
+
 <p>I haven't really got any paper qualifications, though I had 2 years studying
 electronics for the music industry (HND level) and a one-year degree course at
 Sheffield Hallam University on Engineering Information Technology, really
@@ -145,7 +337,7 @@ enjoying the digital signals material but flunking the finals on analogue
 circuit theory. I've also done some of a part-time MSc in Computing for
 Commerce and Industry with the Open University, although that's become totally
 redundant with the work I've been doing since.</p>
- 
+
 <p>I got into distributed computing while working at the University of Derby's
 <a href="http://www.highpeak.ac.uk/">Buxton Campus</a> (High Peak College),
 where for around 4 years my primary responsibility was looking after a network
@@ -158,57 +350,92 @@ and was behind their initial presence on the Web. Around the same period I was
 an invited speaker at the <a href="http://www.mumjava.com/default.asp">MumJava
 Conference</a> in Mumbai (Bombay), India. I also did a little teaching at the
 College, basic Web stuff and Java.</p>
- 
+
 <p></p>
- 
+
 <p>@@TODO mention IdeaGraph</p>
- 
+
 <h3><strong>Published Work</strong> <a id="published" name="published"></a></h3>
 
-<p>I write an <em>irregular column</em> for IEEE Internet Computing called <a href="http://www.computer.org/search/results?action=authorsearch&amp;resultsPerPage=50&amp;queryOption1=DC_CREATOR&amp;sortOrder=descending&amp;queryText1=Danny%20Ayers">Webscience </a></p>
- 
+<p>I write an <em>irregular column</em> for IEEE Internet Computing called <a
+href="http://www.computer.org/search/results?action=authorsearch&amp;resultsPerPage=50&amp;queryOption1=DC_CREATOR&amp;sortOrder=descending&amp;queryText1=Danny%20Ayers">Webscience
+</a></p>
+
 <p>I wrote significant chunks of these books :</p>
 <ul>
   <li><a href="http://www.amazon.com/exec/obidos/ASIN/0764579169">Beginning RSS
     and Atom Programming</a> (lead author, Spring 2005)</li>
   <li><a href="http://www.amazon.co.uk/exec/obidos/ASIN/0764570773">Beginning
     XML</a></li>
-  <li><a href="http://www.amazon.com/exec/obidos/tg/stores/detail/-/books/0672324296/102-0348712-1765721">SVG
+  <li><a
+    href="http://www.amazon.com/exec/obidos/tg/stores/detail/-/books/0672324296/102-0348712-1765721">SVG
     Unleashed</a></li>
-  <li><a href="http://www.amazon.com/exec/obidos/ASIN/186100589X/qid=1011826590/sr=1-6/ref=sr_1_66_6/104-8639683-4241565">XML
+  <li><a
+    href="http://www.amazon.com/exec/obidos/ASIN/186100589X/qid=1011826590/sr=1-6/ref=sr_1_66_6/104-8639683-4241565">XML
     Application Development with MSXML 4.0</a></li>
-  <li><a href="http://www.amazon.com/exec/obidos/ASIN/1861004516/qid=1003531452/sr=1-1/ref=sr_1_3_1/107-0094051-8324523">Professional
+  <li><a
+    href="http://www.amazon.com/exec/obidos/ASIN/1861004516/qid=1003531452/sr=1-1/ref=sr_1_3_1/107-0094051-8324523">Professional
     XML Meta Data</a></li>
-  <li><a href="http://www.amazon.com/exec/obidos/ASIN/1861003897/qid=1003531452/sr=1-3/ref=sr_1_3_3/107-0094051-8324523">Professional
+  <li><a
+    href="http://www.amazon.com/exec/obidos/ASIN/1861003897/qid=1003531452/sr=1-3/ref=sr_1_3_3/107-0094051-8324523">Professional
     Java Mobile Programming</a></li>
-  <li><a href="http://www.amazon.com/exec/obidos/ASIN/1861004109/qid=1003531452/sr=1-4/ref=sr_1_3_4/107-0094051-8324523">Professional
+  <li><a
+    href="http://www.amazon.com/exec/obidos/ASIN/1861004109/qid=1003531452/sr=1-4/ref=sr_1_3_4/107-0094051-8324523">Professional
     Java Data</a></li>
-  <li><a href="http://www.amazon.com/exec/obidos/ASIN/1861003625/qid=1003531452/sr=1-5/ref=sr_1_3_5/107-0094051-8324523">Professional
+  <li><a
+    href="http://www.amazon.com/exec/obidos/ASIN/1861003625/qid=1003531452/sr=1-5/ref=sr_1_3_5/107-0094051-8324523">Professional
     JSP</a></li>
-  <li><a href="http://www.amazon.com/exec/obidos/ASIN/1861002777/qid=1003531452/sr=2-1/ref=sr_2_3_1/107-0094051-8324523">Professional
+  <li><a
+    href="http://www.amazon.com/exec/obidos/ASIN/1861002777/qid=1003531452/sr=2-1/ref=sr_2_3_1/107-0094051-8324523">Professional
     Java Server Programming</a> (Spring 1999)</li>
 </ul>
- 
+
 <p>I've tech reviewed a <em>lot</em> more.</p>
- 
-<p>I've done a couple of short pieces for O'Reilly's <a href="http://www.xml.com/">xml.com</a> : <a href="http://www.xml.com/pub/a/2003/07/23/extendingrss.html">Extending RSS</a>
+
+<p>I've done a couple of short pieces for O'Reilly's <a
+href="http://www.xml.com/">xml.com</a> : <a
+href="http://www.xml.com/pub/a/2003/07/23/extendingrss.html">Extending RSS</a>
 and <a href="http://www.xml.com/pub/a/2003/11/19/svgwiki.html">Creating an SVG
 Wiki</a></p>
- 
+
 <p>In the days before the Web I had several articles published in the magazine
 "Electronics World &amp; Wireless World" - on or roundabout non-linear
 circuitry. These included a write-up on how easy it was for circuits to get
 chaotic, and a bat detector. Two of these articles appeared as the cover
 feature of the magazine.</p>
- 
-<p>For totally up-to-date info, check the <a href="http://dannyayers.com/">weblog</a>.</p>
- 
+
+<p>For totally up-to-date info, check the <a
+href="http://dannyayers.com/">weblog</a>.</p>
+
 <p>@@TODO hCard, vCard? GRDDLable FOAF/XFN, RDFa?</p>
- 
-<p style="text-align: center;"><a href="http://dannyayers.com/" title="Daniel J. Ayers Blog"><em>Home</em></a></p>
- 
-<p style="text-align: right;">1999-2005 <a href="mailto:danny.ayers@gmail.com">Danny
-Ayers</a></p>
-<!--end of main--></div>
-<!--end of wrapper--></div>
-</body></html>
+
+<p style="text-align: center;"><a href="http://dannyayers.com/"
+title="Daniel J. Ayers Blog"><em>Home</em></a></p>
+
+<p style="text-align: right;">1999-2005 <a
+href="mailto:danny.ayers@gmail.com">Danny Ayers</a></p>
+<!--end of main-->
+</div>
+<!--end of wrapper-->
+</div>
+
+<div id="footer">
+<p><a href="http://danny.ayers.name/">Danny Ayers</a> 2011</p>
+</div>
+</div>
+</div>
+</div>
+<!-- button scripts -->
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js">
+</script>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'en-GB'};
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();</script>
+<a rel="me" href="https://plus.google.com/112609322932428633493"><img
+src="//www.google.com/imageshttp://dannyayers.com/icons/ui/gprofile_button-16.png">
+</a> </body>
+</html>
