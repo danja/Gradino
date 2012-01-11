@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
       "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <title>SPARQL Sliders Demo</title>
@@ -16,14 +16,17 @@
 <body>
 <h1>SPARQL Slider Test</h1>
 
-<p>A little experiment, see this blog post for background.</p>
+<p>A little experiment, see this <a
+href="http://dannyayers.com/2012/01/11/Hixie's-Furniture">blog post for
+background</a>.</p>
 
 <h2>Finding Cities</h2>
 <ul>
   <li>Move the sliders to the values you want (minimum population &amp;
     elevation) </li>
   <li>Click "Make Query"</li>
-  <li>Click "Submit Query" <em>(please be patient - some queries take a long time)</em></li>
+  <li>Click "Submit Query" <em>(please be patient - some queries take a long
+    time, and sometimes time out - tweak!)</em></li>
 </ul>
 
 <form id="form1">
@@ -57,16 +60,16 @@
 
 <form action="http://dbpedia.org/snorql/">
   <textarea id="query" name="query" rows="12" cols="80">PREFIX s: &lt;http://schema.org/&gt;
-  PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+    PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
 
-  SELECT ?city ?population ?elevation WHERE {
-  ?city a s:City ;
-  dbo:populationTotal ?population ;
-  dbo:elevation ?elevation .
-  FILTER (?population &gt; %population% &amp;&amp; ?elevation &gt; %elevation%)
-  }
-  LIMIT 10
-  </textarea><br />
+    SELECT ?city ?population ?elevation WHERE {
+    ?city a s:City ;
+    dbo:populationTotal ?population ;
+    dbo:elevation ?elevation .
+    FILTER (?population &gt; %population% &amp;&amp; ?elevation &gt; %elevation%)
+    }
+    LIMIT 10
+    </textarea><br />
 
   <input type="submit" value="Submit Query" name="submit" /> </form>
 <script type="text/javascript">
