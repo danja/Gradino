@@ -437,23 +437,5 @@ href="mailto:danny.ayers@gmail.com">Danny Ayers</a></p>
   })();</script>
 <a rel="me" href="https://plus.google.com/112609322932428633493"><img
 src="//www.google.com/imageshttp://dannyayers.com/icons/ui/gprofile_button-16.png">
-</a>
-<p><em>repeated again in microdata - need to merge</em></p>
-<p>
-<div itemscope itemtype="http://schema.org/Person">
-<a itemprop="url" href="http://danny.ayers.name"><div itemprop="name"><strong>Danny Ayers</strong></div>
-</a>
-<div itemscope itemtype="http://schema.org/Organization"><span itemprop="name">hyperdata.org</span></div><div itemprop="jobtitle">Web Research and Development</div>
-<div itemprop="description">The one from Tideswell who now lives in Italy. Does Semantic Web stuff, woodcarving and music.</div>
-<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-<div itemprop="streetAddress">Mozzanella 7</div>
-<div><span itemprop="addressLocality">Castiglione di Garfagnana</span>, <span itemprop="addressRegion">Lucca</span></div><div itemprop="postalCode">55033</div>
-<div itemprop="addressCountry">Italy</div>
-</div>
-<div itemprop="email">danny.ayers@gmail.com</div>
-<div><meta itemprop="birthDate" content="1964-01-14">DOB: 01/14/1964</div>
-</div>
-</p>
-
- </body>
+</a> </body>
 </html>

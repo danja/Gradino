@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+      "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>SPARQL Sliders Demo</title>
+  <meta name="generator" content="Amaya, see http://www.w3.org/Amaya/" />
+  <script type="text/javascript" src="js/carpe_common.js">
+  </script>
+  <script type="text/javascript" src="js/carpe_slider.js">
+  </script>
+  <link href="css/carpe_slider.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>SPARQL Slider Test</h1>
+
+<p>A little experiment, see this blog post for background.</p>
+
+<h2>Finding Cities</h2>
+<ul>
+  <li>Move the sliders to the values you want (minimum population &amp;
+    elevation) </li>
+  <li>Click "Make Query"</li>
+  <li>Click "Submit Query"</li>
+</ul>
+
+<form id="form1">
+
+  <noscript>
+  <p>This is what you see instead of a slider because scripts are turned off in
+  your browser: Please enter a number between 0 and 1 here: </p>
+  </noscript>
+
+  <div>
+  <h3>Elevation</h3>
+  <input id="elevation-slider" name="elevation-slider" type="text"
+  style="float: left; clear: none;"
+  class="carpe-slider                   target-elevation" /> x 1,000 <input
+  id="elevation" value="0" tabindex="-1" type="text" /> <br />
+
+
+  <h3>Population</h3>
+  <input id="population-slider" name="population-slider" type="text"
+  style="float: left; clear: none;"
+  class="carpe-slider                   target-population" /> x 10,000,000
+  <input id="population" value="0" tabindex="-1" type="text" /> </div>
+  <br />
+  <br />
+
+  <input type="button" name="button" value="Make Query" onclick="makeQuery()"
+  /> </form>
+<br />
+<br />
+
+
+<form action="http://dbpedia.org/snorql/">
+  <textarea id="query" name="query" rows="12" cols="80">PREFIX s: &lt;http://schema.org/&gt;
+  PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+
+  SELECT ?city ?population ?elevation WHERE {
+  ?city a s:City ;
+  dbo:populationTotal ?population ;
+  dbo:elevation ?elevation .
+  FILTER (?population &gt; %population% &amp;&amp; ?elevation &gt; %elevation%)
+  }
+  LIMIT 10
+  </textarea><br />
+
+  <input type="submit" value="Submit Query" name="submit" /> </form>
+<script type="text/javascript">
+function makeQuery()
+{
+    var queryBox = document.getElementById("query");
+    var population = document.getElementById("population");
+    var elevation = document.getElementById("elevation");
+    var query = queryBox.value;
+    query = query.replace("%population%", ""+10000000 * population.value);
+    query = query.replace("%elevation%", ""+1000 * elevation.value);
+    queryBox.value = query;
+}</script>
+</body>
+</html>

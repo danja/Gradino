@@ -1,0 +1,162 @@
+/*	Default stylesheet for the Carpe Slider 2
+    By Tom Hermansson Snickars              
+    2011-09-21 version 2.1
+    Copyright CARPE Design                     
+    carpe.ambiprospect.com
+*/
+.carpe-slider-panel {
+	background-color: #aaa;
+	background: -moz-linear-gradient(top, #bbbbbb 0%, #888888 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bbbbbb), color-stop(100%,#888888));
+	background: -webkit-linear-gradient(top, #bbbbbb 0%,#888888 100%);
+	background: -o-linear-gradient(top, #bbbbbb 0%,#888888 100%);
+	background: -ms-linear-gradient(top, #bbbbbb 0%,#888888 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbbbbb', endColorstr='#888888',GradientType=0 );
+	background: linear-gradient(top, #bbbbbb 0%,#888888 100%);
+	box-sizing: content-box;
+	color: #333;
+	margin: 1px;
+	display: block;
+	line-height: 0;
+	height: 12px;
+	font-size: 0;
+	text-align: left;
+	float: none;
+	border: 2px solid;
+	border-color: #ddd #666 #666 #ddd;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	position: relative;
+	top: 0;
+	overflow: hidden;
+	opacity: 1;
+	cursor: default;
+}
+.carpe-slider-panel:hover {
+	background-color: #bbb;
+	background: -moz-linear-gradient(top, #cccccc 0%, #999999 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-stop(100%,#999999));
+	background: -webkit-linear-gradient(top, #cccccc 0%,#999999 100%);
+	background: -o-linear-gradient(top, #cccccc 0%,#999999 100%);
+	background: -ms-linear-gradient(top, #cccccc 0%,#999999 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#999999',GradientType=0 );
+	background: linear-gradient(top, #cccccc 0%,#999999 100%);
+}
+.carpe-slider-panel:focus {
+	background-color: #bbb;
+}
+.orientation-horizontal {
+	width: 120px;
+	padding: 4px 3px 4px 4px;
+}
+.orientation-vertical {
+	padding: 4px 5px 5px 5px;
+	width: 12px;
+	height: 110px;
+	background: -moz-linear-gradient(left, #bbbbbb 0%, #888888 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#bbbbbb), color-stop(100%,#888888));
+	background: -webkit-linear-gradient(left, #bbbbbb 0%,#888888 100%);
+	background: -o-linear-gradient(left, #bbbbbb 0%,#888888 100%);
+	background: -ms-linear-gradient(left, #bbbbbb 0%,#888888 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbbbbb', endColorstr='#888888',GradientType=1 );
+	background: linear-gradient(left, #bbbbbb 0%,#888888 100%);
+}
+.orientation-vertical:hover {
+	background: -moz-linear-gradient(left, #cccccc 0%, #999999 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#cccccc), color-stop(100%,#999999));
+	background: -webkit-linear-gradient(left, #cccccc 0%,#999999 100%);
+	background: -o-linear-gradient(left, #cccccc 0%,#999999 100%);
+	background: -ms-linear-gradient(left, #cccccc 0%,#999999 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#999999',GradientType=1 );
+	background: linear-gradient(left, #cccccc 0%,#999999 100%);
+}
+/* The Slider Slit */
+.carpe-slider-slit {
+	background-color: #333;
+	position: relative;
+	line-height: 0;
+	border: 1px solid;
+	border-color: #999 #ddd #ddd #999;
+	font-size: 0;
+	cursor: default;
+}
+.carpe-slider-slit[disabled] {
+	background-color: #999;
+}
+.carpe-slider-panel:focus .carpe-slider-slit {
+	background-color: #24d; /* Blue color of slit in focused slider. */
+}
+.carpe-slider-panel:focus .carpe-slider-slit[disabled] {
+	background-color: #aaa; /*  */
+}
+.carpe-slider-panel:hover .carpe-slider-slit {
+	background-color: #13a; /* Blue color of slit in 'hovered' slider. */
+}
+.carpe-slider-panel:hover .carpe-slider-slit[disabled] {
+	background-color: #aaa; /*  . */
+}
+.carpe-slider-panel:focus:hover .carpe-slider-slit {
+	background-color: #35e; /* Blue color of slit in focused and 'hovered' slider. */
+}
+.carpe-slider-panel:focus:hover .carpe-slider-slit[disabled] {
+	background-color: #aaa; /* Blue color of slit in focused and 'hovered' slider. */
+}
+.orientation-horizontal .carpe-slider-slit {
+	height: 2px;
+	margin: 4px 2px 2px 2px;
+	top: -12px;
+}
+.orientation-vertical .carpe-slider-slit {
+	width: 2px;
+	margin: 2px 4px 4px 4px;
+	top: -20px;
+}
+/* The Slider Knob */
+.carpe-slider-knob {
+	background-color: #666;
+	background: -moz-linear-gradient(top, #888888 0%, #555555 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#888888), color-stop(100%,#555555));
+	background: -webkit-linear-gradient(top, #888888 0%,#555555 100%);
+	background: -o-linear-gradient(top, #888888 0%,#555555 100%);
+	background: -ms-linear-gradient(top, #888888 0%,#555555 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#555555',GradientType=0 );
+	background: linear-gradient(top, #888888 0%,#555555 100%);
+	-webkit-box-shadow: 1px 1px 3px 0px #444444;
+	-moz-box-shadow: 1px 1px 3px 0px #444444;
+	box-shadow: 1px 1px 3px 0px #444444;
+	position: relative;
+	z-index: 2;
+	line-height: 0;
+	font-size: 0;
+	border: 2px solid;
+	border-color: #999 #444 #444 #999;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.carpe-slider-knob:hover {
+	background-color: #777;
+}
+.orientation-horizontal .carpe-slider-knob {
+	width: 16px;
+	margin: 0;
+	height: 8px;
+	cursor: e-resize;
+}
+.orientation-vertical .carpe-slider-knob {
+	background: -moz-linear-gradient(left, #888888 1%, #555555 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(1%,#888888), color-stop(100%,#555555));
+	background: -webkit-linear-gradient(left, #888888 1%,#555555 100%);
+	background: -o-linear-gradient(left, #888888 1%,#555555 100%);
+	background: -ms-linear-gradient(left, #888888 1%,#555555 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888888', endColorstr='#555555',GradientType=1 );
+	background: linear-gradient(left, #888888 1%,#555555 100%);
+	width: 8px;
+	margin: 1px 0 0 0;
+	height: 16px;
+	cursor: n-resize;
+}
+.carpe-slider-knob[disabled] {
+	cursor: default;
+}
