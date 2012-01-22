@@ -70,12 +70,10 @@ Powered by <a href="http://hyperdata.org/wiki/wiki/Gradino">Gradino</a>
 </p>
 <span><a rel="author" href="https://plus.google.com/112609322932428633493?rel=author">Danny Ayers</a> on G+</span>
 </div>
-
 """ + 
+AdvertInclusion.content + 
 ScriptsInclusion.content + """
 <a rel="me" href="https://plus.google.com/112609322932428633493"> <img src="//www.google.com/images/icons/ui/gprofile_button-16.png"> </a>
-""" +
-AdvertInclusion.content + """
 </body>
 </html>
 """
