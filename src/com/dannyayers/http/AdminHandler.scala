@@ -13,10 +13,6 @@ import javax.ws.rs.core._
 import java.io._
 import com.dannyayers.util._
 
-
-
-  
-
 class AdminHandler {
 	def shutdown(user : String, password : String) = {
 		System.out.println("Shutting down...")

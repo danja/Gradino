@@ -24,6 +24,7 @@ object ArchiveRenderer {
     <li><a href="/archive/2009.html" itemprop="url">2009</a></li>
     <li><a href="/archive/2010.html" itemprop="url">2010</a></li>
     <li><a href="/archive/2011.html" itemprop="url">2011</a></li>
+    <li><a href="/archive/2012.html" itemprop="url">2012</a></li>
 </ul>
 """
       
