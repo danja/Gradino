@@ -44,7 +44,7 @@ class ArchiveGenerator extends Actor {
           }
           System.out.println("*** ARCHIVE older.html GENERATED OK ***")
           // -------------------
-          for (year <- 2004 until 2012) {
+          for (year <- 2004 until 2013) {
 
             var query = Queries.dateRangeItems.replaceAll("%year%", ""+year)
             System.out.println(query)
