@@ -22,7 +22,7 @@ object ItemPageRenderer {
 <meta name="keywords" content="Danny, Danny Ayers, Raw Blog, Linked Data, Semantic Web, RDF" />
 <link rel="profile" type="application/rdf+xml" title="FOAF" href="http://danny.ayers.name/index.rdf" />
 <link rel="alternate" type="application/rdf+xml" title="RSS" href="http://dannyayers.com/feed" />
-  <title>"""+ item("title") + """</title>
+  <title>Danny on : """+ item("title") + """</title>
 <link rel="stylesheet" href="/css/style.css" type="text/css" media="Screen" />
 <link rel="stylesheet" href="http://hyperdata.org/css/tabs.css" type="text/css" media="Screen" />
 <link rel="stylesheet" href="/css/handheld.css" type="text/css" media="handheld" />
@@ -62,6 +62,8 @@ Powered by <a href="http://hyperdata.org/wiki/wiki/Gradino">Gradino</a>
 """ + 
 ScriptsInclusion.content + """
 <a rel="me" href="https://plus.google.com/112609322932428633493"> <img src="//www.google.com/images/icons/ui/gprofile_button-16.png"> </a>
+""" +
+AdvertInclusion.content + """
 </body>
 </html>
 """
