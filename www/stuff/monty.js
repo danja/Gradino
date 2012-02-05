@@ -28,7 +28,7 @@ function newDoors(){
 	var doors = new Array(3); // 3 doors
 
 	for(var i=0;i<3;i++){ 
-		doors[i] = {prize:false}; // js idiom : create object with a property prize=false 
+		doors[i] = {prize:false, number:i}; // js idiom : create object with a property prize=false and its number 
 	} // none have prizes
 	doors[r()].prize = true; // now one of them has a prize
 	return doors;
@@ -42,14 +42,13 @@ function contestant(doors, stick) {
 	
 	var chosen = doors[r(3)]; // contestant chooses a door at random
 
-	var first = doors.pop(); // try opening a door...
+	var first = doors.pop(); // try opening a door... (get the last object in the array)
 
-	if(first == chosen) { // can't have that one, it's the one that was chosen
-		doors.push(first); // close it
+	while(first == chosen || first.prize){ // can't have that one, it's the one that was chosen/has prize, try next
+		doors.unshift(first); // close it (unshift is push to the begining of the array)
 		first = doors.pop(); //open the next door
 	}
 
-// FIXME - it has to be a door *without* the prize like that v but up there ^
 
 	// not in the rules - oops
 	// if(first.prize) return false; // the prize is behind the opened door, not the one chosen - fail
