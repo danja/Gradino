@@ -1,10 +1,13 @@
 /* Monty Hall Paradox tester
-
-for node.js
-
 http://en.wikipedia.org/wiki/Monty_Hall_problem
+
 Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a prize; behind the others, nothing. You pick a door, say No. 1 [but the door is not opened], and the host, who knows what's behind the doors, opens another door, say No. 3, which has nothing. He then says to you, "Do you want to pick door No. 2?" 
 Is it to your advantage to switch your choice?
+
+for node.js, http://nodejs.org/
+
+run with:
+node monty.js
 */
 
 
