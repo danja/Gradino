@@ -49,6 +49,8 @@ function contestant(doors, stick) {
 		first = doors.pop(); //open the next door
 	}
 
+// FIXME - it has to be a door *without* the prize like that v but up there ^
+
 	// not in the rules - oops
 	// if(first.prize) return false; // the prize is behind the opened door, not the one chosen - fail
 
