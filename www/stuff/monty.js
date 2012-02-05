@@ -49,7 +49,7 @@ function contestant(doors, stick) {
 		first = doors.pop(); //open the next door
 	}
 
-	if(first.prize) return false; // the prize is behind the opened door, not the one chosen - fail
+	// if(first.prize) return false; // the prize is behind the opened door, not the one chosen - fail
 
 	if(stick) { // the contestant sticks with their first choice
 		return chosen.prize;
