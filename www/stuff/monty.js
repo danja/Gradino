@@ -44,11 +44,12 @@ function contestant(doors, stick) {
 
 	var first = doors.pop(); // try opening a door...
 
-	if(first == chosen) { // oops, can't have that one, it's the one that was chosen
+	if(first == chosen) { // can't have that one, it's the one that was chosen
 		doors.push(first); // close it
 		first = doors.pop(); //open the next door
 	}
 
+	// not in the rules - oops
 	// if(first.prize) return false; // the prize is behind the opened door, not the one chosen - fail
 
 	if(stick) { // the contestant sticks with their first choice
