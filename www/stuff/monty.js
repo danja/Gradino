@@ -8,6 +8,9 @@ for node.js, http://nodejs.org/
 
 run with:
 node monty.js
+
+http://dannyayers.com/stuff/monty.js
+public domain - danny 2012-02-05
 */
 
 
