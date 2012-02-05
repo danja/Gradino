@@ -36,7 +36,7 @@ function newDoors(){
 
 /**
  ** a contestant is tested 
- ** they have some doors and a decision whether or not to stick on their second choice
+ ** they have some doors and a decision whether or not to change their mind
  **/
 function contestant(doors, stick) { 
 	
