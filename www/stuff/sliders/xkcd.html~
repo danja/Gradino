@@ -27,7 +27,7 @@ It's all self-contained, View Source to see how it works.</p>
 <li>the SNORQL engine where it applies the query may not give interesting results on IE (try the SPARQL directly on the <a href="http://dbpedia.org/sparql">dbPedia endpoint</a>).</li>
 <li>The results aren't very good beyond the very low values, data is sparse on who was born millions of years ago...</li>
 <li>The Reset button needs hitting between queries</li>
-<li>my date function is quite right - see this <a href="https://plus.google.com/u/0/112609322932428633493/posts/MPvKNxPuWnM">note on G+</a></li>
+<li>my date function isn't quite right - see this <a href="https://plus.google.com/u/0/112609322932428633493/posts/MPvKNxPuWnM">note on G+</a></li>
 </ul>
 </p>  
 <h2>Finding birthdates</h2>
