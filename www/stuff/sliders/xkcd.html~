@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+      "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>xkcd 1017 Implementation</title>
+  <meta name="generator" content="Amaya, see http://www.w3.org/Amaya/" />
+  <script type="text/javascript" src="js/carpe_common.js">
+  </script>
+  <script type="text/javascript" src="js/carpe_slider.js">
+  </script>
+  <link href="css/carpe_slider.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>XKCD Date Demo</h1>
+
+<p>A very rough proof-of-concept implementation of <a href="http://xkcd.com/1017/">xkcd1017</a> using <a href="http://linkeddata.org/">Linked Data</a>. It takes the percentage from the slider, creates a SPARQL query which can then be run against dbPedia. 
+</p>
+<p>
+It's all self-contained, View Source to see how it works.</p>
+<p>
+<strong>Caveats</strong> 
+<ul>
+<li>the SNORQL engine where it applies the query may not give interesting results on IE (try the SPARQL directly on the <a href="http://dbpedia.org/sparql">dbPedia endpoint</a>).</li>
+<li>The results aren't very good beyond the very low values, data is sparse on who was born millions of years ago...</li>
+<li>The Reset button needs hitting between queries</li>
+</ul>
+</p>  
+<h2>Finding birthdates</h2>
+<ul>
+  <li>Move the sliders to the "percentage" you want, or enter a number 0-1 (values around 0.3-0.45 seem to give best results)</li>
+  <li>Click "Make Query"</li>
+  <li>Click "Submit Query"</li>
+  <li>(to try a different setting later, click "Reset" first)</li>
+</ul>
+
+<form id="form1">
+
+  <noscript>
+  <p>This is what you see instead of a slider because scripts are turned off in
+  your browser: Please enter a number between 0 and 1 here: </p>
+  </noscript>
+
+  <div>
+  
+  <h3>Percent</h3>
+  <input id="percent-slider" name="percent-slider" type="text"
+  style="float: left; clear: none;"
+  class="carpe-slider                   target-percent" /> x 100 (sorry!)
+  <input id="percent" value="0" tabindex="-1" type="text" /> </div>
+  <br />
+  <br />
+
+  <input type="button" name="button" value="Make Query" onclick="makeQuery()"
+  /> </form>
+<br />
+<br />
+
+
+<form action="http://dbpedia.org/snorql/">
+<input type="submit" value="Submit Query" name="submit" />
+ <input type="reset" value="Reset!"><br>
+  <textarea id="query" name="query" rows="12" cols="80">PREFIX s: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+PREFIX dbp: &lt;http://dbpedia.org/property/&gt;
+
+SELECT DISTINCT ?s WHERE {
+?s dbp:born ?year .
+
+FILTER (?year &gt; "%lowYear%"^^xsd:date && ?year &lt; "%highYear%"^^xsd:date) .
+}
+LIMIT 10
+    </textarea><br />
+
+   </form>
+<script type="text/javascript">
+var E3 = Math.exp(3);
+
+function xkcdDate(p) {
+   return Math.exp(3+20.3444* Math.pow(p,3) )-E3;
+}
+
+function getYear(date) {
+   var year = date.getFullYear();
+   year += date.getMonth()/12;
+   return year + (date.getDate()-1)/31;
+}
+
+function makeQuery() {
+   var now = new Date();
+   var nowYear = getYear(now);
+    var percent = document.getElementById("percent"); 
+var scaled = percent.value; 
+var yearsAgo = xkcdDate(scaled);
+   var decimalYear = nowYear-yearsAgo;
+
+   var year = Math.round(decimalYear);
+
+   var lowYear = "" + year;
+   lowYear += "-01-01";
+   var highYear = "" + (year+1);
+   highYear += "-01-01";
+
+    var queryBox = document.getElementById("query");
+
+    var query = queryBox.value;
+//  query = query.replace("%lowYear%", yearsAgo); handy for testing
+    query = query.replace("%lowYear%", lowYear);
+    query = query.replace("%highYear%", highYear);
+    queryBox.value = query;
+}</script>
+</body>
+</html>
