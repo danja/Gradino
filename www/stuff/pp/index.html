@@ -23,15 +23,9 @@
 
 <p>on opening a page the focus automatically moves to a particular link</p>
 
-<p>demonstrated here with Javascript help, an element has
-<code>class="focus"</code> then :</p>
-
-<p><code>var focusElements = getElementsByClassName(document,
-"focus");</code></p>
-
-<p><code>focusElements[0].focus();</code></p>
-
 <p></p>
+
+<h3>HTML5 Current Status</h3>
 
 <p><code>@tabindex</code> adjusts the tab sequence, but doesn't move the focus
 to the first index</p>
@@ -40,12 +34,25 @@ to the first index</p>
 <code>&lt;a&gt;</code> elements</p>
 
 <p></p>
+
+<h3>Demo</h3>
+
+<p>here with Javascript help, an element has <code>class="focus"</code> then
+:</p>
+
+<p><code>var focusElements = getElementsByClassName(document,
+"focus");</code></p>
+
+<p><code>focusElements[0].focus();</code></p>
+
+<p></p>
+
+<p></p>
 <ul>
   <li><a href="http://dev.w3.org/html5/spec/Overview.html">random link</a></li>
   <li><a href="slide1.html" rel="next" class="focus">Slide 1</a></li>
   <li><a href="slide2.html">Slide 2</a></li>
   <li>Slide 3...</li>
 </ul>
-
 </body>
 </html>
