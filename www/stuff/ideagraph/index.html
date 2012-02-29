@@ -1,1 +1,212 @@
-holding page
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0044)http://ideagraph.net/2003-06/screenshots.htm -->
+<HTML><HEAD><TITLE>IdeaGraph screenshots, 1st July 2003</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><LINK 
+href="IdeaGraph screenshots, 1st July 2003_files/ideagraph.css" type=text/css 
+rel=stylesheet>
+<META content="MSHTML 6.00.2800.1106" name=GENERATOR></HEAD>
+<BODY text=#000000 bgColor=#ffffff>
+<H1 align=center>IdeaGraph </H1>
+<H3 align=center>Version 0.59 status report/screenshots</H3>
+<H3 align=center>1st July 2003<BR></H3>
+<H2><B>Main Application</B></H2>
+<P>&nbsp;</P>
+<P><IMG height=557 
+src="IdeaGraph screenshots, 1st July 2003_files/screenshot-1.gif" width=792></P>
+<P>&nbsp;</P>
+<P>The primary user interface is a window containing sub-windows. </P>
+<P>&nbsp;</P>
+<P><B>All working buttons (should) have mouse-over hints.</B></P>
+<P>&nbsp;</P>
+<P>The three most interesting windows provide views of the data at different 
+levels of granularity. The<B> Perspectives </B>window deals with top-level, 
+system- and project- wide views. The <B>IdeaGraph Editor</B> window is used for 
+the diagrams, which are comprised of<I><B> Ideas</B></I> (which are the red 
+rectangles) and <I><B>Connections</B></I> (the lines between the rectangles). To 
+keep things simple these diagrams are called <I><B>IdeaGraphs</B></I>. The 
+<B>Idea</B> window is used to provide the main details for each idea (node) in 
+the IdeaGraph. </P>
+<P>&nbsp;</P>
+<P>Double-clicking on the <B>IdeaGraph Editor </B>window creates a new<B> 
+Idea</B>. Single-clicking on an <B>Idea</B> makes that <B>Idea</B> the focus of 
+the<B> Idea</B> window. Double-clicking an <B>Idea</B> opens the<B> Document 
+Editor </B>window (see below)</P>
+<P>&nbsp;</P>
+<P><B>The <I>NEW</I> Way Connections are Drawn</B><A name=relchange></A></P>
+<P>When you move the mouse cursor over an idea it will initially change to an 
+arrow. But if you move the arrow over the centre of the idea then the cursor 
+will change to a hand shape. Clicking and dragging now allows you to draw the 
+relationship lines between the ideas.</P>
+<P>&nbsp;</P>
+<P>If a connection (arc) is clicked on, a different window appears in place of 
+the<B> Idea</B> window :</P>
+<P>&nbsp;</P>
+<P><IMG height=82 
+src="IdeaGraph screenshots, 1st July 2003_files/connection.gif" width=261></P>
+<P>&nbsp;</P>
+<P>The connection can anything you like, but connections from existing 
+vocabularies may be selected from the menus. Other vocabularies can be loaded 
+using the <B>Vocabs</B> tab in the <B>Perspectives</B> window. Once loaded they 
+will show as additional menus here.</P>
+<P>&nbsp;</P>
+<P><I><B>RDF Geek Note</B> : that may be read as RDF Properties from existing 
+ontologies, custom user input is recorded as a property in an RDF Schema in a 
+custom namespace. </I></P>
+<P>&nbsp;</P>
+<P><I><B>User Interface Geek Note</B>: the creation of nodes and arcs is fairly 
+non-standard, but most standard tools use a fixed toolbar. If you hit the 
+</I><B>F11</B><I> key in IdeaGraph you have the full screen in which to work on 
+the diagram. It only takes a few minutes to get used to, and no trip to a 
+toolbar is needed.</I></P>
+<P>&nbsp;</P>
+<P>Other info is available from the <B>Idea</B> window :</P>
+<P>&nbsp;</P>
+<P><IMG height=458 
+src="IdeaGraph screenshots, 1st July 2003_files/item-meta.gif" width=315></P>
+<P>&nbsp;</P>
+<P><I>Elephant's Note : In the prototype I had a lot more variation in the views 
+of the nodes in the graph : shapes, images, colors. These will be back in time 
+for version 1.0.</I></P>
+<P>&nbsp;</P>
+<P>Double-clicking an <B>Idea</B> in the <B>IdeaGraph Editor</B> window opens 
+the<B> Document Editor </B>window :</P>
+<P>&nbsp;</P>
+<P><IMG height=557 
+src="IdeaGraph screenshots, 1st July 2003_files/doc-editor.gif" width=792></P>
+<P>&nbsp;</P>
+<P>This stuff can form part of a blog. Etc. See </P>
+<P><A href="http://ideagraph.net/2002-12/tutorial/ideagraphs.htm">Creating an 
+Ideagraph</A> - note in particular the <B>IdeaBox</B>, not covered here</P>
+<P></P>
+<P><A href="http://ideagraph.net/2002-12/tutorial/blogging.htm">Blogging with 
+Ideagraph</A></P>
+<P></P>
+<P><A href="http://ideagraph.net/2002-12/tutorial/aggregation.htm">Reading RSS 
+Newsfeeds</A></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>Returning to the<B> Perspectives</B> window, it has some interesting (and not 
+so interesting) tabs :</P>
+<P>&nbsp;</P>
+<P><IMG height=248 src="IdeaGraph screenshots, 1st July 2003_files/project.gif" 
+width=303></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>The <B>Project</B> and <B>Channels</B> window display tree for managing 
+projects and syndicated channel feeds respectively. </P>
+<P><I>Geek Note : RSS feeds are pre-processed with XSLT</I></P>
+<P><I>I messed up a bit of the code here. These will be friendlier!!</I></P>
+<P>&nbsp;</P>
+<P><IMG height=248 
+src="IdeaGraph screenshots, 1st July 2003_files/perspectives.gif" width=299></P>
+<P>&nbsp;</P>
+<P>The <B>Vocabs</B> tab is for managing vocabularies, both existing ones and 
+ones you have created yourself.</P>
+<P>This still needs a lot of work.</P>
+<P><I>Geek Note : I'll probably use another RDF tree component here too. The bit 
+below was a start at separating a friendly version of each properties 
+(rdfs:label) and the internal representation (rdf:Property)</I></P>
+<P>&nbsp;</P>
+<P><IMG height=468 src="IdeaGraph screenshots, 1st July 2003_files/vocabs.gif" 
+width=297></P>
+<P>&nbsp;</P>
+<P>The<B> Settings </B>tab is for project, user and system configuration :</P>
+<P><I>Geek Note : Bit crude at the moment, but all the config stuff is stored in 
+RDF files.</I></P>
+<P>&nbsp;</P>
+<P><IMG height=358 src="IdeaGraph screenshots, 1st July 2003_files/settings.gif" 
+width=298></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>The <B>Command</B> tab is for command-line operations. This is presently 
+rather geeky, though the plan is to also enable simple commands to be entered 
+here to manipulate the <B>IdeaGraph</B>s.</P>
+<P>&nbsp;</P>
+<P><I>Geek Note : this stuff's pretty cool. Python's built on Jython, Prolog's 
+home-spun.</I></P>
+<P>There are two tabs, <B>Prolog </B>and<B> Python</B>, each corresponding to an 
+interpreter in that language.</P>
+<P>Here a Python command is used to display a serialization of the simple 
+<B>IdeaGraph. </B>Existing source files can be loaded and executed using the 
+buttons (they have mouseover tooltips).</P>
+<P><I>Geek note : see what I mean - but it gets better...</I></P>
+<P>&nbsp;</P>
+<P><IMG height=557 src="IdeaGraph screenshots, 1st July 2003_files/python.gif" 
+width=792></P>
+<P>&nbsp;</P>
+<P>This is very much experimentation-in-progress, but currently the Prolog 
+engine has a separate knowledgebase, which can be populated from the data in the 
+IdeaGraph's RDF model. You can then manipulate that knowledge, e.g. 
+filter-by-retraction, and then push the knowledge base back out to another 
+IdeaGraph diagram. There is a file with the IdeaGraph distro 
+(<I>ideagraph\data\prolog</I> somewhere) which contains some of the RDF(S) 
+axioms, but most are commented out because it soon goes into a loop - tabling 
+isn't yet implemented. There are some other comments <A 
+href="http://66.70.191.189/cgi-bin/mt-search.cgi?IncludeBlogs=1&amp;search=prolog">here</A>.</P>
+<P>&nbsp;</P>
+<P><I>Non-geek Note : I did warn you!</I></P>
+<P>&nbsp;</P>
+<P>The buttons have the following functions :</P>
+<P>&nbsp;</P>
+<UL>
+  <LI>load file from disk 
+  <LI>save session input data to disk 
+  <LI>save screen text to disk 
+  <LI>clear screen and input history 
+  <LI>load NTriples file from disk 
+  <LI>load data from diagram 
+  <LI>send data to diagram </LI></UL>
+<P><IMG height=557 src="IdeaGraph screenshots, 1st July 2003_files/prolog.gif" 
+width=792></P>
+<P>&nbsp;</P>
+<P><I>Geek Note : the Prolog interpreter, Java and Jython all share the same VM, 
+so exactly the same object instances can be worked on with any of the three 
+languages. A simple example of this can be seen <A 
+href="http://dannyayers.com/archives/001368.html">here</A></I></P>
+<P>&nbsp;</P>
+<P>The parts of IdeaGraph in the screenshots so far have been related to core 
+functionality. There are a few things that you might want to do around the 
+fringes that call for external tools. Bare-bones versions of the obvious tools 
+will also be provided :</P>
+<P>&nbsp;</P>
+<P><IMG height=550 
+src="IdeaGraph screenshots, 1st July 2003_files/html-editor.gif" width=656></P>
+<P>&nbsp;</P>
+<P><IMG height=350 
+src="IdeaGraph screenshots, 1st July 2003_files/xslt-editor.gif" width=450></P>
+<P>&nbsp;</P>
+<P><IMG height=649 
+src="IdeaGraph screenshots, 1st July 2003_files/rdf-editor.gif" width=611></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>Features mentioned previously in the (first attempt) <A 
+href="http://ideagraph.net/2002-12/tutorial/ideagraphs.htm">Tutorial</A> are 
+still available :</P>
+<P>&nbsp;</P>
+<P><A href="http://ideagraph.net/2002-12/tutorial/ideagraphs.htm">Creating an 
+Ideagraph</A> - note in particular the <B>IdeaBox</B>, not covered here</P>
+<P></P>
+<P><A href="http://ideagraph.net/2002-12/tutorial/blogging.htm">Blogging with 
+Ideagraph</A></P>
+<P></P>
+<P><A href="http://ideagraph.net/2002-12/tutorial/aggregation.htm">Reading RSS 
+Newsfeeds</A></P>
+<P>&nbsp;</P>
+<P>(there have been a few name changes, and a little window rearranging)</P>
+<P>&nbsp;</P>
+<P><A href="http://ideagraph.net/2003-06/screenshots.htm#relchange"><B><I>Please 
+Note A Change in the Way Connections are Drawn</I></B></A></P>
+<P>&nbsp;</P>
+<P>That's most of it, for now. </P>
+<P>&nbsp;</P>
+<P><A href="http://ideagraph.net/2002-12/download.htm">Download page</A></P>
+<P>&nbsp;</P>
+<P>If your eyes have now glazed over and your head is pounding, here's a baby 
+hedgehog to help you feel better : </P>
+<P>&nbsp;</P>
+<P><IMG height=300 src="IdeaGraph screenshots, 1st July 2003_files/hedgehog.jpg" 
+width=400></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P></BODY></HTML>

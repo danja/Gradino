@@ -1,0 +1,114 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 11px/1.5 Verdana, sans-serif; COLOR: #ffff66; PADDING-TOP: 0px; BACKGROUND-COLOR: #003366
+}
+H1 {
+	FONT-SIZE: 2em
+}
+H2 {
+	FONT-SIZE: 1.75em
+}
+H3 {
+	FONT-SIZE: 1.5em
+}
+H4 {
+	FONT-SIZE: 1.25em
+}
+H6 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 1.25em 0px 0px; COLOR: #ccffff; FONT-FAMILY: Arial, sans-serif
+}
+P {
+	MARGIN: 0.5em 0px; COLOR: #ffffff
+}
+UNKNOWN {
+	MARGIN-TOP: -0.5em; TEXT-INDENT: 2em
+}
+UNKNOWN {
+	MARGIN: 0.5em 0px
+}
+TT {
+	FONT: 11px monaco, "andale mono", courier, "courier new"; COLOR: #630; BACKGROUND-COLOR: transparent
+}
+PRE {
+	FONT: 11px monaco, "andale mono", courier, "courier new"; COLOR: #630; BACKGROUND-COLOR: transparent
+}
+DL {
+	FONT: 11px/18px verdana, sans-serif
+}
+DT {
+	FONT: bold 11px/18px verdana, sans-serif
+}
+DD {
+	MARGIN-TOP: 0.5em; FONT: 11px/18px verdana, sans-serif; TEXT-INDENT: 0px
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+H1 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 1.25em 0px 0px; FONT-FAMILY: Arial, sans-serif
+}
+H2 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 1.25em 0px 0px; COLOR: #ffffff; FONT-FAMILY: Arial, sans-serif
+}
+H3 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 1.25em 0px 0px; COLOR: #ffffff; FONT-FAMILY: Arial, sans-serif
+}
+H4 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 1.25em 0px 0px; COLOR: #ffffff; FONT-FAMILY: Arial, sans-serif
+}
+H5 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 1.25em 0px 0px; FONT-FAMILY: Arial, sans-serif
+}
+A {
+	COLOR: #66ffff
+}
+CODE {
+	FONT: medium courier, "courier new"; COLOR: #ffcc33; BACKGROUND-COLOR: transparent
+}
+H5 {
+	FONT-WEIGHT: bold
+}
+.note {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; WIDTH: auto; TEXT-INDENT: 10px; PADDING-TOP: 10px; HEIGHT: auto; BACKGROUND-COLOR: #336633; TEXT-ALIGN: left
+}
+note {
+	BACKGROUND-COLOR: #333366
+}
+noteblock {
+	COLOR: #330066
+}
+DIV.title-area {
+	Z-INDEX: 1; LEFT: 3px; VERTICAL-ALIGN: middle; POSITION: absolute; TOP: 2px; HEIGHT: 100px
+}
+DIV.nav-area {
+	Z-INDEX: 2; LEFT: 3px; VERTICAL-ALIGN: middle; WIDTH: 10%; POSITION: absolute; TOP: 150px; HEIGHT: 273px
+}
+DIV.body-area {
+	Z-INDEX: 3; LEFT: 135px; VERTICAL-ALIGN: middle; WIDTH: 700px; POSITION: absolute; TOP: 150px
+}
+DIV.uedge {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(corners/t.jpg); WIDTH: 90%; BACKGROUND-REPEAT: repeat-x; BACKGROUND-COLOR: #0066cc
+}
+DIV.redge {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(corners/r.jpg); BACKGROUND-REPEAT: repeat-y
+}
+DIV.bedge {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(corners/b.jpg); BACKGROUND-REPEAT: repeat-x
+}
+DIV.ledge {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(corners/l.jpg); BACKGROUND-REPEAT: repeat-y
+}
+DIV.ulcorner {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(corners/tl.jpg); BACKGROUND-REPEAT: no-repeat
+}
+DIV.urcorner {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(corners/tr.jpg); BACKGROUND-REPEAT: no-repeat
+}
+DIV.blcorner {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-IMAGE: url(corners/bl.jpg); BACKGROUND-REPEAT: no-repeat
+}
+DIV.brcorner {
+	BACKGROUND-POSITION: right bottom; BACKGROUND-IMAGE: url(corners/br.jpg); BACKGROUND-REPEAT: no-repeat
+}
+DIV.innercontent {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 30px; PADDING-BOTTOM: 30px; WIDTH: 80%; PADDING-TOP: 30px
+}
