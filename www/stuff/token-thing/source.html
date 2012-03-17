@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+      "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>Source</title>
+ <link rel="shortcut icon" href="favicon.ico" /> 
+<style type="text/css">
+label{
+width: 10em;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+display: block
+}
+</style>
+<script type="text/javascript">
+function copyText(){
+var name = document.getElementById('name').value;
+var food = document.getElementById('food').value;
+var place = document.getElementById('place').value;
+
+var bm = "javascript: document.getElementById('name').value=\""+name+ "\"; document.getElementById('food').value=\""+food+"\"; document.getElementById('place').value=\""+place+"\"; void(0); ";
+
+document.getElementById('smiley').href = bm;
+
+
+
+}
+</script>
+</head>
+
+<body>
+
+<p></p>
+
+<form action="">
+	
+	<legend>Fill in these fields:</legend>
+	<p><label for="name">Somebody's name</label><input type="text" id="name" /></p>
+	<p><label for="food">A kind of food</label><input type="text" id="food" /></p>
+	<p><label for="place">A place</label><input type="text" id="place" /></p>
+	
+</form>
+<p>Now drag the smiley into your bookmarks toolbar ---^</p>
+<a href="" id="smiley" onmousedown="copyText()"><img src="smiley.png" /></a>
+<p>
+Now go over to <a href="target.html">this page</a>.
+</p>
+</body>
+</html>
