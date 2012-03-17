@@ -9,9 +9,30 @@
 </head>
 
 <body>
-<p>Now click the bookmark</p>
+<p><strong>Now click the bookmark</strong></p>
 
-<form><input type="text" id="name" /> from <input type="text" id="place" /> likes <input type="text" id="food"/>.</form>
+<p></p>
 
+<form>
+  <input type="text" id="name" /> from <input type="text" id="place" /> likes
+  <input type="text" id="food" />.</form>
+
+<p></p>
+
+<p>It copies the fields from the DOM into some Javascript which goes into the
+bookmarklet. Clicking it runs the Javascript copying the stuff back again (same
+named fields, but different page).</p>
+
+<p></p>
+
+<p>It was also straightforward to copy things into URL parameters, like :
+http://example.org?name=wqe&amp;food=vbn&amp;place=yuiyu</p>
+
+<p>But I can't think of a good use for that either...</p>
+
+<p></p>
+
+<p>It does seem to mess up the browser's grabbing of the favicon and title
+(maybe just on Chrome), dunno if that can be fixed or not.</p>
 </body>
 </html>
