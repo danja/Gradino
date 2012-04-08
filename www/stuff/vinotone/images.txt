@@ -1,0 +1,37 @@
+
+<li>
+   <br />Vinocaster-Preamp
+   <br />
+   <a href="images/vinocaster-preamp.png" rel="lightbox" title="Vinocaster-Preamp">
+      <img alt="Vinocaster-Preamp" src="thumbs/vinocaster-preamp.png" 
+           width="100" height="50" />
+   </a>
+</li>
+
+<li>
+   <br />Pre-Amp_Resp
+   <br />
+   <a href="images/pre-amp_resp.png" rel="lightbox" title="Pre-Amp_Resp">
+      <img alt="Pre-Amp_Resp" src="thumbs/pre-amp_resp.png" 
+           width="100" height="49" />
+   </a>
+</li>
+
+<li>
+   <br />Vino-Preamp
+   <br />
+   <a href="images/vino-preamp.png" rel="lightbox" title="Vino-Preamp">
+      <img alt="Vino-Preamp" src="thumbs/vino-preamp.png" 
+           width="100" height="51" />
+   </a>
+</li>
+
+<li>
+   <br />Strat-Vino+Preamp
+   <br />
+   <a href="images/strat-vino+preamp.png" rel="lightbox" title="Strat-Vino+Preamp">
+      <img alt="Strat-Vino+Preamp" src="thumbs/strat-vino+preamp.png" 
+           width="100" height="51" />
+   </a>
+</li>
+

@@ -6,7 +6,7 @@ from PIL import Image
 import os
 
 path = "images/"
-thumb_path = "images/thumbs/"
+thumb_path = "thumbs/"
 dirList=os.listdir(path)
 gallery = ""
 inline = ""
