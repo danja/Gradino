@@ -1,5 +1,23 @@
 
 <li>
+   <br />Pre-Amp_Spice
+   <br />
+   <a href="images/pre-amp_spice.JPG" rel="lightbox" title="Pre-Amp_Spice">
+      <img alt="Pre-Amp_Spice" src="thumbs/pre-amp_spice.JPG" 
+           width="100" height="45" />
+   </a>
+</li>
+
+<li>
+   <br />Graphic
+   <br />
+   <a href="images/graphic.JPG" rel="lightbox" title="Graphic">
+      <img alt="Graphic" src="thumbs/graphic.JPG" 
+           width="100" height="60" />
+   </a>
+</li>
+
+<li>
    <br />Vinocaster-Preamp
    <br />
    <a href="images/vinocaster-preamp.png" rel="lightbox" title="Vinocaster-Preamp">
@@ -18,11 +36,29 @@
 </li>
 
 <li>
+   <br />Pre-Amp
+   <br />
+   <a href="images/pre-amp.JPG" rel="lightbox" title="Pre-Amp">
+      <img alt="Pre-Amp" src="thumbs/pre-amp.JPG" 
+           width="100" height="65" />
+   </a>
+</li>
+
+<li>
    <br />Vino-Preamp
    <br />
    <a href="images/vino-preamp.png" rel="lightbox" title="Vino-Preamp">
       <img alt="Vino-Preamp" src="thumbs/vino-preamp.png" 
            width="100" height="51" />
+   </a>
+</li>
+
+<li>
+   <br />Pre-Amp_Breadboard
+   <br />
+   <a href="images/pre-amp_breadboard.JPG" rel="lightbox" title="Pre-Amp_Breadboard">
+      <img alt="Pre-Amp_Breadboard" src="thumbs/pre-amp_breadboard.JPG" 
+           width="100" height="78" />
    </a>
 </li>
 

@@ -15,7 +15,7 @@ for filename in dirList:
 #   print "FILE="+filename
    ext = filename[len(filename)-4:]
 #   print "EXT="+ext
-   if ext != ".jpg" and ext != ".png" and ext != ".gif" and ext != ".JPG": continue
+   if ext != ".jpg" and ext != ".png" and ext != ".gif": continue
 #   print "HERE="+filename[len(filename)-4:]
    label = filename[0:(len(filename) - 4)].title() # .title does the upper/lower case thing
    img = Image.open(path+filename)
