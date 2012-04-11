@@ -1,0 +1,69 @@
+
+@prefix s: <http://schema.org/> .
+@prefix bs: <http://purl.org/stuff/BigSleep/Characters> .
+@prefix : <http://purl.org/stuff/BigSleep> .
+Person
+
+:Owen_Taylor a :DeadCharacter ;
+bs:murdered :Arthur_Geiger;
+bs:did :Carmen_Sternwood .
+_:unknown bs:murdered :Owen_Taylor.
+
+:Carmen_Sternwood a :Character ;
+bs:did :Owen_Taylor ;
+bs:wantedToDo :Arthur_Geiger ;
+bs:wantedToDo :Philip_Marlowe ;
+bs:wantedToDo :Sean_Regan ;
+bs:murdered :Sean_Regan .
+
+:Arthur_Geiger a :DeadCharacter ;
+bs:blackMailed :Carmen_Sternwood ;
+bs:did :Carol_Lundgren .
+
+:Sean_Regan a :DeadCharacter ;
+bs:wantedToDo :Mona_Mars .
+
+:Vivian_Rutledge a :Character ;
+bs:wantedToDo :Philip_Marlowe .
+
+:Mona_Mars a :Character ;
+bs:did :Eddie_Mars .
+
+:Philip_Marlowe a :Character ;
+bs:wantedToDo :Vivian_Rutledge ;
+bs:did :Bookstore_Girl ;
+bs:murdered :Lash_Canino .
+
+:Eddie_Mars a :DeadCharacter ;
+bs:did :Mona_Mars ;
+bs:blackMailed :Vivian_Rutledge .
+
+:Joe_Brodie a :DeadCharacter ;
+bs:blackMailed :Vivian_Rutledge ;
+bs:blackMailed :General_Sternwood .
+
+:Lash_Canino a :DeadCharacter ;
+bs:murdered :Harry_Jones .
+
+:Harry_Jones a :DeadCharacter ;
+bs:wantedToDo :Agnes_Lozelle .
+
+:Carol_Lundgren a :Character ;
+bs:murdered :Joe_Brodie ;
+bs:did :Arthur_Geiger .
+
+:General_Sternwood a :Character .
+
+:Taxi_Driver a :Character ;
+bs:wantedToDo :Philip_Marlowe .
+
+:Bookstore_Girl a :Character ;
+bs:did :Philip_Marlowe .
+
+:Mars_Men a :Character ;
+bs:did :Mars_Men ;
+bs:murdered :Eddie_Mars .
+
+:Agnes_Lozelle a :Character ;
+bs:did :Joe_Brodie .
+
