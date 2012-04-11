@@ -22,12 +22,12 @@
 <iframe src="https://plus.google.com/u/0/"></iframe>
 </div>
 <div class="bottom left quarter">
-<h1>iframe (three)</h1>
-<iframe name="frame" src="frametest.html" width="100%" height="288" scrolling="auto" frameborder="1">[Your user agent does not support frames or is currently configured not to display rames.]</iframe>
+<iframe src="http://twitter.com"></iframe>
+<!--iframe name="frame" src="frametest.html" width="100%" height="288" scrolling="auto" frameborder="1">[Your user agent does not support frames or is currently configured not to display rames.]</iframe -->
 </div>
 
 <div class="bottom right quarter">
-<iframe src="http://www.w3schools.com"></iframe>
+<h3>Blackjack &amp; Hookers</h3>
 </div>
 </div>
 </body>
