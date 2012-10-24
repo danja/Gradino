@@ -300,13 +300,17 @@ the sound is a big improvement. Design validated.</p>
 <p>(I got the curves by simultaneously recording half a minute or so of random
 strumming both direct from guitar and through pre-amp onto two channels,
 replaying them through the Blue Cat plugin, peak hold).</p>
-<p>[Months Later]...I've soldered up the pre/tone circuit and slapped it in a case. Made a silly mistake by making ground 0v rather than -9v (to be compatible with other stomp boxes+shared power supply). But that parts now basically work a treat. I ran analysis on it again, this time using white noise as the source (dunno why I didn't do that before). Results:
+<p>[Months Later]...I've soldered up the pre/tone circuit and slapped it in a case. Made a silly mistake by making ground 0v rather than -9v (to be compatible with other stomp boxes+shared power supply). 
 </p>
 <p>
 <img src="images/veroboard.jpg" />
 </p>
+<p>Although I've not yet figured the exact circuits I want for distortion and tone, I've put the corresponding controls in place on the case already. The distortion wil most likely be a simple op-amp job with opposing diodes in it's feedback loop. The tone will probably be a buffered version of this <a href="http://fullmaj.rd-h.fr/wiki/doku.php?id=basic_tone_filter">flat response circuit</a> (with the values corrected!).
+</p>
 <p>
 <img src="images/case.jpg" />
+</p>
+<p>Anyhow the first part now works a treat. I ran analysis on it again, this time using white noise as the source (dunno why I didn't do that before). Results:
 </p>
 <p>
 <img src="images/vinotone-tone-final.png" />
