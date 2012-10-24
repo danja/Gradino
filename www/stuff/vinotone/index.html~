@@ -80,11 +80,6 @@
     <a href="images/strat-vino+preamp.png" rel="lightbox"
     title="Strat-Vino+Preamp"><img alt="Strat-Vino+Preamp"
     src="thumbs/strat-vino+preamp.png" width="100" height="51" /> </a> </li>
-  <li><br />
-    Strat-Vino+Preamp <br />
-    <a href="images/vinotone-tone-final.png" rel="lightbox"
-    title="Tone final response"><img alt="Tone final response"
-    src="thumbs/vinotone-tone-final.png" width="100" height="53" /> </a> </li>
 </ul>
 </div>
 
@@ -121,7 +116,7 @@
 <p>Goal - to create a custom effects pedal (stomp box) for the <a
 href="../vinocaster/index.html">Vinocaster</a> that will help bring out the
 sounds I like.</p>
-<p>Status 2012-10-24: soldered up and cased pre-amp/tone booster</p>
+
 <p>Status 2011-04-07: got as far as a breadboarded pre-amp/tone booster</p>
 
 <p><em>I wrote some of this as I went along, some of it after I'd finished, so
@@ -290,12 +285,6 @@ the sound is a big improvement. Design validated.</p>
 <p>(I got the curves by simultaneously recording half a minute or so of random
 strumming both direct from guitar and through pre-amp onto two channels,
 replaying them through the Blue Cat plugin, peak hold).</p>
-<p>[Months Later]...I've soldered up the pre/tone circuit and slapped it in a case. Made a silly mistake by making ground 0v rather than -9v (to be compatible with other stomp boxes+shared power supply). But that parts now basically work a treat. I ran analysis on it again, this time using white noise as the source (dunno why I didn't do that before). Results:
-</p>
-<p>
-<img src="images/vinotone-tone-final.png" />
-</p>
-<p>More to the point : it sounds great!</p>
 </div>
 
 <div id="footer">

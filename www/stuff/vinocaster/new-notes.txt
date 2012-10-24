@@ -1,0 +1,10 @@
+I just had one of those trivial 5-minute jobs that get complicated and you can't back out once you've started and end up taking 2 hours. Those.
+Last night I changed the strings on the Vinocaster and gave it a little polish. Remembered I'd left the pickup switches half-finished, so this morning decided to finish it off. In addition to a regular 5-way Strat switch, I've also got 3 miniature toggles. No idea how I originally intended to configure them (I've swapped pickups so many times since). Long story short I had to open up the switches and exchange pins between them (fiddly nightmare!) to get a reasonably useful setup. Which now looks like this:
+
+A : neck phase
+B : middle phase
+C : bridge to neck/open/4.7nF capacitor across bridge
+
+I haven't given it a regular tone control, just volume, so the capacitor isn't quite as arbitrary as it looks (well, maybe it is, but I did have a spare switch position).
+I think I'm now calling it done, done, done. Details of final pickup choice is over here:
+http://dannyayers.com/stuff/vinocaster/lessons.html

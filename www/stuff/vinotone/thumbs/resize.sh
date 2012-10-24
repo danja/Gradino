@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILES=./*.JPG
+FILES=./*.png
 max=100
 
 for f in $FILES
