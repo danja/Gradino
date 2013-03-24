@@ -24,7 +24,7 @@ object ItemPageRenderer {
 <link rel="alternate" type="application/rdf+xml" title="RSS" href="http://dannyayers.com/feed" />
   <title>Danny on : """+ item("title") + """</title>
 <link rel="stylesheet" href="/css/style.css" type="text/css" media="Screen" />
-<link rel="stylesheet" href="http://hyperdata.org/css/tabs.css" type="text/css" media="Screen" />
+<!-- link rel="stylesheet" href="http://hyperdata.org/css/tabs.css" type="text/css" media="Screen" / -->
 <link rel="stylesheet" href="/css/handheld.css" type="text/css" media="handheld" />
 <meta name="viewport" content="width=device-width" /> <!-- Tell mobiles not to do the fake-a-wide-screen thing --> 
 </head>
