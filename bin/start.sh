@@ -13,7 +13,7 @@ for jar in ../lib/**/*.jar
   CP="${CP}$jar"
 done
 
-CP=$CP:../classes
+CP=$CP:../classes:lib/scala/scala-library.jar
 
 echo $CP
 
